@@ -1,5 +1,7 @@
 # AWS
 
+![image](https://github.com/leandrobeandrade/aws-training/assets/24658433/f0201903-4dfc-44e1-87d8-4a4ba615779a)
+
 > Tipos de Cloud - do mais básico para o mais completo
 
 Iaas - Infrasctructure-as-a-service (Utiliza uma infraestrutura já pronta para ser utilizada como serviço)
