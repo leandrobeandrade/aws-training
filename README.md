@@ -31,12 +31,16 @@
 
 > EC2 - Elastic Compute Cloud
 
+
+
 - controle
 - segurança
 - integrado com outros serviços AWS
 - baixo custo
 
 > ECS - Elastic Container Service
+
+Serviço de orquestração de contêineres
 
 - implantação rápida, confiável e eficiente
 - independe de ambiente 
