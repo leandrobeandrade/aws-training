@@ -4,44 +4,43 @@
 
 > Tipos de Cloud - do mais básico para o mais completo
 
-Iaas - Infrasctructure-as-a-service (Utiliza uma infraestrutura já pronta para ser utilizada como serviço)
-Paas- Plataform-as-a-service (Utiliza uma plataforma já pronta para ser utilizada como serviço)
-Saas- Software-as-a-service (Utiliza uma aplicação já pronta para ser utilizada como serviço)
+- Iaas -> Infrasctructure-as-a-service (Utiliza uma infraestrutura já pronta para ser utilizada como serviço)
+- Paas -> Plataform-as-a-service (Utiliza uma plataforma já pronta para ser utilizada como serviço)
+- Saas -> Software-as-a-service (Utiliza uma aplicação já pronta para ser utilizada como serviço)
 
 > Termos de Cloud
 
-Public - S3 por exemplo
-Hybrid - app publico e banco de dados privado
-Private - .gov por exemplo
+- Public -> S3 por exemplo
+- Hybrid -> app publico e banco de dados privado por exemplo
+- Private -> .gov por exemplo
 
 > AWS Services
 
-Computação - Amazon EC2, etc...
-Armazenamento - S3 (Amazon Simple Storage Service), etc...
-Banco de Dados - AWS DynamoDB, AWS RDS, AWS Redshift, etc...
-Redes - AWS API Gateway, AWS Cloud Wan, AWS VPN, etc...
-Análises - AWS Athena, AWS CloudSearch, AWS EMR, etc...
-Machine Learning - AWS Forecast, AWS Kendra, AWS Lex, AWS Omics, etc...
-Segurança Geral - AWS Cognito, AWS Detective, AWS GuardDuty, AWS Inspector, etc...
-
--- link: https://aws.amazon.com/pt/products/?aws-products-all.sort-by=item.additionalFields.productNameLowercase&aws-products-all.sort-order=asc&awsf.re%3AInvent=*all&awsf.Free%20Tier%20Type=*all&awsf.tech-category=*all
+- Computação - Amazon EC2, etc...
+- Armazenamento - S3 (Amazon Simple Storage Service), etc...
+- Banco de Dados - AWS DynamoDB, AWS RDS, AWS Redshift, etc...
+- Redes - AWS API Gateway, AWS Cloud Wan, AWS VPN, etc...
+- Análises - AWS Athena, AWS CloudSearch, AWS EMR, etc...
+- Machine Learning - AWS Forecast, AWS Kendra, AWS Lex, AWS Omics, etc...
+- Segurança Geral - AWS Cognito, AWS Detective, AWS GuardDuty, AWS Inspector, etc...
+- [todos os serviços](https://aws.amazon.com/pt/products/?aws-products-all.sort-by=item.additionalFields.productNameLowercase&aws-products-all.sort-order=asc&awsf.re%3AInvent=*all&awsf.Free%20Tier%20Type=*all&awsf.tech-category=*all)
 
 > Modelo de Responsabilidade Compartilhada
 
--- link: https://aws.amazon.com/pt/compliance/shared-responsibility-model/
+- [modelo de responsabilidade](https://aws.amazon.com/pt/compliance/shared-responsibility-model/)
 
 > EC2 - Elastic Compute Cloud
 
-Vantagens - controle, segurança, integrado com outros serviços AWS, baixo custo
+- Vantagens - controle, segurança, integrado com outros serviços AWS, baixo custo
 
 > ECS - Elastic Container Service
 
 > S3 - Simples Storage Service
 
-Não tem limites de dados dentro do S3
-1 objeto upado pode ter no máximo 5TB
-Garante durabilidade de 99.999
-Garante disponibilidade de 99.95 até 99.99
+- Não tem limites de dados dentro do S3
+- 1 objeto upado pode ter no máximo 5TB
+- Garante durabilidade de 99.999
+- Garante disponibilidade de 99.95 até 99.99
 
 > AMI - Amazon Machine Image
 
@@ -63,24 +62,18 @@ Cria novas instâncias ou diminui o número das instâncias automáticamente atr
 
 Distribui as requisições para os servidores conhecendo suas disponibilidades, caso a instância esteja com algum problema isso é detectado pelo LB e a requisição é redirecionado para outro servidor
 
-    * Tipos: 
-    - ALB (Application Load Balancer), trabalha na camada 7 no modelo osi, mais inteligente
-    - NLB (Network Load Balancer), trabalha na camada 4 no modelo osi, mais rápido
+- ALB (Application Load Balancer), trabalha na camada 7 no modelo osi, mais inteligente
+- NLB (Network Load Balancer), trabalha na camada 4 no modelo osi, mais rápido
 
-#  Biliing e Pricing
+#  Billing e Pricing
 
 - pay as you go -> pague conforme utiliza (final do mês)
 - pay for you use -> pague de acordo com o que utiliza
 - pay less as you use more -> pague menos, se utilizar mais
 - pay less as you reserved -> pague recursos reservados
-
-CAPEX -> Capital expenditure (Paga antes de usar, valor fixo e mais caro)
-OPEX -> Operation expenditure (Paga quando utiliza)
-
-> Budget x Cost Explorer
-
-- Budget -> Orçamento antes do uso
-- Cost Explorer -> Relatório da conta após uso
+- CAPEX -> Capital expenditure (Paga antes de usar, valor fixo e mais caro)
+- OPEX -> Operation expenditure (Paga quando utiliza)
+- Budget x Cost Explorer -> Orçamento antes do uso(Budget), Relatório da conta após uso(Cost Explorer)
 
 # Security 
 
