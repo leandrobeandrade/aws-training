@@ -31,7 +31,7 @@
 
 > EC2 - Elastic Compute Cloud
 
-
+Máquinas virtuais para rodar aplicações
 
 - controle
 - segurança
