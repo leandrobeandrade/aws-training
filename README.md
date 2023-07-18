@@ -16,13 +16,13 @@
 
 > AWS Services
 
-- Computação - Amazon EC2, etc...
-- Armazenamento - S3 (Amazon Simple Storage Service), etc...
-- Banco de Dados - AWS DynamoDB, AWS RDS, AWS Redshift, etc...
-- Redes - AWS API Gateway, AWS Cloud Wan, AWS VPN, etc...
-- Análises - AWS Athena, AWS CloudSearch, AWS EMR, etc...
-- Machine Learning - AWS Forecast, AWS Kendra, AWS Lex, AWS Omics, etc...
-- Segurança Geral - AWS Cognito, AWS Detective, AWS GuardDuty, AWS Inspector, etc...
+- Computação -> Amazon EC2, etc...
+- Armazenamento -> S3 (Amazon Simple Storage Service), etc...
+- Banco de Dados -> AWS DynamoDB, AWS RDS, AWS Redshift, etc...
+- Redes -> AWS API Gateway, AWS Cloud Wan, AWS VPN, etc...
+- Análises -> AWS Athena, AWS CloudSearch, AWS EMR, etc...
+- Machine Learning -> AWS Forecast, AWS Kendra, AWS Lex, AWS Omics, etc...
+- Segurança Geral -> AWS Cognito, AWS Detective, AWS GuardDuty, AWS Inspector, etc...
 - [todos os serviços](https://aws.amazon.com/pt/products/?aws-products-all.sort-by=item.additionalFields.productNameLowercase&aws-products-all.sort-order=asc&awsf.re%3AInvent=*all&awsf.Free%20Tier%20Type=*all&awsf.tech-category=*all)
 
 > Modelo de Responsabilidade Compartilhada
@@ -31,9 +31,15 @@
 
 > EC2 - Elastic Compute Cloud
 
-- Vantagens - controle, segurança, integrado com outros serviços AWS, baixo custo
+- controle
+- segurança
+- integrado com outros serviços AWS
+- baixo custo
 
 > ECS - Elastic Container Service
+
+- implantação rápida, confiável e eficiente
+- independe de ambiente 
 
 > S3 - Simples Storage Service
 
@@ -62,8 +68,8 @@ Cria novas instâncias ou diminui o número das instâncias automáticamente atr
 
 Distribui as requisições para os servidores conhecendo suas disponibilidades, caso a instância esteja com algum problema isso é detectado pelo LB e a requisição é redirecionado para outro servidor
 
-- ALB (Application Load Balancer), trabalha na camada 7 no modelo osi, mais inteligente
-- NLB (Network Load Balancer), trabalha na camada 4 no modelo osi, mais rápido
+- ALB (Application Load Balancer) -> trabalha na camada 7 no modelo osi, mais inteligente
+- NLB (Network Load Balancer) -> trabalha na camada 4 no modelo osi, mais rápido
 
 #  Billing e Pricing
 
