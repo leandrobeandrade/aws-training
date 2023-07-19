@@ -12,10 +12,22 @@ AWS EC2 é a abreviação de AWS Elastic Cloud Compute. É um servidor virtual n
 
 ## Uso
 
-> 1. Iniciar
+> 1. Inicio
 
-    1 - Comece selecionando um modelo com configurações básicas como o sistema operacional, servidor de aplicativos ou aplicativos.
-    2 - Em seguida, decida o tipo de instância e a configuração de hardware de sua instância.
-    3 - Por fim, especifique as configurações de segurança para controlar o tráfego de entrada e saída de sua instância.
+    1 - Selecionar um modelo com configurações básicas como o sistema operacional, servidor de aplicativos ou aplicativos.
+    2 - Decidir o tipo de instância e a configuração de hardware de sua instância.
+    3 - Especificar as configurações de segurança para controlar o tráfego de entrada e saída de sua instância.
 
-> 2. fr
+> 2. Conexão
+
+    1 - Várias maneiras de conectar uma instância.
+    2 - Programas e aplicativos têm vários métodos de conexão para trocar dados.
+    3 - Os usuários podem se conectar e acessar a área de trabalho do computador fazendo login.
+
+> 3. Uso
+
+    1 - Uma vez conectado, você pode usar a instância.
+    2 - Execute comandos para instalar software, adicionar armazenamento, copiar e organizar arquivos e muito mais.
+
+## Tipos de instâncias EC2
+
