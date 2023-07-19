@@ -14,10 +14,8 @@ AWS EC2 é a abreviação de AWS Elastic Cloud Compute. É um servidor virtual n
 
 > 1. Iniciar
 
-    Comece selecionando um modelo com configurações básicas.
+    1 - Comece selecionando um modelo com configurações básicas, isso inclui o sistema operacional, servidor de aplicativos ou aplicativos.
+    2- Em seguida, decida o tipo de instância e a configuração de hardware de sua instância.
+    3- Por fim, especifique as configurações de segurança para controlar o tráfego de entrada e saída de sua instância.
 
-    A configuração inclui o sistema operacional, servidor de aplicativos ou aplicativos.
-
-    Em seguida, decida o tipo de instância e a configuração de hardware de sua instância.
-
-    Por fim, especifique as configurações de segurança para controlar o tráfego de entrada e saída de sua instância.
+> 2. fr
