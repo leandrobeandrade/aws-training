@@ -58,10 +58,10 @@ O processamento permite um processo de pré-carregamento e dá à CPU acesso dir
 
 Este tipo usa aceleradores de hardware. Os aceleradores aumentam o processamento de dados. As Instâncias de Computação Acelerada são melhores para aplicativos gráficos e streaming.
 
-> Instâncias otimizadas para armazenamento (Instâncias Otimizadas para Armazenamento)
+> Storage Optimized Instances (Instâncias Otimizadas para Armazenamento)
 
 Esse tipo é melhor quando você tem grandes conjuntos de dados no armazenamento local e são projetadas para fornecer muitas entradas o mais rápido possível. Alguns exemplos:
 
 - Sistemas de arquivos grandes
-- Armazéns de dados
+- Armazenamento de dados
 - Sistemas de transações online
