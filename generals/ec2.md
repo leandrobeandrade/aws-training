@@ -65,3 +65,30 @@ Esse tipo é melhor quando você tem grandes conjuntos de dados no armazenamento
 - Sistemas de arquivos grandes
 - Armazenamento de dados
 - Sistemas de transações online
+
+## Preços
+
+Com o AWS EC2, você paga pelo tempo de computação. Você paga apenas pelo tempo de computação que usar, oferecendo diferentes opções de preços.
+
+> On Demand Instances (Instâncias sob demanda)
+
+As instâncias sob demanda são mais adequadas para cargas de trabalho de curto prazo. Não requer custos iniciais ou valor mínimo na compra e são executadas até que você as interrompa. Você paga pelo que usa.
+
+> Savings Plan (Plano de economia)
+
+O plano de economia é um compromisso de uso por um período de 1 ou 3 anos. Comprometer-se com um período dá um preço com desconto. Se ultrapassar o orçamento, o custo vai para os preços normais (sob demanda).
+
+> Reserved Instances (Instâncias reservadas)
+
+As Instâncias Reservadas são usadas para reservar instâncias por um período acordado. As opções são de 1 ano ou 3 anos. Este último dá o maior desconto.
+
+> Spot Instances (instâncias pontual)
+
+Esse modelo de preço é melhor para cargas de trabalho com horários de início e término flexíveis, que podem sofrer interrupções. As instâncias spot podem gerar uma economia de custos de até 90%.
+A razão por trás do desconto é que a AWS pode otimizar sua capacidade, oferecendo melhores preços.
+
+> Dedicated Hosts (Hosts Dedicados
+
+Hosts dedicados são servidores físicos totalmente dedicados a você. Você pode usar suas licenças de software VM existentes. O host dedicado é o modelo mais caro.
+
+## Scaling
