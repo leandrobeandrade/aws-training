@@ -89,7 +89,7 @@ Plataforma de envolvimento de clientes para gerenciar engajamento multicanal dir
 
 Entregue a mensagem certa ao cliente certo na hora certa para melhorar o engajamento e a conversão.
 
-> CAPACIDADES INTERESSANTES
+> Capacidades interessantes
 
 Análise e sistema de mensagens integrados para gerar percepções e influenciar a maneira como os clientes interagem com seus aplicativos.
 
