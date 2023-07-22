@@ -87,8 +87,39 @@ As Instâncias Reservadas são usadas para reservar instâncias por um período 
 Esse modelo de preço é melhor para cargas de trabalho com horários de início e término flexíveis, que podem sofrer interrupções. As instâncias spot podem gerar uma economia de custos de até 90%.
 A razão por trás do desconto é que a AWS pode otimizar sua capacidade, oferecendo melhores preços.
 
-> Dedicated Hosts (Hosts Dedicados
+> Dedicated Hosts (Hosts Dedicados)
 
 Hosts dedicados são servidores físicos totalmente dedicados a você. Você pode usar suas licenças de software VM existentes. O host dedicado é o modelo mais caro.
 
-## Scaling
+## Scaling (Escalabilidade)
+
+O dimensionamento ou escalabilidade consiste em usar apenas os recursos de que você precisa. Além disso, tenha flexibilidade para crescer livremente.
+
+Certifique-se de ter uma arquitetura que possa lidar com mudanças na demanda. Projetar uma arquitetura escalável permite que você pague apenas pelos recursos necessários em um determinado momento.
+
+## Auto Scaling (Escalabilidade automática)
+
+Os servidores podem obter mais solicitações do que podem atender, muitas solicitações podem causar tempos limite e interrupções.
+
+O AWS EC2 Auto Scaling permite adicionar ou remover instâncias do EC2 automaticamente. Automatiza a capacidade à demanda.
+
+Existem duas abordagens:
+
+- Dimensionamento dinâmico: responde à demanda em constante mudança
+- Dimensionamento preditivo: agenda o número de instâncias com base em uma demanda prevista
+
+O dimensionamento dinâmico e preditivo podem ser combinados para dimensionar mais rapidamente
+
+O EC2 Auto Scaling pode ser adicionado como um buffer sobre suas instâncias.
+
+Ele pode adicionar novas instâncias ao aplicativo quando necessário e encerrá-las quando não forem mais necessárias. Você pode configurar um grupo de instâncias.
+
+Aqui você pode definir uma capacidade mínima de instâncias que sempre estarão em execução. O restante funcionará quando necessário. 
+
+Você pode definir o número desejado de instâncias do AWS EC2 no grupo de escalabilidade. No entanto, a capacidade desejada é padronizada para sua capacidade mínima se não for especificada.
+
+A última configuração é Capacidade máxima.
+
+Aqui você define a capacidade máxima de instâncias a serem utilizadas. Os grupos de Auto Scaling permitem que você tenha um ambiente dinâmico.
+
+Você define a capacidade mínima, o número desejado e a capacidade máxima. O grupo operará dentro da configuração e fornecerá uma arquitetura previsível e econômica.
