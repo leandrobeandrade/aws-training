@@ -1,6 +1,6 @@
-# EC2
+# EC2 - Elastic Cloud Compute
 
-AWS EC2 é a abreviação de AWS Elastic Cloud Compute. É um servidor virtual na Nuvem AWS facilitando o dimensionamento da capacidade para cima e para baixo.
+AWS EC2 é um servidor virtual na Nuvem AWS facilitando o dimensionamento da capacidade para cima e para baixo.
 
 ## Vantagens
 
