@@ -24,7 +24,7 @@ Implante aplicativos de diferentes maneiras:
 - Reduza custos com provisionamento eficiente de recursos de computação e escalabilidade automática de aplicações do Kubernetes.
 - Garanta um ambiente do Kubernetes mais seguro com patches de segurança aplicados automaticamente ao ambiente de gerenciamento do cluster.
 
-## Cases
+## Caso de uso
 
 - Implante em ambientes híbridos
 
