@@ -1,6 +1,6 @@
 # AWS
 
-![image](https://github.com/leandrobeandrade/aws-training/assets/24658433/f0201903-4dfc-44e1-87d8-4a4ba615779a)
+![image](https://github.com/leandrobeandrade/aws-training/blob/master/aws-logo.png)
 
 > Tipos de Cloud - do mais básico para o mais completo
 
@@ -25,6 +25,12 @@
 - Segurança Geral -> AWS Cognito, AWS Detective, AWS GuardDuty, AWS Inspector, etc...
 - [todos os serviços](https://aws.amazon.com/pt/products/?aws-products-all.sort-by=item.additionalFields.productNameLowercase&aws-products-all.sort-order=asc&awsf.re%3AInvent=*all&awsf.Free%20Tier%20Type=*all&awsf.tech-category=*all)
 
+> Três principais formas de interagir com os serviços da AWS
+
+- Management Console
+- Comand Line Interface (CLI)
+- Software Development Kit (SDK)
+
 > Modelo de Responsabilidade Compartilhada
 
 - [modelo de responsabilidade](https://aws.amazon.com/pt/compliance/shared-responsibility-model/)
@@ -47,14 +53,15 @@ Serviço de orquestração de contêineres
 
 > S3 - Simples Storage Service
 
-- Não tem limites de dados dentro do S3
+- Não tem limites de dados
 - 1 objeto upado pode ter no máximo 5TB
 - Garante durabilidade de 99.999
 - Garante disponibilidade de 99.95 até 99.99
 
 > AMI - Amazon Machine Image
 
-Imagens privadas (minha) e públicas (AWS fornece e empresas terceiras utilizam)
+- Imagens privadas (minha) 
+- públicas (AWS fornece e empresas terceiras utilizam)
 
 > Scaling up
 
@@ -123,4 +130,5 @@ Banco de dados seguro, webserver dentro de EC2 tem que ter garantia assim como i
 Crias as máquinas e serviços em 2 ou 3 minutos por linguagens declarativas como JSON e Yaml
 
 # Termos
+
 On-Premises Deployment -> Implantação local ou implantação de nuvem privada
