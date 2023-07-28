@@ -1,4 +1,4 @@
-# Messaging
+# Messaging System Services (SSM)
 
 Os serviços de sistema de mensagens da AWS habilitam diferentes sistemas de software e dispositivos finais, muitas vezes usando diferentes linguagens de programação, e em diferentes plataformas – para comunicação e troca de informações. Você pode usar os serviços de sistema de mensagens da AWS para enviar e receber dados nos seus aplicativos de nuvem. A infraestrutura subjacente é provisionada automaticamente e oferece alta disponibilidade e resiliência de mensagens para dar suporte à confiabilidade dos aplicativos.
 
