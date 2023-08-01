@@ -14,15 +14,15 @@ Com o Amazon EKS, você pode aproveitar toda a performance, escalabilidade, conf
 
 Implante aplicativos de diferentes maneiras:
 
-- Implantação em Nuvem.
-- Implantação em sua infraestrutura.
-- Implantação com suas ferramentas.
+- Implantação em Nuvem
+- Implantação em sua infraestrutura
+- Implantação com suas ferramentas
 
 ## Vantagens
 
-- Aproveite as integrações com serviços da AWS, como EC2, VPC, IAM, EBS e muito mais. 
-- Reduza custos com provisionamento eficiente de recursos de computação e escalabilidade automática de aplicações do Kubernetes.
-- Garanta um ambiente do Kubernetes mais seguro com patches de segurança aplicados automaticamente ao ambiente de gerenciamento do cluster.
+- Aproveite as integrações com serviços da AWS, como EC2, VPC, IAM, EBS e muito mais
+- Reduza custos com provisionamento eficiente de recursos de computação e escalabilidade automática de aplicações do Kubernetes
+- Garanta um ambiente do Kubernetes mais seguro com patches de segurança aplicados automaticamente ao ambiente de gerenciamento do cluster
 
 ## Caso de uso
 
