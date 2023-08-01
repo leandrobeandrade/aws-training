@@ -1,4 +1,4 @@
-# Messaging System Services (SSM)
+# Messaging System Services
 
 Os serviços de sistema de mensagens da AWS habilitam diferentes sistemas de software e dispositivos finais, muitas vezes usando diferentes linguagens de programação, e em diferentes plataformas – para comunicação e troca de informações. Você pode usar os serviços de sistema de mensagens da AWS para enviar e receber dados nos seus aplicativos de nuvem. A infraestrutura subjacente é provisionada automaticamente e oferece alta disponibilidade e resiliência de mensagens para dar suporte à confiabilidade dos aplicativos.
 
@@ -45,7 +45,7 @@ Serviço gerenciado de notificação por push móvel e sistema de mensagens de p
 
 É um serviço de comunicação móvel e mensagens de publicação-assinatura totalmente gerenciado para entrega em massa de mensagens.
 
-Pode ser orientado a eventos, com serviços automatizados respondendo a gatilhos. Sistemas distribuídos e microsserviços podem ser desacoplados com mensagens entre eles por meio do AWS SNS. É possível enviar mensagens de aplicativo para pessoa aos usuários com SMS, push móvel e email
+Pode ser orientado a eventos, com serviços automatizados respondendo a gatilhos. Sistemas distribuídos e microsserviços podem ser desacoplados com mensagens entre eles por meio do AWS SNS. É possível enviar mensagens de aplicativo para pessoa aos usuários com SMS, push móvel e email.
 
 > Caso de uso
 
@@ -64,8 +64,8 @@ Entrega altamente confiável de qualquer volume de mensagens a qualquer número 
 
 > A diferença entre SQS e SNS
 
-- SNS é um sistema de notificação, que envia mensagens para seus assinantes.
-- O SQS é um sistema de filas, e os receptores precisam puxar as mensagens para serem processadas e excluídas da fila.
+- SNS é um sistema de notificação, que envia mensagens para seus assinantes
+- O SQS é um sistema de filas, e os receptores precisam puxar as mensagens para serem processadas e excluídas da fila
 
 SNS e SQS podem funcionar bem juntos.
 
@@ -116,4 +116,3 @@ Envie mensagens de e para dispositivos e aplicativos AWS IoT de maneira segura u
 > Capacidades interessantes
 
 Permite que você envie ou receba mensagens de milhões de dispositivos.
-
