@@ -78,7 +78,7 @@ Distribui as requisições para os servidores conhecendo suas disponibilidades, 
 - ALB (Application Load Balancer) -> trabalha na camada 7 no modelo OSI, mais inteligente
 - NLB (Network Load Balancer) -> trabalha na camada 4 no modelo OSI, mais rápido
 
-#  Billing e Pricing
+## Billing e Pricing
 
 - **pay as you go** -> pague conforme utiliza (final do mês)
 - **pay for you use** -> pague de acordo com o que utiliza
@@ -88,7 +88,7 @@ Distribui as requisições para os servidores conhecendo suas disponibilidades, 
 - **OPEX** -> Operation expenditure (Paga quando utiliza)
 - **Budget x Cost Explorer** -> Orçamento antes do uso(Budget), Relatório da conta após uso(Cost Explorer)
 
-# Security 
+## Security 
 
 > Artifact
 
@@ -123,11 +123,11 @@ Banco de dados seguro, webserver dentro de EC2 tem que ter garantia assim como i
 
 > code template
 
-Crias as máquinas e serviços em 2 ou 3 minutos por linguagens declarativas como JSON e Yaml
+Crias as máquinas e serviços em 2 ou 3 minutos por linguagens declarativas como JSON e Yaml.
 
 ## Termos
 
-On-Premises Deployment -> Implantação local ou implantação de nuvem privada
+On-Premises Deployment -> Implantação local ou implantação de nuvem privada.
 
 ## Benefícios da Nuvem AWS
 
