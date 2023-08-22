@@ -98,7 +98,7 @@ Disponível no console, é um portal de autoatendimento para recuperação de ar
 
 Banco de dados seguro, webserver dentro de EC2 tem que ter garantia assim como instalação de SO, configurações seguras de network e firewall , entre outros.
 
-> AWS WAF e Sield
+> AWS WAF e Shield
 
 - WAF -> Web application firewall, analisa os potenciais riscos na camada 7
 - Shield -> Escudo - detecta aumento de volume e identifica se é genuíno ou por ataques
