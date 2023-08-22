@@ -1,5 +1,7 @@
 # AWS - Resumo Curso Udemy
 
+Anotações referentes ao curso AWS Cloud Practitioner na plataforma Udemy.
+
 ## Tipos de Cloud - do mais básico para o mais completo
 
 - **Iaas** -> Infrasctructure-as-a-service (Utiliza uma infraestrutura já pronta para ser utilizada como serviço)
@@ -8,9 +10,9 @@
 
 ## Termos de Cloud
 
-- **Public** -> S3 por exemplo
-- **Hybrid** -> app publico e banco de dados privado por exemplo
-- **Private** -> .gov por exemplo
+- **Public** -> S3 como exemplo
+- **Hybrid** -> app publico e banco de dados privado como exemplo
+- **Private** -> .gov como exemplo
 
 ## AWS Services
 
@@ -43,19 +45,7 @@ Máquinas virtuais para rodar aplicações.
 Serviço de orquestração de contêineres.
 
 - implantação rápida, confiável e eficiente
-- independe de ambiente 
-
-## S3 - Simples Storage Service
-
-- Não tem limites de dados
-- 1 objeto upado pode ter no máximo 5TB
-- Garante durabilidade de 99.999
-- Garante disponibilidade de 99.95 até 99.99
-
-## AMI - Amazon Machine Image
-
-- Imagens privadas (próprias) 
-- públicas (AWS fornece e empresas terceiras utilizam)
+- independe de ambiente
 
 ## Scaling up
 
@@ -75,6 +65,18 @@ Distribui as requisições para os servidores conhecendo suas disponibilidades, 
 
 - ALB (Application Load Balancer) -> trabalha na camada 7 no modelo OSI, mais inteligente
 - NLB (Network Load Balancer) -> trabalha na camada 4 no modelo OSI, mais rápido
+
+## S3 - Simples Storage Service
+
+- Não tem limites de dados
+- 1 objeto upado pode ter no máximo 5TB
+- Garante durabilidade de 99.999
+- Garante disponibilidade de 99.95 até 99.99
+
+## AMI - Amazon Machine Image
+
+- Imagens privadas (próprias) 
+- públicas (AWS fornece e empresas terceiras utilizam)
 
 ## Billing e Pricing
 
@@ -123,9 +125,9 @@ Banco de dados seguro, webserver dentro de EC2 tem que ter garantia assim como i
 
 Crias as máquinas e serviços em 2 ou 3 minutos por linguagens declarativas como JSON e Yaml.
 
-## Termos
+## On-Premises Deployment
 
-On-Premises Deployment -> Implantação local ou implantação de nuvem privada.
+Implantação local ou implantação de nuvem privada. Fornece infraestrutura e serviços AWS em local de borda, conhecida também como AWS Outposts.
 
 ## Benefícios da Nuvem AWS
 
