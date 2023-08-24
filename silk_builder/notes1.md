@@ -5,8 +5,8 @@ Anotações referentes ao curso AWS Cloud Practitioner na plataforma AWS Skill B
 ## Modelos de implantação
 
 - Baseada na nuvem: soluções totalmente baseadas em nuvem como servidores virtuais, banco de dados, componentes de rede, etc...
-- Implantação local: ou nuvem privada (On-premises) que como exemplo seria aplicações implantadas no local mas com virtualização e gerenciamento AWS
-- Implantação híbrida: conecta infraestrutura e aplicações no local com a nuvem, contempla a local e vice-versa 
+- Implantação local: ou nuvem privada `(On-premises)` que como exemplo seria aplicações implantadas no local mas com virtualização e gerenciamento AWS
+- Implantação híbrida: conecta infraestrutura e aplicações no local com a nuvem, contempla a local e vice-versa `(Outposts)`
 
 Sendo a computação em nuvem o "fornecimento sob demanda de recursos e aplicativos de TI pela internet com modelo de pagamento conforme o uso". 
 
@@ -76,7 +76,7 @@ O Amazon EC2 Auto Scaling permite que você adicione ou remova automaticamente i
 No Amazon EC2 Auto Scaling, há duas abordagens disponíveis: scaling dinâmico e scaling preditivo. O scaling dinâmico responde às alterações na demanda. 
 O scaling preditivo programa automaticamente o número correto de instância do Amazon EC2 com base na demanda prevista.
 
-Em resumo com o Auto Scaling podemos definir uma capacidade mínima, uma capacidade desejada que se não definida será a mesma que a mínima e por fim uma cpacidade máxima de instâncias EC2 AWS.
+Em resumo com o Auto Scaling podemos definir uma capacidade mínima, uma capacidade desejada que se não definida será a mesma que a mínima e por fim uma capacidade máxima de instâncias EC2 AWS.
 
 ### ELB - Elastic Load Balance
 
@@ -118,4 +118,4 @@ Serviços de orquestração são comuns para empacotamento de códigos, configur
 
 - EKS - Elastic Kubernetes Service
 
-      Serviço totalmente gerenciado para execuções do Kubernetes na AWS, implantando e gerenciando aplicativos em grande escala.       
+      Serviço de gerenciamento completo para o Kubernetes na AWS, implantando e gerenciando aplicativos em grande escala.

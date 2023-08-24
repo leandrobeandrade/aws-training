@@ -37,6 +37,62 @@ Fornece definições de código e configurações para serviços e aplicações 
 
 Considera a infraestruta como código provisionando os recursos de maneira segura e repetível com reversão rápida em casos de erros, utilizando linguagens declarativas como Json ou Yaml conhecidos como templates. 
 
+## VPC - Virtual Private Cloud
+
+Cria uma rede de conexão privada com sessões internas isoladas conhecidas como sub-redes (subnets), cada sub-rede possui uma porção dos indereços IP's da VPC sendo estas públicas ou privadas e servem para agrupar recursos. Estas sub-redes públicas ou privadas são acessadas por meio do serviço AWS Internet Gateway.
+
+- Internet Gateway público: porta de conexão pública entre o tráfego de internet público e a VPC (sub-rede pública).
+- Internet Gateway privado: porta de conexão privada que permite somente tráfego autorizado entre internet e a VPC (sub-rede privada).
+
+O Gateway privado ou VPG (Virtual Private Gateway) permite estabelecer uma conexão protegida através de uma `VPN` que criptografa todo tráfego de solicitações de internet.
+Instâncias dentro das sub-redes comunicam-se entre si dentro da VPN por meio de pacotes ou unidade de dados.
+
+### Direct Connect
+
+Estabelece uma conexão direta utilizando fibra dedicada completamente privada entre o tráfego de rede e a VPC através de uma rede física altamente controlada, protegida e exclusiva onde só tráfego permitido trafega, diferente da VPG que apesar de protegida e criptografada trafega em uma rede pública comum.
+
+### ACL - Lista de controle de acesso
+
+Componente ao redor da VPC que verifica as permissões dos pacotes no fluxo de entrada e saída das sub-redes, sendo como um **firewall** virtual. Por padrão já existe uma ACL de rede comum podendo criar outras personalizadas. A **`ACL comum permite todo o tráfego de entrada e saída por padrão`** com a opção de serem modificadas estas regras, ao contrário das ACL personalizadas que todo tráfego é negado por padrão quando são criadas. Uma ACL tem o atributo **STATELESS**, ou seja, não se lembra dos pacotes e faz a verificação na entrada e saída dos pacotes. 
+
+### Grupos de segurança
+
+Componente dentro da VPC que controla o envio dos pacotes para instâncias dentro da mesma sub-rede ou entre sub-redes diferentes na mesma VPC, cada sub-rede já possui um **`Grupo de segurança que não permite o tráfego de entrada e saída por padrão`**, todas as portas e endereços IP's são bloqueados, podendo estas regras serem modificadas. Um Grupo de segurança tem o atributo **STATEFUL**, ou seja, se lembram dos pacotes e não fazem a verificação na entrada de retorno dos pacotes.
+
+### Tráfego STATELESS vs STATEFUL
+
+Exemplo de fluxo de envio e retorno de uma pacote entre sub-redes, com regras pré-definidas para o grupo de segurança permitindo o envio automaticamente:
+
+> Envio do pacote
+
+      1- o pacote é enviado de uma instância na sub-rede A para uma instância da sub-rede B
+      2- o pacote por padrão passa pelo grupo de segurança da sub-rede A
+      3- o pacote chega ao ACL que avalia (STATELESS) e deixa o pacote seguir o fluxo de saída para a sub-rede B
+      4- o pacote chega a sub-rede B
+      5- o pacote é avaliado (STATELESS) e passa pelo ACL da sub-rede B
+      6- o pacote é avaliado e passa pelo grupo de segurança
+      7- o pacote chega a instância da sub-rede B
+
+> Retorno do pacote
+
+      1- o pacote é enviado da instância na sub-rede B de volta para a instância da sub-rede A
+      2- o pacote por padrão passa pelo grupo de segurança da sub-rede B
+      3- o pacote chega ao ACL que avalia (STATELESS) e deixa o pacote seguir o fluxo de saída para a sub-rede A
+      4- o pacote chega a sub-rede A
+      5- o pacote é avaliado (STATELESS) e passa pelo ACL da sub-rede A
+      6- o pacote por padrão passa (STATEFULL) pelo grupo de segurança
+      7- o pacote chega a instância da sub-rede A
+
+## DNS - Domain Name Service
+
+A resolução envolve um servidor DNS que se comunica com um servidor web e converte um nome de domínio para um endereço IP.
+
+### Route 53
+
+Serviço AWS web de DNS roteando e conectando solicitações web à infraestrura AWS como instâncias EC2 e Load balance assim também como realizar direcionamento para fora da infraestrutura AWS. Também faz todo o  gerenciamento dos registros DNS para nomes de domínio como criação e transferência de registros.
+
+
+
 
 
 
