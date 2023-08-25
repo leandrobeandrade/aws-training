@@ -91,6 +91,9 @@ A resolução envolve um servidor DNS que se comunica com um servidor web e conv
 
 Serviço AWS web de DNS roteando e conectando solicitações web à infraestrura AWS como instâncias EC2 e Load balance assim também como realizar direcionamento para fora da infraestrutura AWS. Também faz todo o  gerenciamento dos registros DNS para nomes de domínio como criação e transferência de registros.
 
+## Armazenamentos de Instância
+
+Você pode pensar em armazenamento de blocos como um local para armazenar arquivos, um arquivo sendo uma série de bytes que são armazenados em blocos no disco. Quando um arquivo é atualizado nem toda série de blocos é substituída. Em vez disso, apenas as partes atualizadas são alteradas e isso torna o armazenamento eficiente para trabalhar com aplicações como banco de dados, softwares corporativos e sistemas de arquivos.
 
 
 
