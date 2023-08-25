@@ -40,27 +40,27 @@ Servidores virtuais elásticos que aumentam ou diminuem sua capacidade conforme 
 
 ### Preços EC2
 
-> Sob demanda
+> **Sob demanda**
 
     Ideais para cargas de trabalho irregulares de curto prazo que não podem ser interrompidas. Custos antecipados ou 
     contratos mínimos não se aplicam.
 
-> Saving plans
+> **Saving plans**
 
     Compromisso com uma quantidade consistente de uso por um período de 1 ou 3 anos, resultando em economias de até 72%
     em relação aos custos sob demanda.
 
-> Instâncias reservadas
+> **Instâncias reservadas**
 
     São um desconto aplicado ao uso de instâncias sob demanda, podendo adquirir instâncias reservadas comuns ou conversíveis
     por um período de 1 ou 3 anos.
 
-> Instâncias spot
+> **Instâncias spot**
 
     Ideais para cargas de trabalho flexíveis ou que toleram interrupções, usam a capacidade de computação nao utilizada do
     EC2 com economia de até 90% em relação aos custos sob demanda.
 
-> Hosts dedicados
+> **Hosts dedicados**
 
     Servidores físicos com capacidade totalmente dedicada ao uso, utilizando licenças de software por soquete, núcleo ou VM
     existentes para manutenção da conformidade. Podendo adquirir hosts sob demanda e hosts sob reservas. São os mais caros.
@@ -112,10 +112,10 @@ Mecanismo de computação serverless para contêineres funciona para orquestraç
 
 Serviços de orquestração são comuns para empacotamento de códigos, configurações de dependências de um aplicativo em um único objeto, processos e fluxo com requisitos de segurança, confiabilidade e escalabilidade.
 
-- ECS - Elastic Container Service
+- **ECS - Elastic Container Service**
 
       Sistema de gerenciamento de contêineres altamente dimensionável e de alto desempenho e totalmente compatível com Docker.
 
-- EKS - Elastic Kubernetes Service
+- **EKS - Elastic Kubernetes Service**
 
       Serviço de gerenciamento completo para o Kubernetes na AWS, implantando e gerenciando aplicativos em grande escala.

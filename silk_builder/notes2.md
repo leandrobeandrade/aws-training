@@ -39,7 +39,7 @@ Considera a infraestruta como código provisionando os recursos de maneira segur
 
 ## VPC - Virtual Private Cloud
 
-Cria uma rede de conexão privada com sessões internas isoladas conhecidas como sub-redes (subnets), cada sub-rede possui uma porção dos indereços IP's da VPC sendo estas públicas ou privadas e servem para agrupar recursos. Estas sub-redes públicas ou privadas são acessadas por meio do serviço AWS Internet Gateway.
+Cria uma rede de conexão privada com sessões internas isoladas conhecidas como sub-redes (subnets), cada sub-rede possui uma porção dos indereços IP's da VPC sendo estas públicas ou privadas e servem para agrupar recursos. Estas sub-redes públicas ou privadas são acessadas por meio do serviço **AWS Internet Gateway**.
 
 - Internet Gateway público: porta de conexão pública entre o tráfego de internet público e a VPC (sub-rede pública).
 - Internet Gateway privado: porta de conexão privada que permite somente tráfego autorizado entre internet e a VPC (sub-rede privada).
@@ -93,10 +93,48 @@ Serviço AWS web de DNS roteando e conectando solicitações web à infraestrura
 
 ## Armazenamentos de Instância
 
-Você pode pensar em armazenamento de blocos como um local para armazenar arquivos, um arquivo sendo uma série de bytes que são armazenados em blocos no disco. Quando um arquivo é atualizado nem toda série de blocos é substituída. Em vez disso, apenas as partes atualizadas são alteradas e isso torna o armazenamento eficiente para trabalhar com aplicações como banco de dados, softwares corporativos e sistemas de arquivos.
+Fornece armazenamento temporário a nível de bloco para uma instância EC2, um armazenamento em disco físico anexado ao computador host da instância, portanto tendo a mesma vida útil da instância. Quando a instância é encerrada, todos os dados no armazenamento de instâncias são perdidos.
 
+Você pode pensar em armazenamento de blocos como um local para armazenar arquivos, um arquivo sendo uma série de bytes que são armazenados em blocos no disco. Quando um arquivo é atualizado nem toda série de blocos é substituída. Em vez disso, apenas as partes atualizadas são alteradas e isso torna o armazenamento eficiente para trabalhar com aplicações como banco de dados, softwares corporativos e sistemas de arquivos. 
 
+A execução de uma instância a partir de um estado interrompido poderá iniciar a instância em um outro host, em que o volume de armazenamento de instâncias usado anteriormente não existe. A AWS recomenda este tipo de armazenamento para casos de uso que envolvam dados temporários de períodos de curto prazo.
 
+### EBS - Elastic Block Store
 
+Fornece volumes de armazenamento a nível de bloco para instâncias EC2 só que ao contrário do armazenamento de instância caso a instância EC2 seja interrompida ou encerrada, todos os dados no volume do EBS anexo permanecerão disponíveis. Como os dados alocados em volumes EBS precisam ser persistidos, é importante que seja feito backups destes dados através de **`snapshots do EBS`**. Armazena dados em uma única AZ.
 
+Os snapshots do EBS são um backup incremental sendo que o primeiro backup de um volume copia todos os dados, já nos backups subsequentes somente os blocos de dados alterados desde o snapshot mais recente serão  salvos. Os backups complementares são diferentes dos completos que fazem uma cópia dos dados toda vez que ocorre um backup, incluindo dados que não foram alterados desde o backup mais recente.
 
+### S3 - Simple Storage Service
+
+Serviço AWS para armazenamento de dados simples como imagens, vídeos, sites estáticos, etc. Permitindo o armazenamento e a recuperação destes dados de forma ilimitada e em qualquer escala. Os dados são armazenados como objetos em locais chamados `buckets` ao invés de diretórios de arquivos. Sendo o tamanho máximo do objeto de 5 terabytes com permissões de acessos e proteção contra exclusão acidental. 
+
+Há níveis de mecanismos para diferentes casos de uso de armazenamento entre dados que precisam ser armazenados com frequência versus dados retidos por vários anos. Com a utilização das políticas de ciclo de vida de armazenamento pode-se mover os arquivos por períodos entre estes serviços.
+
+> **S3 Standard**
+
+Fornece 11 noves de durabilidade, significa que um objeto armazenado no S3 tem uma porcentagem de 99,99999999 com probabilidade do dado permanecer intacto após um período de 1 ano sendo muito alta. Além de os dados serem armazenados em instalações AWS separadas garantindo sustentação em caso de desastres. Custo mais alto.
+
+> **S3 Infrequent Access (S3 IA)**
+
+Utilizado para dados acessados com menos frequência mas que exigem rapidez quando necessário, ideal para armazenamento de backups e outros dados de longo prazo. Também presente em 3 AZ's separadas. Custo baixo para armazenamento e alto para recuepração dos dados. Custo mais baixo se comparado ao S3 Standard.
+
+> **S3 One Zone**
+
+Fornece uma categoria boa de armazenamento para reproduzir facilmente os dados em caso de falhas. Só está presente em 1 AZ com custo mais barato.
+
+> **S3 Intelligent-Tiering**
+
+Monitora os padrões de acessos dos objetos, se pouco utilizados move para o SE IA, utilizado algumas vezes move os dados para S3 Standard. Cobra uma pequena taxa mensal de monitoramento e automação por objeto.
+
+> **S3 Glacier**
+
+Pode-se mover dados para ele ou criar cofres e depois preenchê-los com arquivos, ideal para dados armazenados por um longo prazo mas que não dependam que sejam recuperados rapidamente. Também fornece a política de `Vault Locker` podendo ser bloqueada a qualquer momento, sendo que após o bloqueio a política não poderá mais ser alterada. Custo baixo para arquivamentos de dados.
+
+**S3 Glacier Deep Archive**
+
+Fornece prontidão na recuperação de dados arquivados, capaz de recuperar objetos em 12 horas. Custo baixo para armazenamento de arquivos. Este serviço é otimizado para dados de arquivamento junto com o S3 Glacier.
+
+### EFS - Elastic File Service
+
+Sistema de arquivos escalável usado com serviços AWS e recursos locais, a medida que adiciona ou remove arquivos o EFS expande ou retrai automaticamente, dimensionando sobre demanda para petabytes sem interromper os aplicativos. Armazena dados em várias AZ's e entre elas, também podem ser caessados por Direct Connect.
