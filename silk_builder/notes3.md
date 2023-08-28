@@ -89,6 +89,12 @@ O IAM oferece o gerenciamento dos acessos aos serviços AWS, com flexibilidade e
     Fornece uma camada adicional de segurança para a conta AWS, tendo o usuário realizar uma entrada autenticada através de
     um dispositivo configurado que pode ser uma chave de segurança de hardware ou dispositivo de hardware como um telefone.
 
+### Organizations
+
+Centraliza o gerenciamento de várias contas AWS facilmente onde a primeira conta é a raíz servindo como um contêiner para as demais contas. Podendo-se agrupar hierárquicamente contas em unidades organizacionais para atender requisitos de conformidade, segurança e necessidades orçamentais, essas unidades são conhecidas como **`OU`**. Também existe a vantagem das **Políticas de Controle de Serviços (SCPs)** que especificam as permissões máximas das contas, restringindo quais serviços AWS, recursos e ações individuais de APIs que podem ser acessadas, são aplicadas a OUs e a uma conta de membro individual.
+
+
+
 
 
 
