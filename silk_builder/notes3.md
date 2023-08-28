@@ -45,7 +45,52 @@ Fornece migração de um banco de dados on-premises ou já na AWS para a nuvem A
 - **AWS ElasticCache**: adiciona camadas de cache e melhora o tempo de leitura de solicitações comuns. Compatível com Redis e Memcached.
 - **AWS DynamoDB Accelerator (DAX)**: cache em memória para o DynamoDB, ajudando a melhorar os tempos de resposta de ms para microssegundos.
 
-## Segurança
+## Modelo de Responsabilidade Compartilhada
+
+Basicamente divide-se em responsabilidades da AWS (segurança da nuvem) e do cliente (segurança na nuvem). A AWS opera, gerencia e controla todas as camadas da infraestrutura como SO do host, camada de rede, camada de virtualização e segurança física dos data centers. O cliente são responsáveis pela segurança de tudo que colocam na nuvem AWS, mantendo o controle total sobre o conteúdo e sendo responsável por gerenciar os requisitos de segurança como acessos e revogações.
+
+### IAM (Identity and Access Management)
+
+O IAM oferece o gerenciamento dos acessos aos serviços AWS, com flexibilidade e utilizando uma combinação de recursos como:
+
+- usuários, grupos e roles
+- políticas
+- autenticação multifator
+
+> Usuário root
+
+    Usuário padrão criado no momento da criação da conta AWS, podendo acessar qualquer recurso na conta. Sendo recomendado não
+    utilizar esse usuário para funções gerais e cotidianas.
+
+> Usuário do IAM
+
+    Usuários funcionais que vão realizar as tarefas cotidianas como executar instâncias EC2 ou buckets S3, quando criados não 
+    possuem permissões associadas. Recomendado seguir o princípio de menor privilégio ao conceder permissões.
+
+> Políticas
+
+    Documento JSON que fornece ou nega permissões para serviços AWS, permitindo personalizar os níveis de acesso ao usuários.
+    A política sempre terá o campo Effect que receberá o valor allow ou deny e no campo resource ira declarar a qual serviço
+    AWS a política se aplicará.
+
+> Grupos
+
+    Agrupamentos de usuários com permissões comuns entre os mesmos, todos os usuários presentes no grupo herdarão as mesmas
+    permissões. Sendo mais fácil adicionar os usuários há um grupo do que criar um política para cada usuário.
+
+> Roles
+
+    Permissões associadas que permitem ou negam ações específicas que podem ser assumidas temporariamente. Pode ser atribuída
+    a usuários, entidades externas, aplicações e até serviços AWS, que assumindo-se uma role todas as permissões anteriores
+    são abondonadas.
+
+> Autenticação multifator (MFA)
+
+    Fornece uma camada adicional de segurança para a conta AWS, tendo o usuário realizar uma entrada autenticada através de
+    um dispositivo configurado que pode ser uma chave de segurança de hardware ou dispositivo de hardware como um telefone.
+
+
+
 
 
 
