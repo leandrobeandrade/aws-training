@@ -107,14 +107,14 @@ Serviço que fornece acesso sob demanda a relatórios de segurança e conformida
 
 - Artifact Agreements 
 
-    Contrato com a AWS em relação ao uso de determinados tipos de informações em todos os serviços, podendo-se revisar, 
-    aceitar e gerenciar contratos para uma conta individual e para todas as contas no AWS Organizations.
+      Contrato com a AWS em relação ao uso de determinados tipos de informações em todos os serviços, podendo-se revisar, 
+      aceitar e gerenciar contratos para uma conta individual e para todas as contas no AWS Organizations.
 
-Artifact Reports
+- Artifact Reports
 
-    Fornece relatórios de conformidade por auditores terceirizados que testaram e verificaram se a AWS está em conformidade
-    com diversas normas e regulamentações de segurança globais, regionais e específicas do setor. Permanece atualizado 
-    constantemente.
+      Fornece relatórios de conformidade por auditores terceirizados que testaram e verificaram se a AWS está em conformidade
+      com diversas normas e regulamentações de segurança globais, regionais e específicas do setor. Permanece atualizado 
+      constantemente.
 
 ### Centro de conformidade
 
