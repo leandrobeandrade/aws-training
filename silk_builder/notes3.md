@@ -93,10 +93,29 @@ O IAM oferece o gerenciamento dos acessos aos serviços AWS, com flexibilidade e
 
 Centraliza o gerenciamento de várias contas AWS facilmente onde a primeira conta é a raíz servindo como um contêiner para as demais contas. Podendo-se agrupar hierárquicamente contas em unidades organizacionais para atender requisitos de conformidade, segurança e necessidades orçamentais, essas unidades são conhecidas como **`OU`**. Também existe a vantagem das **Políticas de Controle de Serviços (SCPs)** que especificam as permissões máximas das contas, restringindo quais serviços AWS, recursos e ações individuais de APIs que podem ser acessadas, são aplicadas a OUs e a uma conta de membro individual.
 
+### Compliance
 
+Conformidade na AWS abrange uma visão de monitoramento continuo do ambiente utilizando verificações de conformidade automatizadas com base nas práticas recomendadas e nos padrões do setor adotado por sua organização. Os serviços AWS registram 600 bilhões de eventos de API de auditoria todos os dias e 5 bilhões de verificações de configurações de recursos por mês. Fornecendo os seguintes benefícios para os usuários:
 
+- coleta e verificação de dados de auditoria com facilidade
+- correção de não conformidades rapidamente
+- criação de logs auditáveis aumentando a postura de segurança
 
+### AWS Artifact
 
+Serviço que fornece acesso sob demanda a relatórios de segurança e conformidades AWS assim como a contratos on-line selecionados. Possui duas seções principais: AWS Artifact Agreements e o AWS Artifact Reports, o AWS Artifact fornce vários relatórios de conformidade e regulamentações para uso como ISO, CSA, PCI entre vários outros.
 
+- Artifact Agreements 
 
+    Contrato com a AWS em relação ao uso de determinados tipos de informações em todos os serviços, podendo-se revisar, 
+    aceitar e gerenciar contratos para uma conta individual e para todas as contas no AWS Organizations.
 
+Artifact Reports
+
+    Fornece relatórios de conformidade por auditores terceirizados que testaram e verificaram se a AWS está em conformidade
+    com diversas normas e regulamentações de segurança globais, regionais e específicas do setor. Permanece atualizado 
+    constantemente.
+
+### Centro de conformidade
+
+Central para acessos de whitepapers e documentações de conformidades AWS relacionados a problemas principais, visão geral de riscos, listas de verificações de segurança de auditorias e plano de aprendizagem para auditores para indivíduos em funções jurídicas, de auditoria e de conformidade.
