@@ -119,3 +119,49 @@ Serviço que fornece acesso sob demanda a relatórios de segurança e conformida
 ### Centro de conformidade
 
 Central para acessos de whitepapers e documentações de conformidades AWS relacionados a problemas principais, visão geral de riscos, listas de verificações de segurança de auditorias e plano de aprendizagem para auditores para indivíduos em funções jurídicas, de auditoria e de conformidade.
+
+### DoS - Denial of Services
+
+Ataque de negação de serviços é uma tentativa deliberada de tornar um site ou aplicativo indisponível para os seus usuários, inundando um site ou aplicativo com tráfego excessivo de rede até que o mesmo não consiga mais responder, causando a negação do serviço para o usuário. `São originados de uma única fonte`.
+
+### DDoS - Distributed Denial of Services
+
+Ataque distribuído de negação de serviços onde um ou vários atacantes iniciam o ataque visando tornar um site ou aplicativo indisponível, utilizando vários computadores infectados (bots) para enviar tráfego excessivo ao site ou aplicativo. `São originados de várias fontes` e podem ser combatidos pelo serviço AWS Shield.
+
+### AWS Shield
+
+Serviço que protege aplicativos contra ataques DDoS oferecendo dois tipos de proteções distintas: Standard e Advanced.
+
+> Shield Standard
+
+      Protege automaticamente todos os clientes AWS de ataques DDoS mais frequentes e comuns com custo zero, utiliza diversas
+      técnicas de análise para detectar tráfego mal-intencionado em tempo real mitigando-o automaticamente.
+
+> Shield Advanced
+
+      Fornece diagnósticos detalhados e capacidade de detectar e mitigar ataques DDoS elaborados, se integra com diversos
+      outros serviços AWS como CloudFront, Route 53 e ELB além do AWS WAF escrevendo regras personailizadas contra ataques.s
+
+### Serviços de segurança adicionais
+
+> AWS KMS - Key Management Service
+
+      Permite executar operações de criptografia pelo uso de chaves criptografadas, que é uma cadeia aleatório de dígitos
+      utilizada para criptografar (bloquear) e descriptografar (desbloquear) dados. Permite especificar víveis de controle de
+      acessos e funções IAM, assim como desativar temporariamente as chaves.
+
+> AWS AWF - Amazon Web Firewall
+
+      Permite monitorar solicitações e tráfego de rede trabalhando em conjunto com o AWS CloudFront e um balanceador de carga
+      utilizando uma lista ACL para proteger os recursos AWS e bloqueando solicitações específicas.
+
+> AWS Inspector
+
+      Fornece avaliações automatizdas de segurança e conformidades, verificando vulnerabilidades de segurança e desvios das
+      práticas recomendadas. Depois da avaliação fornece uma lista de descobertas que é priorizada pelo nível de gravidade.
+
+> AWS GuardDuty
+
+      Fornece detecção inteligente de ameaças para infraestrutura e recursos AWS, identificando ameaças monitorando 
+      continuamente a atividade e comportamento de rede como logs de fluxo de VPC e DNS. Também pode configurar as funções
+      para executar etapas de correções automáticas em resposta a descobertas de possíveis ameaças. 
