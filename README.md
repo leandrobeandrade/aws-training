@@ -1,6 +1,6 @@
 # AWS Cloud Practitioner
 
-Material de estudos contendo anotações detalhadas de variadas fontes para a prova de Certicação AWS Cloud Practitioner.
+Material de estudos contendo anotações detalhadas de variadas fontes para a prova de Certificação AWS Cloud Practitioner.
 
 - [Treinamento AWS](https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials)
 - [Curso Udemy](https://www.udemy.com/share/103iE63@gdoE-DBWKxYUkphLwXmyc5OmVV8omvOUStNk1DaA6doQZdSZrF6cr_dqDp6_4dww/)
