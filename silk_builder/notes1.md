@@ -2,6 +2,34 @@
 
 Anotações referentes ao curso AWS Cloud Practitioner na plataforma AWS Skill Builder.
 
+## Vantagens da nuvem AWS
+
+Operar na nuvem AWS oferece muitos benefícios em relação à computação em ambientes locais ou híbridos.
+
+- Trocar despesa antecipada por despesas variáveis
+
+Despesas iniciais são data centers, servidores físicos e outros recursos nos quais você precisaria investir antes de usá-los. Em vez de investir substancialmente em datacenters e servidores antes de saber como serão usados, você pode pagar somente ao consumir recursos de computação.
+
+- Benefícios de enormes economias de escala
+
+Com a computação em nuvem, é possível obter um custo variável inferior ao do seu ambiente local. Como o uso por centenas de milhares de clientes se acumula na nuvem, provedores como a AWS podem alcançar economias de escala maiores. As economias de escala se transformam em preços para pagamento conforme usos mais baixos.
+
+- Parar de tentar adivinhar a capacidade
+
+Com a computação em nuvem, você não precisa prever a capacidade de infraestrutura necessária antes de implantar um aplicativo. Por exemplo, você pode iniciar instâncias do AWS EC2 quando necessário e pagar apenas pelo tempo de computação usado. Em vez de pagar por recursos que não são utilizados ou lidar com capacidade limitada, você pode acessar somente a capacidade de que precisa e aumentar ou reduzir a quantidade em resposta à demanda.
+
+- Aumentar a velocidade e a agilidade
+
+A flexibilidade da computação em nuvem facilita o desenvolvimento e a implantação de aplicativos. Essa flexibilidade também oferece às suas equipes de desenvolvimento mais tempo para experimentar e inovar.
+
+- Parar de gastar dinheiro com execução e manutenção de data centers
+
+A computação em nuvem em data centers geralmente exige que você gaste mais dinheiro e tempo gerenciando infraestrutura e servidores. Um benefício da computação em nuvem é poder se concentrar menos nessas tarefas e mais em seus aplicativos e clientes.
+
+- Ter alcance global em minutos
+
+O espaço global da nuvem AWS para implantação rápida de aplicativos para clientes em todo o mundo, ao mesmo tempo em que oferece baixa latência.
+
 ## Modelos de implantação
 
 - Baseada na nuvem: soluções totalmente baseadas em nuvem como servidores virtuais, banco de dados, componentes de rede, etc...

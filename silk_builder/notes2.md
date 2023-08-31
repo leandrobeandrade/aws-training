@@ -89,7 +89,7 @@ A resolução envolve um servidor DNS que se comunica com um servidor web e conv
 
 ### Route 53
 
-Serviço AWS web de DNS roteando e conectando solicitações web à infraestrura AWS como instâncias EC2 e Load balance assim também como realizar direcionamento para fora da infraestrutura AWS. Também faz todo o  gerenciamento dos registros DNS para nomes de domínio como criação e transferência de registros.
+Serviço AWS web de DNS roteando e conectando solicitações web à infraestrura AWS como instâncias EC2 e Load balance assim também como realizar direcionamento para fora da infraestrutura AWS. Também faz todo o gerenciamento dos registros DNS para nomes de domínio como criação e transferência de registros.
 
 ## Armazenamentos de Instância
 
@@ -117,7 +117,7 @@ Fornece 11 noves de durabilidade, significa que um objeto armazenado no S3 tem u
 
 > **S3 Infrequent Access (S3 IA)**
 
-Utilizado para dados acessados com menos frequência mas que exigem rapidez quando necessário, ideal para armazenamento de backups e outros dados de longo prazo. Também presente em 3 AZ's separadas. Custo baixo para armazenamento e alto para recuepração dos dados. Custo mais baixo se comparado ao S3 Standard.
+Utilizado para dados acessados com menos frequência mas que exigem rapidez quando necessário, ideal para armazenamento de backups e outros dados de longo prazo. Também presente em 3 AZ's separadas. Custo baixo para armazenamento e alto para recuperação dos dados. Custo mais baixo se comparado ao S3 Standard.
 
 > **S3 One Zone**
 
