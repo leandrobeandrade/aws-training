@@ -114,9 +114,7 @@ Outro benefício da cobrança consolidada é a capacidade de compartilhar preço
 
 ### AWS Budgets
 
-No AWS Budgets, você pode criar orçamentos para planejar o uso do serviço, os custos de serviço e as reservas de instâncias. As informações são atualizadas três vezes por dia ajudando a definir com precisão a proximidade entre seu uso e os valores orçados ou limites de nível gratuito da AWS.
-
-No AWS Budgets, você também pode definir alertas personalizados para quando seu uso exceder (ou estiver prestes a exceder) o valor orçado. Suponha que você tenha definido um orçamento para o Amazon EC2. Você deseja garantir que o uso do Amazon EC2 pela sua empresa não exceda USD 200 por mês. você pode definir um orçamento personalizado para notificação quando o uso atingir metade desse valor (USD 100). Essa configuração permite que você receba um alerta e decida como deseja prosseguir com o uso contínuo do AWS EC2.
+No AWS Budgets, você pode criar orçamentos para planejar o uso do serviço, os custos de serviço e as reservas de instâncias. As informações são atualizadas três vezes por dia ajudando a definir com precisão a proximidade entre seu uso e os valores orçados ou limites de nível gratuito da AWS. Pode-se definir alertas personalizados para quando seu uso exceder (ou estiver prestes a exceder) o valor orçado. Suponha que você tenha definido um orçamento para o Amazon EC2. Você deseja garantir que o uso do Amazon EC2 pela sua empresa não exceda USD 200 por mês. você pode definir um orçamento personalizado para notificação quando o uso atingir metade desse valor (USD 100). Essa configuração permite que você receba um alerta e decida como deseja prosseguir com o uso contínuo do AWS EC2.
 
 ### AWS Cost Explorer
 
@@ -134,4 +132,6 @@ O suporte AWS analisa o cliente de forma dinâmica, não apenas se ele está ten
 
 - Enterprise: orientação de arquitetura de aplicativos, que é um relacionamento consultivo para apoiar casos de uso e aplicativos específicos da sua empresa, gerenciamento de eventos de infraestrutura: engajamento de curto prazo com o AWS Support que ajuda sua empresa a compreender melhor seus casos de uso. Também fornece à sua empresa orientação de arquitetura e scaling além de um Technical Account Manager(TAM) que oferece orientação, revisões de arquitetura e comunicação contínua com sua empresa enquanto você planeja, implanta e otimiza seus aplicativos, conhecimento especializado em toda a gama de serviços AWS. Projeta soluções que usam vários serviços combinados de forma eficiente por uma abordagem integrada.
 
-### 
+### AWS Marketplace
+
+Catálogo digital seleto com milhares de ofertas de fornecedores independentes de software. podendo-se o usar para encontrar, testar e comprar software que pode ser executado na AWS com acesso a informações detalhadas sobre opções de definição de preço, suporte disponível e avaliações de outros clientes AWS, além de poder explorar soluções de software por setor e caso de uso.
