@@ -118,3 +118,7 @@ No AWS Budgets, você pode criar orçamentos para planejar o uso do serviço, os
 
 No AWS Budgets, você também pode definir alertas personalizados para quando seu uso exceder (ou estiver prestes a exceder) o valor orçado. Suponha que você tenha definido um orçamento para o Amazon EC2. Você deseja garantir que o uso do Amazon EC2 pela sua empresa não exceda USD 200 por mês. você pode definir um orçamento personalizado para notificação quando o uso atingir metade desse valor (USD 100). Essa configuração permite que você receba um alerta e decida como deseja prosseguir com o uso contínuo do AWS EC2.
 
+### Cost Explorer
+
+Ferramenta que permite visualizar, interpretar e gerenciar seus custos e uso da AWS ao longo do tempo. Inclui um relatório básico dos custos e do uso dos cinco principais serviços da AWS de acúmulo de custos, pode aplicar filtros e grupos personalizados para analisar seus dados. Por exemplo, você pode exibir o uso de recursos no nível por hora.
+
