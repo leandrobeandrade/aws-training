@@ -118,7 +118,20 @@ No AWS Budgets, você pode criar orçamentos para planejar o uso do serviço, os
 
 No AWS Budgets, você também pode definir alertas personalizados para quando seu uso exceder (ou estiver prestes a exceder) o valor orçado. Suponha que você tenha definido um orçamento para o Amazon EC2. Você deseja garantir que o uso do Amazon EC2 pela sua empresa não exceda USD 200 por mês. você pode definir um orçamento personalizado para notificação quando o uso atingir metade desse valor (USD 100). Essa configuração permite que você receba um alerta e decida como deseja prosseguir com o uso contínuo do AWS EC2.
 
-### Cost Explorer
+### AWS Cost Explorer
 
 Ferramenta que permite visualizar, interpretar e gerenciar seus custos e uso da AWS ao longo do tempo. Inclui um relatório básico dos custos e do uso dos cinco principais serviços da AWS de acúmulo de custos, pode aplicar filtros e grupos personalizados para analisar seus dados. Por exemplo, você pode exibir o uso de recursos no nível por hora.
 
+### AWS Support
+
+O suporte AWS analisa o cliente de forma dinâmica, não apenas se ele está tendo problema, mas como nós podemos ajudar para que você seja bem-sucedido, oferecendo quatro planos de suporte diferentes para ajudar você a solucionar problemas, reduzir custos e usar os serviços AWS de forma eficiente que são **Basic**, **Developer**, **Business** e **Enterprise**, que tirando o basic todos os outros são com pagamento mensal e não exigem contratos de longo prazo. 
+
+- Basic: gratuito para todos os clientes AWS. Inclui acesso a whitepapers, documentação e comunidades de suporte, também fornece contato com a AWS para tratar de questões de cobrança e aumento do limite de serviço. Com ele, você tem acesso a uma seleção limitada de verificações do AWS Trusted Advisor. Além disso, você pode usar o AWS Personal Health Dashboard, uma ferramenta com alertas e orientações de correções.
+
+- Developer: orientação de práticas recomendadas, ferramentas de diagnóstico do lado do cliente, suporte à arquitetura de componentes fundamentais, que consiste em orientações sobre como usar as ofertas, recursos e serviços AWS combinados.
+
+- Business: orientação de caso de uso para identificar ofertas, recursos e serviços AWS que podem atender melhor às suas necessidades específicas, todas as verificações do AWS Trusted Advisor, suporte limitado para software de terceiros, como sistemas operacionais comuns e componentes de pilha de aplicativos.
+
+- Enterprise: orientação de arquitetura de aplicativos, que é um relacionamento consultivo para apoiar casos de uso e aplicativos específicos da sua empresa, gerenciamento de eventos de infraestrutura: engajamento de curto prazo com o AWS Support que ajuda sua empresa a compreender melhor seus casos de uso. Também fornece à sua empresa orientação de arquitetura e scaling além de um Technical Account Manager(TAM) que oferece orientação, revisões de arquitetura e comunicação contínua com sua empresa enquanto você planeja, implanta e otimiza seus aplicativos, conhecimento especializado em toda a gama de serviços AWS. Projeta soluções que usam vários serviços combinados de forma eficiente por uma abordagem integrada.
+
+### 
