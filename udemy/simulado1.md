@@ -45,22 +45,22 @@
 
 **`10` - Uma empresa deseja migrar uma aplicação crítica para a AWS. A aplicação tem um tempo de execução curto. A aplicação é invocada por mudanças nos dados ou por deslocamentos no estado do sistema. A empresa precisa de uma solução de computação que maximize a eficiência operacional e minimize o custo de execução da aplicação. Qual a solução AWS que a empresa deve usar para cumprir esses requisitos?**
 
-*R: AWS EC2 Spot Instâncias*
+*R: AWS Lambda*
 > - A AWS Lambda é uma solução ideal para a empresa para que ela possa minimizar seus custos de execução da aplicação. A Lambda é um serviço de computação sem servidor que gerencia o código da aplicação e seu ambiente de execução. A Lambda pode ser acionada com base em alterações de dados ou eventos de sistema e a empresa paga apenas o tempo de execução real usado, ajudando a minimizar os custos operacionais.
 
 **`11` - Qual são as responsabilidades de uma empresa que está usando a AWS Lambda? (Escolha dois)**
 
-*R: Escrevendo a atualizando código, Segrunça dentro do código*
+*R: Escrevendo e atualizando código, Segurança dentro do código*
 > - Uma empresa que está usando a AWS Lambda deve ser responsável pela segurança dentro do próprio código e escrever e atualizar o código. A AWS Lambda também oferece serviços para segurança da infra-estrutura subjacente, mas a seleção de recursos de CPU e a empacotagem do sistema operacional não são responsabilidades dessa companhia.
 
 **`12` - Uma empresa quer usar a nuvem AWS para prover acesso seguro a aplicativos desktop que estão sendo executados em um ambiente totalmente gerenciado. Qual serviço AWS deve a empresa usar para atender ao requisito?**
 
-*R: AWS AppSync*
+*R: AWS AppStream 2.0*
 > - Amazon AppStream 2.0 é um serviço fornecido pela AWS que permite transmitir aplicativos de desktop de forma segura a partir da nuvem para dispositivos dos usuários. Ele fornece um ambiente totalmente gerenciado para executar e transmitir aplicativos de desktop, garantindo que os aplicativos não sejam instalados ou executados localmente nos dispositivos dos usuários.
 
 **`13` - Quais das seguintes são características das ACLs de rede, conforme usadas na AWS Cloud? (Escolha duas)**
 
-*R: Serviços stateless, operam no vível da instância*
+*R: Eles processam regras em ordem começando pela regra de número mais baixo ao decidir se permitem o tráfego, Serviços stateless*
 > - Eles não têm estado: Network ACLs na AWS não têm estado, o que significa que não acompanham o estado de uma conexão. Cada regra Network ACL é avaliada de forma independente e não está ciente dos pacotes anteriores ou subsequentes na mesma conexão. Eles processam as regras em ordem, começando com a regra de número mais baixo, ao decidir se permitem o tráfego: Network ACLs avaliam as regras em ordem sequencial, começando com a regra de número mais baixo. Depois que uma regra corresponde a um pacote, a decisão de permitir ou negar o tráfego é tomada e a avaliação adicional das regras é interrompida. Esse processamento sequencial de regras é uma característica importante das Network ACLs na AWS.
 
 **`14` - Uma empresa deseja lançar sua carga de trabalho na AWS e precisa que o sistema se recupere automaticamente de falhas. Qual pilares do AWS Well-Architected Framework inclui este requisito?**
@@ -85,7 +85,7 @@
 
 **`18` - Qual é o escopo de uma VPC na rede AWS?**
 
-*R: A VPC deve abranger pelo menos duas sub-redes em cada Região AWS*
+*R: A VPC pode abranger todas as AZs dentro de uma Region AWS*
 > - O escopo de uma VPC é limitado a uma Região AWS e, dentro desse escopo, uma VPC pode se estender para uma ou mais Zonas de Disponibilidade.
 
 **`19` - Uma empresa que possui várias unidades de negócio deseja gerenciar e governar centralmente os seus ambientes da AWS Cloud. A empresa deseja automatizar a criação de contas da AWS, aplicar políticas de controle de serviços (SCPs) e simplificar processos de faturamento. Qual serviço ou ferramenta da AWS a empresa deve usar para atender a essas exigências?**
@@ -115,7 +115,7 @@
 
 **`24` - Uma empresa deseja melhorar a disponibilidade geral e o desempenho dos seus aplicativos hospedados na AWS. Qual serviço da AWS a empresa deve usar?**
 
-*R: AWS Lightsail*
+*R: AWS Global Accelerator*
 > - A empresa deve usar o serviço AWS Global Accelerator para melhorar a disponibilidade e o desempenho das suas aplicações hospedadas na AWS. O Global Accelerator fornece aos usuários finais de alto desempenho e baixa latência, fornecendo acesso a zonas de disponibilidade da AWS. A tecnologia Smart Routing do Global Accelerator identifica automaticamente os usuários finais mais próximos e direciona o tráfego deles para os melhores endpoints de endpoint.
 
 **`25` - A AWS tem a capacidade de alcançar preços pay-as-you-go (pré-pago) mais baixos, agregando o uso de centenas de milhares de usuários. Isso descreve qual vantagem da AWS Cloud?**
@@ -130,7 +130,7 @@
 
 **`27` - Uma empresa precisa maximizar sua capacidade de se adaptar às mudanças nas necessidades dos negócios, sem comprometer seu orçamento. Qual estratégia a empresa deve implementar para atender a esses requisitos?**
 
-*R: Usar Saving Plans*
+*R: Usar preços pagos à medida que você vai usando*
 > - A empresa deve usar preços pagos à medida que você vai usando. A cobrança à medida que você vai usando fornece economias significativas de custos ao se adaptar às mudanças na demanda, permitindo que a empresa evite prescrições de custos desnecessários e overprovisioning.
 
 **`28` - Uma empresa possui um servidor de banco de dados que está sempre executando. A empresa hospeda o banco de dados em instâncias Amazon EC2. O tamanho das instâncias é adequado para a carga de trabalho. A carga de trabalho vai rodar por 1 ano. Qual opção de compra de instância EC2 satisfará esses requisitos de maneira MAIS eficaz em custos?**
@@ -195,7 +195,7 @@
 
 **`40` - O usuário está comparando as opções de compra para uma aplicação que roda no Amazon EC2 e Amazon RDS. A aplicação não pode suportar nenhuma interrupção. A aplicação experimenta uma quantidade previsível de uso, incluindo alguns picos sazonais que duram apenas algumas semanas de cada vez. Não é possível modificar a aplicação. Qual opção de compra atende a esses requisitos da MANEIRA MAIS custo-efetiva?**
 
-*R: Compre instâncias reservadas para a quantidade prevista de uso ao longo do ano. Permita que qualquer uso sazonal seja executado em uma taxa sob demanda*
+*R: Compre instâncias reservadas para a quantidade prevista de uso ao longo do ano. Permitir que qualquer uso sazonal seja executado em instâncias Spot*
 > - Comprar instâncias reservadas para a quantidade prevista de uso ao longo do ano: Isso garante que a carga de uso previsível esteja coberta por instâncias reservadas, que geralmente são mais econômicas em comparação com as instâncias sob demanda. Dessa forma, você estará economizando custos na execução contínua da aplicação. Permitir que qualquer uso sazonal seja executado em instâncias Spot: As instâncias Spot são conhecidas por serem muito mais baratas, mas sua disponibilidade não é garantida, e o preço pode variar de acordo com a demanda do mercado. Como a aplicação experimenta picos sazonais que duram apenas algumas semanas de cada vez, você pode se beneficiar dos preços baixos das instâncias Spot durante esses períodos. Ao escolher essa opção, você estará aproveitando o melhor dos dois mundos: a previsibilidade e economia das instâncias reservadas para a carga principal e a economia adicional das instâncias Spot para os períodos de pico sazonal. Isso torna essa opção a mais adequada em termos de custo-efetividade, considerando os requisitos da aplicação.
 
 **`41` - Uma empresa tinha um ciclo de implantação de aplicativos On-Premises de 3 a 4 semanas. Após a migração para a AWS Cloud, a empresa consegue implantar o aplicativo em 2 a 3 dias. Qual benefício essa empresa experimentou ao se mudar para a AWS Cloud?**
@@ -205,7 +205,7 @@
 
 **`42` - Quais são algumas vantagens de usar instâncias Amazon EC2 para hospedar aplicativos na AWS Cloud em vez de on premise? (Escolha dois)**
 
-*R: Integração do EC2 com o AWS VPC, o AWS cloudTrrail e o AWS IAM, modelo de preços flexíveis de pagamento conforme a utilização do EC2*
+*R: Integração do EC2 com o AWS VPC, o AWS cloudTrail e o AWS IAM, modelo de preços flexíveis de pagamento conforme a utilização do EC2*
 > - O EC2 integra-se com Amazon VPC, AWS CloudTrail e AWS Identity and Access Management (IAM): as instâncias do EC2 podem ser facilmente integradas a outros serviços da AWS, como Amazon VPC para rede, AWS CloudTrail para auditoria e monitoramento e AWS IAM para gerenciamento acesso e permissões. Essa integração fornece uma infraestrutura perfeita e abrangente para hospedar aplicativos na Nuvem AWS. O EC2 tem um modelo de precificação flexível de pagamento conforme o uso: Com o EC2, você pode escolher entre várias opções de precificação, incluindo instâncias sob demanda, instâncias reservadas e instâncias spot. Essa flexibilidade permite que você otimize os custos com base nos requisitos e padrões de uso de seu aplicativo. Você paga apenas pelos recursos de computação que realmente consome, o que pode ser mais econômico em comparação com a configuração e manutenção da infraestrutura local, na qual você precisa estimar e provisionar recursos com antecedência.
 
 **`43` - Qual serviço AWS ou recurso identifica se um bucket da Amazon S3 ou uma função IAM foi compartilhada com uma entidade externa?**
