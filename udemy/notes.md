@@ -123,7 +123,7 @@ Banco de dados seguro, webserver dentro de EC2 tem que ter garantia assim como i
 
 > code template
 
-Crias as máquinas e serviços em 2 ou 3 minutos por linguagens declarativas como JSON e Yaml.
+Cria as máquinas e serviços em 2 ou 3 minutos por linguagens declarativas como JSON e Yaml.
 
 ## On-Premises Deployment
 
