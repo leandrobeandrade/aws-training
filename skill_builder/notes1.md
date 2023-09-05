@@ -33,8 +33,8 @@ O espaço global da nuvem AWS para implantação rápida de aplicativos para cli
 ## Modelos de implantação
 
 - Baseada na nuvem: soluções totalmente baseadas em nuvem como servidores virtuais, banco de dados, componentes de rede, etc...
-- Implantação local: ou nuvem privada `(On-premises)` que como exemplo seria aplicações implantadas no local mas com virtualização e gerenciamento AWS
-- Implantação híbrida: conecta infraestrutura e aplicações no local com a nuvem, contempla a local e vice-versa `(Outposts)`
+- Implantação local: ou nuvem privada `(On-premises)` mantém tudo dentro das instalações da sua organização.
+- Implantação híbrida: ou `(Outposts)` combina recursos locais com serviços em nuvem da AWS para oferecer flexibilidade e escalabilidade adicionais, como virtualização.
 
 Sendo a computação em nuvem o "fornecimento sob demanda de recursos e aplicativos de TI pela internet com modelo de pagamento conforme o uso". 
 
