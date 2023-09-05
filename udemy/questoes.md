@@ -1,4 +1,4 @@
-# AWS - Questões de testes entre seções do curso Ultimate AWS Certified Cloud Practitioner
+# Questões no curso Ultimate AWS Certified Cloud Practitioner
 
 ## 1º Teste (Seção 3)
 
