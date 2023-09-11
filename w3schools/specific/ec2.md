@@ -38,7 +38,7 @@ Existem diferentes tipos de instância, qual usar depende das necessidades. Por 
 A instância de propósito geral equilibra os recursos de computação, memória e rede, são melhores quando há um equilíbrio entre os recursos. Servem para muitos propósitos, como:
 
 - Servidores de aplicativos
-- servidores de jogos
+- Servidores de jogos
 - Servidores back-end para empresas
 - Bancos de dados pequenos e médios
 
