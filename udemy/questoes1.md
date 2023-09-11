@@ -1,6 +1,6 @@
 # Questões no curso Ultimate AWS Certified Cloud Practitioner
 
-## 1º Teste (Seção 3)
+## 1º Teste (Seção 3 - Cloud Computing)
 
 >  **You ONLY want to manage Applications and Data. Which type of Cloud Computing model should you use?**
 - R: PaaS
@@ -41,7 +41,7 @@
 > **What is NOT authorized to do on AWS according to the AWS Acceptable Use Policy?**
 - R: Run analytics on stolen content
 
-## 2º Teste (Seção 4)
+## 2º Teste (Seção 4 - IAM)
 
 > **What is a proper definition of IAM Roles?**
 - R: An IAM entity that defines a set of permissions for making AWS service requests, that will be used by aws services.
@@ -69,3 +69,26 @@
 
 > **What should you do to increase your root account security?**
 - R: Enable Multi-Factor Authentication (MFA)
+
+## 3º Teste (Seção 5 - Elastic Compute Cloud)
+
+> **Which EC2 Purchasing Option can provide the biggest discount, but is not suitable for critical jobs or databases?**
+- R: Instância Spot
+
+> **Which network security tool can you use to control traffic in and out of EC2 Instances?**
+- R: Security Groups
+
+> **Under the Shared Responsibility Model, who is responsible for operating-system patches and updates on EC2 Instances?**
+- R: The Customer
+
+> **How long can you reserve an EC2 Reserved Instance?**
+- R: 1 or 3 years
+
+> **A company would like to deploy a high-performance computing (HPC) application on EC2. Which EC2 instance type should it choose?**
+- R: Compute Optimized
+
+> **Which of the following is NOT an EC2 Instance Purchasing Option?**
+- R: Connect Instances
+
+> **Which EC2 Purchasing Option should you use for an application you plan on running on a server continuously for 1 year?**
+- R: Reserved Instances
