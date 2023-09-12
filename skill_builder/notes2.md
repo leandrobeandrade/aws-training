@@ -125,7 +125,7 @@ Fornece uma categoria boa de armazenamento para reproduzir facilmente os dados e
 
 > **S3 Intelligent-Tiering**
 
-Monitora os padrões de acessos dos objetos, se pouco utilizados move para o SE IA, utilizado algumas vezes move os dados para S3 Standard. Cobra uma pequena taxa mensal de monitoramento e automação por objeto.
+Monitora os padrões de acessos dos objetos, se pouco utilizados move para o S3 IA, utilizado algumas vezes move os dados para S3 Standard. Cobra uma pequena taxa mensal de monitoramento e automação por objeto.
 
 > **S3 Glacier**
 
