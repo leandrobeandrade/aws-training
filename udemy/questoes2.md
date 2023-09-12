@@ -60,3 +60,35 @@
 
 > **Which of the following statements is NOT a feature of Load Balancers?**
 - R: Back-end autoscaling
+
+## 6º Teste (Seção 8 - S3)
+
+> **Which S3 Storage Class is the most cost-effective for archiving data with no retrieval time requirement?**
+- R: AWS Glacier Deep Archive 
+
+> **What hybrid AWS service is used to allow on-premises servers to seamlessly use the AWS Cloud at the storage layer?**
+- R: Storage Gateway
+
+> **Which of the following services is a petabyte-scale data moving service (as a fleet) in or out of AWS with computing capabilities?**
+- R: Snowball Edge
+
+> **Which of the following is an exabytes-scale data moving service in or out of AWS?**
+- R: Snowmobile
+
+> **What are Objects NOT composed of?**
+- R: Access Keys
+
+> **Where are objects stored in Amazon S3?**
+- R: Buckets
+
+> **A research team deployed in a location with low-internet connection would like to move 5 TBs of data to the Cloud. Which service can it use?**
+- R: Snowcone
+
+> **What can you use to define actions to move S3 objects between different storage classes?**
+- R: Lifecycle Rules
+
+> **A non-profit organization needs to regularly transfer petabytes of data to the cloud and to have access to local computing capacity. Which service can help with this task?**
+- R: Snowball Edge - Storage optmized
+
+> **Which S3 Storage Class is suitable for less frequently accessed data, but with rapid access when needed, while keeping a high durability and allowing an Availability Zone failure?**
+- R: AWS S3 Standard-Infrequent Access
