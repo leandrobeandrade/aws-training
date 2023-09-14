@@ -43,3 +43,29 @@
 
 > **CloudFormation and Elastic Beanstalk are free of use.**
 - R: True
+
+## 9º Teste (Seção 12 - )
+
+> **Which Route 53 Routing Policies would you use to route traffic to multiple resources in proportions that you specify?**
+- R: Weighted Routing Policy (Ponderado)
+
+> **Which service is optimized to deploy ultra-low latency applications to 5G devices?**
+- R: WaveLenght
+
+> **You need to enable fast, easy, and secure transfers of files over long distances on S3. Which service would you use?**
+- R: S3 Transfer Acceleration 
+
+> **What does AWS CloudFront use to improve read performance?**
+- R: Caching Content in Edge Locations
+
+> **Which service can be used to run AWS infrastructure and services on-premises for a hybrid cloud architecture?**
+- R: Outposts
+
+> **Which of the following statements is NOT a reason for a global application?**
+- R: Scale elastically on demand
+
+> **Which features are available with Route 53?**
+- R: Domain Registration, DNS, Health Checks, Routing Policy
+
+> **With which services does CloudFront integrate to protect against web attacks?**
+- R: WAF & Shield
