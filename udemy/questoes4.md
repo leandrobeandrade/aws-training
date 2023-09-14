@@ -44,7 +44,7 @@
 > **CloudFormation and Elastic Beanstalk are free of use.**
 - R: True
 
-## 9º Teste (Seção 12 - )
+## 9º Teste (Seção 12 - Global Infrastructure)
 
 > **Which Route 53 Routing Policies would you use to route traffic to multiple resources in proportions that you specify?**
 - R: Weighted Routing Policy (Ponderado)
@@ -69,3 +69,20 @@
 
 > **With which services does CloudFront integrate to protect against web attacks?**
 - R: WAF & Shield
+
+## 10º Teste (Seção 13 - Cloud Integrations)
+
+> **A company using Apache ActiveMQ is migrating to the cloud. Which AWS service can it use to easily set up and operate its message brokers in the cloud?**
+- R: AWS MQ
+
+> **Which service is a fully managed pub/sub messaging service that makes it easy to set up, operate, and send notifications from the cloud, using a push-based system?**
+- R: SNS
+
+> **You can use Kinesis to perform real-time analysis from video streams.**
+- R: True
+
+> **Which principle is mainly applied when using Amazon SQS or Amazon SNS?**
+- R: Decouple your applications
+
+> **Which service allows you to send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available, using a pull-based system?**
+- R: SQS

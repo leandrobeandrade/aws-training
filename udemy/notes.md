@@ -1,6 +1,6 @@
-# AWS - Resumo Curso Udemy
+# AWS - Resumo Curso Udemy 
 
-Anotações referentes ao [curso](https://www.udemy.com/share/1036jg3@Z5JLa7CoDlHRdpiau8rnb71cirlR2GLSuTbMMD1BdhcpWZPm1h-SnXREhuhUhoRy/) AWS Cloud Practitioner na plataforma Udemy.
+Anotações referentes ao curso [Certificação AWS Cloud Practitioner](https://www.udemy.com/share/1036jg3@Z5JLa7CoDlHRdpiau8rnb71cirlR2GLSuTbMMD1BdhcpWZPm1h-SnXREhuhUhoRy/) na plataforma Udemy.
 
 ## Tipos de Cloud - do mais básico para o mais completo
 
