@@ -1,4 +1,4 @@
-# AWS - Resumo Curso Udemy 
+# AWS - Anotações Curso Udemy 
 
 Anotações referentes ao curso [Certificação AWS Cloud Practitioner](https://www.udemy.com/share/1036jg3@Z5JLa7CoDlHRdpiau8rnb71cirlR2GLSuTbMMD1BdhcpWZPm1h-SnXREhuhUhoRy/) na plataforma Udemy.
 
