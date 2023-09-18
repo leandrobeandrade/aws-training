@@ -34,7 +34,7 @@ Fornece migração de um banco de dados on-premises ou já na AWS para a nuvem A
 - Migração heterogênea
 
       Processo em duas eatpas em que a primeira consiste em converter o schema e o código do banco utilizando a ferramenta
-      AWS Schema Convertion Tools, em segundo migramos os dados entre os bancos utilizando o serviço AWS DMS
+      AWS Schema Convertion Tools, em segundo migramos os dados entre os bancos utilizando o serviço AWS DMS.
 
 ### Outros Bancos AWS
 
@@ -140,7 +140,7 @@ Serviço que protege aplicativos contra ataques DDoS oferecendo dois tipos de pr
 > Shield Advanced
 
       Fornece diagnósticos detalhados e capacidade de detectar e mitigar ataques DDoS elaborados, se integra com diversos
-      outros serviços AWS como CloudFront, Route 53 e ELB além do AWS WAF escrevendo regras personailizadas contra ataques.s
+      outros serviços AWS como CloudFront, Route 53 e ELB além do AWS WAF escrevendo regras personailizadas contra ataques.
 
 ### Serviços de segurança adicionais
 
@@ -150,10 +150,10 @@ Serviço que protege aplicativos contra ataques DDoS oferecendo dois tipos de pr
       utilizada para criptografar (bloquear) e descriptografar (desbloquear) dados. Permite especificar víveis de controle de
       acessos e funções IAM, assim como desativar temporariamente as chaves.
 
-> AWS AWF - Amazon Web Firewall
+> AWS WAF - Web Application Firewall
 
       Permite monitorar solicitações e tráfego de rede trabalhando em conjunto com o AWS CloudFront e um balanceador de carga
-      utilizando uma lista ACL para proteger os recursos AWS e bloqueando solicitações específicas.
+      utilizando uma lista ACL para proteger os recursos AWS e bloqueando solicitações específicas. Combate ataques SQL injection.
 
 > AWS Inspector
 
