@@ -153,7 +153,8 @@ Serviço que protege aplicativos contra ataques DDoS oferecendo dois tipos de pr
 > AWS WAF - Web Application Firewall
 
       Permite monitorar solicitações e tráfego de rede trabalhando em conjunto com o AWS CloudFront e um balanceador de carga
-      utilizando uma lista ACL para proteger os recursos AWS e bloqueando solicitações específicas. Combate ataques SQL injection.
+      utilizando uma lista ACL para proteger os recursos AWS e bloqueando solicitações específicas. Auxilia na proteção contra
+      contra ataques de SQL injection.
 
 > AWS Inspector
 
