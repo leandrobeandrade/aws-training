@@ -50,4 +50,59 @@
 - R: Direct Connect
 
 > **Your VPC needs to connect with the Internet. Which VPC component can help?**
-- R: Internet Gateway
+
+## 13º Teste (Seção 16 - Security & Compliance)
+
+> **Data sitting on an RDS instance would be referred to as?**
+- R: Data at rest (Dados em repouso)
+
+> **According to the Shared Responsibility Model, who is responsible for firewall and network configuration for EC2 Instances?**
+- R: Customer
+
+> **Which of the following services can you use to discover and protect your sensitive data in AWS?**
+- R: Macie
+
+> **Which AWS service lets you quickly find the root of potential security issues to take faster actions?**
+- R: Detective
+
+> **A company would like to protect its web applications from common web exploits that may affect availability, compromise security, or consume excessive resources. Which AWS service should they use?**
+- R: WAF - Web Application Firewall
+
+> **Where can you find on-demand access to AWS compliance documentation and AWS agreements?**
+- R: Artifact
+
+> **You can perform any kind of penetration testing on any AWS service without prior approval.**
+- R: False
+
+> **You want to record configurations and changes over time. Which service allows you to do this?**
+- R: Config
+
+> **A company would like to secure network communications using SSL & TLS certificates. Which AWS service can it use?**
+- R: ACM - AWS Certificate Manager
+
+> **According to the Shared Responsibility Model, who is responsible for Patch Management?**
+- R: AWS & Customer
+
+> **You want to centrally automate security checks across several AWS accounts. Which AWS service can you use?**
+- R: Secutiry Hub
+
+> **Which of the following services is managed by AWS and is used to manage encryption keys?**
+- R: KMS - Key Management Service
+
+> **A company would like to automate security on EC2 instances to assess security and vulnerabilities in these instances. Which AWS service should it use?**
+- R: Inspector
+
+> **Which of the following actions does NOT require the root user?**
+- R: Access the billing dashboard
+
+> **According to the Shared Responsibility Model, who is responsible for protecting hardware?**
+- R: AWS
+
+> **Which AWS service's ONLY role is to safeguard running applications from DDoS attacks?**
+- R: Shield
+
+> **Which service is a threat detection service that continuously monitors for malicious activity and unauthorized behavior to protect your AWS accounts and workloads?**
+- R: GuardDuty
+
+> **Which of the following options is NOT a situation where you should contact the AWS Abuse team?**
+- R: Losing MFA Device
