@@ -14,15 +14,15 @@ Anotações referentes ao curso [Certificação AWS Cloud Practitioner](https://
 - **Hybrid** -> app publico e banco de dados privado como exemplo
 - **Private** -> .gov como exemplo
 
-## AWS Services
+## AWS Services - principais
 
-- **Computação** -> Amazon EC2, etc...
-- **Armazenamento** -> S3 (Amazon Simple Storage Service), etc...
-- **Banco de Dados** -> AWS DynamoDB, AWS RDS, AWS Redshift, etc...
-- **Redes** -> AWS API Gateway, AWS Cloud Wan, AWS VPN, etc...
-- **Análises** -> AWS Athena, AWS CloudSearch, AWS EMR, etc...
-- **Machine Learning** -> AWS Forecast, AWS Kendra, AWS Lex, AWS Omics, etc...
-- **Segurança Geral** -> AWS Cognito, AWS Detective, AWS GuardDuty, AWS Inspector, etc...
+- **Computação** -> Amazon EC2
+- **Armazenamento** -> S3 (Amazon Simple Storage Service)
+- **Banco de Dados** -> AWS DynamoDB, AWS RDS, AWS Redshift
+- **Redes** -> AWS API Gateway, AWS Cloud Wan, AWS VPN
+- **Análises** -> AWS Athena, AWS CloudSearch, AWS EMR
+- **Machine Learning** -> AWS Forecast, AWS Kendra, AWS Lex, AWS Omics
+- **Segurança Geral** -> AWS Cognito, AWS Detective, AWS GuardDuty, AWS Inspector
 - [todos os serviços](https://aws.amazon.com/pt/products/?aws-products-all.sort-by=item.additionalFields.productNameLowercase&aws-products-all.sort-order=asc&awsf.re%3AInvent=*all&awsf.Free%20Tier%20Type=*all&awsf.tech-category=*all)
 
 ## Três principais formas de interagir com os serviços da AWS
