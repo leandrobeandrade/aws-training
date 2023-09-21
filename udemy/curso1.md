@@ -51,4 +51,4 @@ Possibilitando assim a computação em nuvem a resolução de problemas como:
 - Software as a Service (SasS)
     - Produto completo gerenciado e executado pelo provedor do serviço.
 
-Na AWS paga-se pelo uso, computação paga pela computação utilizada, armazenamento paga-se pelos dados armazenados e rede paga-se pelos tráfego de saída da AWS entrada é grátis.
+Na AWS paga-se pelo uso, computação paga pela computação utilizada, armazenamento pago pelos dados armazenados e rede paga pelo tráfego de saída da AWS, com a entrada dos dados sendo grátis.
