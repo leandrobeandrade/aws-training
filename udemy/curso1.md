@@ -7,7 +7,7 @@ Anotações referentes ao curso [Ultimate AWS Certified Cloud Practitioner](http
 É a entrega sob demanda de poder de computação, armazenamento de banco de dados, aplicações e outros recursos de TI. Os tipos de modelos de cloud são distribuídos em segmentos:
 
 - Private Cloud: Nuvem privada, com serviços privados por exemplo rackspace.
-- Public Cloud: Nuvem pública que oferece serviços gerenciados para uso público por exemplo Microsoft Azure, Google Cloud e AWS Services.
+- Public Cloud: Nuvem pública que oferece serviços gerenciados para uso público por exemplo Microsoft Azure, Google Cloud e AWS.
 - Hibrid Cloud: Nuvem híbrida que mescla infraestrutura local (on-premise) utilizando serviços da nuvem.
 
 Possuindo 5 característica principais e 6 vantagens sobre computação fora da nuvem.
@@ -37,3 +37,18 @@ Possibilitando assim a computação em nuvem a resolução de problemas como:
 - elasticidade: escalonamentos verticais e horizontais.
 - disponibilidade: alta disponibilidade de recursos e tolerâncias a falhas.
 - agilidade: desenvolvimento, testes e lançamanto de serviços e produtos rapidamente e globalmente.
+
+### Tipos de Computação em nuvem
+
+- IaaS (Infrastructure as a Service)
+    - Fornece blocos de construção para TI.
+    - Fornece rede, computação, espaço de armazenamento de dados em forma bruta.
+    - Alto nível de flexibilidade.
+    - Fácil entendimento de como migrar da TI tradicional para a nuvem
+- Plataform as a Service (PaaS)
+    - Elimina a necessidade da organização gerenciar a infraestrutura subjacente.
+    - Foco na implementação de um produto/serviço ao invés de pensar em como entregar.
+- Software as a Service (SasS)
+    - Produto completo gerenciado e executado pelo provedor do serviço.
+
+Na AWS paga-se pelo uso, computação paga pela computação utilizada, armazenamento paga-se pelos dados armazenados e rede paga-se pelos tráfego de saída da AWS entrada é grátis.
