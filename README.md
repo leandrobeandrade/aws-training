@@ -2,9 +2,8 @@
 
 Material de estudos contendo anotações detalhadas de variadas fontes para a prova de Certificação AWS Cloud Practitioner.
 
+- Ultimate AWS Certified Cloud Practitioner
 - Treinamento AWS Skill Builder
-- Curso Udemy - Ultimate AWS Certified Cloud Practitioner
-- Curso Udemy - Certificação Amazon AWS Cloud Practitioner
 - Treinamento W3Schools
 - Simulados
 
