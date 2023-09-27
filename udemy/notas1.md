@@ -1,4 +1,4 @@
-# AWS - Anotações Curso Udemy 
+# AWS - Anotações Curso Udemy
 
 Anotações referentes ao curso [Ultimate AWS Certified Cloud Practitioner](https://www.udemy.com/share/103a093@qP42hME1G1UUc8yWpjZ5Y-ClltzgbSLLCtxkCYFIguDx8A6K8ydl8WaA_ZRyD7B2/) na plataforma Udemy.
 
@@ -10,12 +10,12 @@ Anotações referentes ao curso [Ultimate AWS Certified Cloud Practitioner](http
 - Public Cloud: Nuvem pública que oferece serviços gerenciados para uso público por exemplo Microsoft Azure, Google Cloud e AWS.
 - Hibrid Cloud: Nuvem híbrida que mescla infraestrutura local (on-premise) utilizando serviços da nuvem.
 
-Possuindo 5 característica principais e 6 vantagens sobre computação fora da nuvem.
+Possuindo **`5`** característica principais e **`6`** vantagens sobre computação fora da nuvem.
 
 ### 5 Características
 
 - On-demand self service: Uso sob demanda e sem a necessidade de gerenciamento de terceiros.
-- Broad network access: Acesso a uma rede ampla a recursos e serviços.
+- Broad network access: Acesso a uma rede ampla de recursos e serviços.
 - Multi-tenancy: Multi locação e pooling de recursos, todos clientes usam os mesmos recursos.
 - Rapid elasticity and scalability: Rápida escalabilidade e elasticidade baseados na demanda.
 - Measured services: Serviços medidos com pagamentos medidos e somente pelo que usamos.
@@ -44,11 +44,14 @@ Possibilitando assim a computação em nuvem a resolução de problemas como:
     - Fornece blocos de construção para TI.
     - Fornece rede, computação, espaço de armazenamento de dados em forma bruta.
     - Alto nível de flexibilidade.
-    - Fácil entendimento de como migrar da TI tradicional para a nuvem
+    - Fácil entendimento de como migrar da TI tradicional para a nuvem.
+    - AWS EC2, Google Cloud Plataform, Azure, Rackspace, Digital Ocean, Linode.
 - Plataform as a Service (PaaS)
     - Elimina a necessidade da organização gerenciar a infraestrutura subjacente.
     - Foco na implementação de um produto/serviço ao invés de pensar em como entregar.
+    - Elastic Beanstalk, Heroku, Google App Engine, Windows Azure.
 - Software as a Service (SasS)
     - Produto completo gerenciado e executado pelo provedor do serviço.
+    - Muitos serviços AWS como Rekognition, Cognito, Lex e outros como Gmail, Dropbox, Zoom, etc...
 
-Na AWS paga-se pelo uso, computação paga pela computação utilizada, armazenamento pago pelos dados armazenados e rede paga pelo tráfego de saída da AWS, com a entrada dos dados sendo grátis.
+Na AWS paga-se pelo uso, computação paga pela computação utilizada, armazenamento pago pelos dados armazenados e rede paga pelo tráfego de saída da AWS, o tráfego de entrada dos dados é gratuito.
