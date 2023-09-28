@@ -1,6 +1,6 @@
-# AWS - Resumo Treinamento AWS
+# AWS - Anotações gerais
 
-Anotações referentes ao curso AWS Cloud Practitioner na plataforma AWS Skill Builder.
+Anotações referentes ao curso [AWS Cloud Practitioner Essentials](https://explore.skillbuilder.aws/learn/course/8287/elementos-essenciais-do-aws-cloud-practitioner-portugues-aws-cloud-practitioner-essentials-portuguese) na plataforma AWS Skill Builder.
 
 ## Bancos de Dados AWS
 
