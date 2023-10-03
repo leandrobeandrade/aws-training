@@ -31,12 +31,12 @@ Possuindo **`5`** característica principais e **`6`** vantagens sobre computaç
 
 Possibilitando assim a computação em nuvem a resolução de problemas como:
 
-- flexibilidade: mudar os recursos quando necessário.
-- custo efetivo: pagamos pelo uso (pay-as-you-go).
-- escalabilidade: adicionar mais recursos quando necessário.
-- elasticidade: escalonamentos verticais e horizontais.
-- disponibilidade: alta disponibilidade de recursos e tolerâncias a falhas.
-- agilidade: desenvolvimento, testes e lançamanto de serviços e produtos rapidamente e globalmente.
+- `flexibilidade:` mudar os recursos quando necessário.
+- `custo efetivo:` pagamos pelo uso (pay-as-you-go).
+- `escalabilidade:` adicionar mais recursos quando necessário.
+- `elasticidade:` escalonamentos verticais e horizontais.
+- `disponibilidade:` alta disponibilidade de recursos e tolerâncias a falhas.
+- `agilidade:` desenvolvimento, testes e lançamanto de serviços e produtos rapidamente e globalmente.
 
 ### Tipos de Computação em nuvem
 
@@ -55,3 +55,38 @@ Possibilitando assim a computação em nuvem a resolução de problemas como:
     - Muitos serviços AWS como Rekognition, Cognito, Lex e outros como Gmail, Dropbox, Zoom, etc...
 
 Na AWS paga-se pelo uso, computação paga pela computação utilizada, armazenamento pago pelos dados armazenados e rede paga pelo tráfego de saída da AWS, o tráfego de entrada dos dados é gratuito.
+
+## IAM - Identity and Access Management
+
+Os usuários IAM acessam a AWS usando um nome de usuário e uma senha. Uma política do IAM **(Policies)** é uma entidade que, quando anexada a uma identidade ou recurso, define suas permissões. O relatório de credenciais do IAM lista todos os usuários da sua conta e o status de suas diversas credenciais. A outra ferramenta de segurança IAM é o **IAM Access Advisor** que lista as permissões de serviço concedidas a um usuário e quando esses serviços foram acessados pela última vez.
+
+## EC2
+
+Um dos serviços mais essências apresentado pela AWS, sendo do tipo `IaaS` que fornece aluguel de máquinas virtuais, armazenamento de dados em unidades virtuais ou em volumes **(EBS)**, distribuição de carga através das máquinas **(ELB)**, dimensionamento de serviços utilizando grupos de auto-scaling **(ASG)**.
+
+Fornece a escolha de máquinas com os 3 principais sistemas operacionais: Windows, Linux e MacOS, assim como a potência de computação, quantidade de núcleos necessárias, quanto de espaço de armazenamento, placa de rede e firewall. A instância é inicializada (bootstrapping) por um script chamado `Userdata` que é utilizado apenas na primeira inicialização. O **`AMI (Amazon Machine Image)`** fornece a personalização de uma instância EC2 pública através de customização da instância por meio de configurações de sistemas operacionais e especificação de regions.
+
+Os **`grupos de segurança`** ficam fora do EC2 e controlam todo tráfego de entrada e saída das instâncias EC2 contendo regras de permissões referenciando IP's ou outros grupos de segurança. São como um firewall que regulam os acessos as portas, os IP's autorizados e o controle dos tráfegos de entrada e saída. Um grupo pode ser anexado a várias instâncias e uma instância pode conter vários grupos. São bloqueados para uma VPC/Region, todo tráfego de entrada é bloqueado e todo tráfego de saída é autorizado por padrão.
+
+Tipos de aquisição de instâncias EC2:
+
+- **`On Demand`:** Paga pelo uso, tem custo mais alto, porém sem custos antecipados ou a longo prazo, cargas de trabalho curta e ininterrupta.
+- **`Instâncias Reservadas`:** Desconto de 72% em relação a on demand, reservas de período de 1 a 3 anos, cargas de trabalho estáveis. A instância reservada conversível tem apenas 66% de desconto.
+- **`Saving Plans`:** Uso de longo prazo com desconto de 72% comparada as instâncias reservadas.
+- **`Instâncias Spot`:** Desconto de 90% em relação a on demand, porém podendo perde-lá se ultrapassar o custo devido a ter que calcular um preço máximo de uso. São mais baratas, boas para cargas resilientes a falhas e não para trabalhos críticos.
+- **`Hosts Dedicados`:** Host físico, custo mais caros de todos. Software com licenças próprias ou empresa com forte necessidade regulatória.
+- **`Instâncias Dedicadas`:** Executadas em hardware físico com compartilhamento com outras instâncias.
+- **`Capacidade Reservada`:** Capacidade reservada de instâncias específicas em uma AZ por qualquer duração de temppo.  
+
+O **`Elastic Block Store (EBS)`** são drivers de rede que podem ser anexados nas instâncias EC2 ou NÃO, permitindo persistir dados mesmo depois da instâncias estarem encerradas. Sendo o EBS vinculado a uma AZ específica com 30GB grátis em free tier, útil para failovers, porém pode-se copiar um EBS a outra AZ com um EBS instantâneo (backup) ou EBS Snapshot levando de 24 a 72 horas para cópias.
+
+O **`Amazon Machine Image (AMI)`** são personalizações de uma instância EC2 pública que pode ter a customização da instância por meio das configurações, assim como os sistemas operacionais e especificação de regions.
+
+O **`Image Builder`** automatiza a criação de máquinas virtuais ou imagens de contêineres. É um pipeline automatizado para criação, manutenção, validação, testes, compartilhamento e implantação de imagens Linux ou 
+Windows para uso na AWS e no local (on-premises).
+
+O **`Instance Store`** é utilizado para melhorar o desempenho de I/O com boa taxa de transferência. Ou seja, desempenho de disco extremamente rápido que é perdido quando a instância EC2 for encerrada, bom para armazenamento temporário.
+
+O **`Elastic File System (EFS)`** é um sistema de arquivos de rede ou NFS, pode ser montado em centenas de instâncias EC2 por vez, funcionando em diversas AZ's com máquinas Linux, sendo altamente disponível, escalável e bastante caro, cerca de 3x mais que o EBS, pagando pelo uso sem o planejamento de capacidade. O **`EFS-IA (Infrequent Access)`** é uma classe de armazenamento otimizada para arquivos com pouca frequência de acesso com custo de 92% menor que o EFS.
+
+O **`Amazon FSx`** torna fácil e econômico lançar e executar sistemas de arquivos populares totalmente gerenciados pela AWS. Ele vem em duas ofertas: FSx for Windows File Server (usado para aplicativos de negócios) e FSx for Lustre (usado para computação de alto desempenho).
