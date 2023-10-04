@@ -47,3 +47,60 @@ A AWS fornece também uma suíte completa com serviços para todos os ciclos de 
 - **CodeArtifact**: Armazena e recupera dependências utilizadas nos apps.
 - **CodeStar**: Interface gráfica que envolve todos os outros serviços de códigos.
 - **Cloud9**: IDE online para fazer todo o processo de desenvolvimento na própria plataforma AWS.
+
+## Infraestrutura Global AWS
+
+A Infraestrura AWS é formada por
+
+- Data centers: local físico que armazena máquinas de computação e seus equipamentos de hardware relacionados.
+- Regions: local físico em todo o mundo onde agrupamos datacenters.
+- AZ's: um ou mais datacenters distintos com energia, rede e conectividade redundantes em uma região da AWS.
+- Edge Locations (Points of presence): local que o CloudFront usa para armazenar cópias do seu conteúdo em cache para entrega mais rápida aos usuários em qualquer local.
+
+Aplicações se tornam globais através da infraestrutra da AWS que promove baixa latência, recuperação de desastres e proteção contra ataques, otimizando a velocidade das aplicações em até 60%.
+
+O **`Route 53`** é um DNS gerenciador de domínios AWS, ele envia para o cliente um ip que é o endereço do servidor, o cliente faz a requisição ao ip indicado e o servidor envia a resposta de volta ao cliente. Possui políticas de roteamento sendo a `Simples`, a `Ponderado` que distribui tráfego por instâncias em medidas proporcionais, a `Latência` que distribui tráfego por regions e a `Failover` que verifica a saúde das instâncias e faz o direcionamento para a melhor. Fora a primeira todas possuem verificações de saúde.
+
+O **`CloudFront`** fornece uma rede de entrega de conteúdo **(CDN)** que melhora o desempenho armazenando em cache os conteúdos dos sites, estando presente em 216 Edge Locations. Conecta-se a S3, EC2, ELB, Http, etc... Armazena conteúdo em todo mundo enquanto a replicação S3 transversal replica o bucket inteiro em outra region. Possui o OAC Origin Access Control.
+
+O **`S3 Transfer Acceleration`** transfere arquivos de um bucket de um edge location para outro bucket por meio de um caminho de rede otimizado.
+
+O **`Global Accelerator`** não armazena em cache, as solicitações são repassadas dos edge locations para os apps nas regions.
+
+O **`Outposts`**  são racks de servidores AWS fora da AWS, no data center do cliente com os serviços disponíveis configurados. Sendo o cliente responsável pela segurança em todos os aspectos.
+
+O **`WavesLength`** são sata centers de provedores de telecomunicações na bordas das redes 5G.
+
+O **`Local zones`** estende os VPC's para zonas distintas, é uma espécie de implantação de infraestrutura posiciona a computação, armazenamento, banco de dados e outros produtos seletos da AWS perto do público em geral e dos centros industriais. Presente apenas nos EUA.
+
+## Cloud Integrations
+
+A integração de aplicativos na AWS é um conjunto de serviços que permite a comunicação entre componentes desacoplados em microsserviços, sistemas distribuídos e aplicativos sem servidor.
+
+O **`Simple Queue Service (SQS)`** permite receber mensagens de vários produtores e armazenadas em fila (FIFO) para serem consumidas de forma compartilhada pelos consumidores. Desacopla aplicativos e é serverless, retém mensagens por 4 dias por padrão e no máximo por 14 dias.
+
+O **`Kinesis`** é um Streaming de big data em real time com baixa latência. Possui 4 serviços Data Firehose, Data Analytics, Data Streams, Video Streams.
+
+O **`Simple Notification Service (SNS)`** publica notificações para um tópico SNS e os inscritos ouvem todas essas notificações.
+
+O **`AWS MQ`** trabalha em conjunto com RabbitMQ e ActiveMQ para quem não quiser os outros serviços de mensagens AWS. Utilizado muito em migrações para nuvem para manter a compatibilidade com o que já estava funcionando (protocolos MQTT, AMQP).
+
+## Cloud Monitoring
+
+O monitoramento da AWS verifica seus recursos e aplicativos da AWS, coletando dados para garantir que tudo esteja funcionando de maneira tranquila e segura. O monitoramento da infraestrutura da AWS ajuda a identificar vulnerabilidades e problemas, prever o desempenho e otimizar configurações.
+
+O **`CloudWatch`** fornece métricas (variáveis monitoradas) para os serviços AWS. Exemplos: utilizações de CPU, status check, network em EC2 (por padrão a cada 5 minutos), leitura/escrita em volumes EBS, requests, NumberOfObjects em buckets S3, limite de serviços, etc...
+
+O **`AWS Alarms`** dispara notificações para qualquer métrica por períodos definidos. Exemplos: auto scaling, stop, terminate, reboot ou recover em instâncias EC2, notificações SNS, etc... Tem os estados OK, Insufficient_Data e Alarm.
+
+O **`Logs`** coleta logs de diversos serviços AWS como Elastic Beanstalk, ECS, Lambda, CloudTrail, Route 53 (logs de DNS queries).
+
+O **`EventBridge`** reage a eventos dentro da conta AWS, agenda jobs no Cron, emite notificações com SNS por tentativas de login com root user, aciona funções Lambda, entre outros.
+
+O **`CoudTrail`** fornece governança, conformidade e auditoria com histórico de todas as chamadas as API's ou eventos na AWS.
+
+O **`X-Ray`** rastreia e analisa visualmente as aplicações, utilizado para realizar troubleshootings, comportamentos de solicitações, velocidade, etc... Também ajuda os desenvolvedores a analisar e depurar aplicações distribuídas de produção, como aquelas criadas usando uma arquitetura de microsserviços.
+
+O **`CodeGuru`** é baseado em aprendizado de máquina, faz code reviews automatizados e recomendações de desempenho de apps. Trabalha em conjunto do Git, Bitbucket, CodeCommit.
+
+O **`AWS Health Dashboard`**  mostra a saúde dos serviços em todas as regions (contas geral AWS), fornece alertas e orientações de remediação que impactaram a nossa conta (conta específica).
