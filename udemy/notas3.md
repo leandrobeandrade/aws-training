@@ -32,5 +32,18 @@ O **`CloudFormation`** é um forma declarativa de provisionar a infraestrutura a
 
 O **`Cloud Development Kit (CDK)`** é maneira de definir infraestrutura na AWS utilizando uma linguagem familiar como Python, JavaScript, TypeScript, etc... depois o código é compilado para JSON ou YAML para ser utilizado no CloudFormation. Bom para funções Lambda e serviços Docker (ECS/EKS).
 
-O **`Beanstalk`** fornece uma visão central para desenvolvedores implantarem um app na AWS sem precisar se preocupar com infraestrutura sendo uma plataforma PaaS gratuita. Fornece monitoramento de integridade e capacidade de resposta do app.
+O **`Elastic Beanstalk`** fornece uma visão central para desenvolvedores implantarem um app na AWS sem precisar se preocupar com infraestrutura sendo uma plataforma PaaS gratuita. Fornece monitoramento de integridade e capacidade de resposta do app.
 
+O **`System Manager (SSM)`** é um sistema gerenciador híbrido de instâncias EC2 e On-Premises em escala que fornece insights operacionais sobre todas estas infraestruturas através da instalação de um agente que roda em segundo plano em um computador. Controla os serviços por um shell seguro sem necessidade de chaves ssh, Http/Https ou porta 22.
+
+O **`OpsWorks`** é um serviço alternativo ao SSM e trabalha em conjunto com as aplicações Chef e Puppet que realizam automatizações de configurações repetitivas no servidor.
+
+A AWS fornece também uma suíte completa com serviços para todos os ciclos de vida de uma aplicação:  
+
+- **CodeDeploy**: Fazer entrega de apps atualizando as versões, funciona com instâncias EC2 e On-Premise Servers.
+- **CodeCommit**: Parecido com Github é um serviço de armazenamento e controle de versões de código usando GIT.
+- **CodeBuild**: O código será compilado, os testes executados e seguirá para a entrega dos pacotes para implantação, pago por tempo de uso.
+- **CodePipeline**: Define os passos a serem executados para a entrega de código - code -> build -> test -> staging -> production.
+- **CodeArtifact**: Armazena e recupera dependências utilizadas nos apps.
+- **CodeStar**: Interface gráfica que envolve todos os outros serviços de códigos.
+- **Cloud9**: IDE online para fazer todo o processo de desenvolvimento na própria plataforma AWS.
