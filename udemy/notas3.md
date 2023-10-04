@@ -15,16 +15,22 @@ O **`Elastic Container Registry (ECR)`** é serviço que armazena imagens do Doc
 O **`Lambda`** é serviço serverless que fornece funções virtuais sem gerenciamento com limites de tempo para execuções curtas de até no máximo 15 minutos, sob demanda e automaticamente escalonadas. Os preços são baseados nas ligações e durações, benefícios:
 
 - preço pago por uso, por request e free tier (1.000.000) e computação (400.000).
-- integrado com vários outros serviços AWS e linguagens Java, Python, Node...
+- integrado com vários outros serviços AWS e linguagens como Java, Python, Node...
 - reativo só acontecendo quando um evento for acionado (Event-Driven).
 - monitorado pelo CloudWatch.
 - aumento de RAM que melhora de CPU e rede com até 10GB de RAM.
 
-O **`Cron Job`** permite definir uma programação por período para executar determinada função Lambda, sendo executado por uma máquina Linux AMI.
+O **`Cron Job`** permite definir uma programação por períodos para executar determinada função Lambda, sendo executado por uma máquina Linux AMI.
 
 O **`API Gateway`** é um serviço escalonável que permite a criação de um proxy de conexão sendo utilizado por exemplo para expor uma função Lambda ou outros serviços serverless para usuários externos. Altamente gerenciado e fornece criação, publicação, manutenção, monitoração e proteção de APIs na nuvem. Suporta protocolos Rest e WebSocket além de autenticações, limitação de chaves, etc...
 
-O **`Batch`** é um serviço de processamento em lote em grande escala e com eficiência totalmente gerenciado. Batch job é uma funcionalidade com começo e fim, são imagens Docker e rodam em um ECS. Provisiona dinamicamente a quantidade e o tipo ideais de recursos de computação (por exemplo, CPU ou instâncias com otimização de memória) com base no volume e nos requisitos de recursos específicos dos trabalhos em lote enviados.
+O **`Batch`** é um serviço de processamento em lote em grande escala e com eficiência totalmente gerenciado. **Batch job** é uma funcionalidade com começo e fim, são imagens Docker e que rodam em um ECS. Provisiona dinamicamente a quantidade e o tipo ideais de recursos de computação (por exemplo, CPU ou instâncias com otimização de memória) com base no volume e nos requisitos de recursos específicos dos trabalhos em lote enviados.
 
-O **`Lightsail`** é a junção de serviços AWS em um único lugar com preços baixos e previsíveis abstraindo as complexidades destes serviços. Podendo-se configurar recursos de notificações e monitoramento. Bom para frameworks como Nginx, MEAN, Node, Lamp e CRM's como Joomla, Magento, Plesk, Wordpress, também para ambientes de desenvolvimento e testes.
+O **`Lightsail`** é a junção de serviços AWS em um único lugar com preços baixos e previsíveis abstraindo as complexidades destes serviços. Podendo-se configurar recursos de notificações e monitoramento. Bom para frameworks como Nginx, MEAN, Node, Lamp e CRM's como Joomla, Magento, Plesk, Wordpress, **também para ambientes de desenvolvimento e testes**.
+
+O **`CloudFormation`** é um forma declarativa de provisionar a infraestrutura através de código na AWS para quaisquer recursos gratuitamente. Cada recurso criado terá uma tag associada para facilmente estimar custos. Com criação e exclusão de recursos rapidamente e programaticamente, geração de diagramas automáticos,  com replicações para AZ's, regions e outras contas AWS.
+
+O **`Cloud Development Kit (CDK)`** é maneira de definir infraestrutura na AWS utilizando uma linguagem familiar como Python, JavaScript, TypeScript, etc... depois o código é compilado para JSON ou YAML para ser utilizado no CloudFormation. Bom para funções Lambda e serviços Docker (ECS/EKS).
+
+O **`Beanstalk`** fornece uma visão central para desenvolvedores implantarem um app na AWS sem precisar se preocupar com infraestrutura sendo uma plataforma PaaS gratuita. Fornece monitoramento de integridade e capacidade de resposta do app.
 
