@@ -40,9 +40,9 @@ O **`OpsWorks`** é um serviço alternativo ao SSM e trabalha em conjunto com as
 
 A AWS fornece também uma suíte completa com serviços para todos os ciclos de vida de uma aplicação:  
 
-- **CodeDeploy**: Fazer entrega de apps atualizando as versões, funciona com instâncias EC2 e On-Premise Servers.
+- **CodeDeploy**: Faz entrega de apps atualizando as versões, funciona com instâncias EC2 e On-Premise Servers.
 - **CodeCommit**: Parecido com Github é um serviço de armazenamento e controle de versões de código usando GIT.
-- **CodeBuild**: O código será compilado, os testes executados e seguirá para a entrega dos pacotes para implantação, pago por tempo de uso.
+- **CodeBuild**: Faz a compilação de códigos, execução dos testes e entrega dos pacotes para implantação, pago por tempo de uso.
 - **CodePipeline**: Define os passos a serem executados para a entrega de código - code -> build -> test -> staging -> production.
 - **CodeArtifact**: Armazena e recupera dependências utilizadas nos apps.
 - **CodeStar**: Interface gráfica que envolve todos os outros serviços de códigos.
