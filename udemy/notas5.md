@@ -4,7 +4,7 @@ Anotações referentes ao curso [Ultimate AWS Certified Cloud Practitioner](http
 
 ## Gerenciamento de contas, faturamento e suporte
 
-A AWS fornece uma visão geral e completa para o gerenciamento de contas, para o faturamento assim também como para suporte de seus serviços.
+A AWS fornece uma visão geral e completa para o gerenciamento de contas, para o faturamento de custos, assim também como um serviço de suporte que cobre todos os níveis de necessidades dos seus clientes.
 
 > Gerenciamento de contas AWS
 
@@ -68,5 +68,42 @@ A AWS fornece alguns tipos de planos de suporte que satisfaz cada necessidade.
 - **Business Plan**: planos anteriores mais telefone, e-mail e chat para contato imediato com o suporte e acesso de gerenciamento de eventos de infraestrutura por uma taxa adicional.
 - **Enterprise Plan**: planos anteriores mais pool de gerentes técnicos (TAM - Technical Account Manager), além de Concierge Support Team para boas práticas sobre contas e análises de operações.
 
-## Identidade com recursos avançados
+## Demais serviços
 
+Serviços não tão usuais mas que complementão o portfólio AWS na nuvem.
+
+O **`WorkSpaces`**  é um desktop gerenciado como serviço, provisionando Windows ou Linux, fornece VDI (Virtual Desktop Infrastructure) rapidamente e facilmente com segurança, pago pelo uso diminuindo a latência.
+
+O **`AppStream 2.0`** é um serviço stream de aplicativos desktop com acessos sendo fornecidos pelo browser sem conexão com uma VDI.
+
+O **`IoT Core`** são dispositivos que coletam e transferem dados, sendo serverless, escalonável e seguro mesmo offline, conectando bilhões de dispositivos.
+
+O **`Elastic Transcoder`** converte arquivos de mídia armazenados na AWS em arquivos no formato desejado para tablets, smartphones, pc's, trabalha em conjunto com S3 e pago pelo uso.
+
+O **`AppSync`** fornece um back-end para aplicações web e mobile em tempo real utilizando GraphQL em conjunto com Lambda e DynamoDB.
+
+O **`Amplify`** fornece uma suíte completa para gerenciamento de aplicações web e mobile.
+
+O **`Device Farm`** fornece testes sincronizados para aplicações web e mobile em diversos dispositivos, celulares, tablets e browsers.
+
+O **`AWS Backup`** fornece gerenciamento automatizado centralizado de backups sob demanda e agendados com suporte para recuperação pontual (PITR) em regions ou entre contas AWS.
+
+O **`Elastic Disaster Recovery`** permite a recuperação rápida e fácil de servidores virtuais.
+
+O **`CloudEndure Disaster Recovery`** minimiza o tempo de inatividade e a perda de dados, fornecendo recuperação rápida e confiável na AWS de seus servidores físicos, virtuais e baseados em nuvem.
+
+O **`DataSync`** move grande quantidade de dados on-premises para a nuvem AWS com testes de replicação.
+
+O **`Application Discovery Service`** mapeia os dados e as dependências para a migração de on-premises para a AWS, com 2 tipos de migrações o A`gentless Discovery` que utiliza um conector dando informações sobre máquinas virtuais, configurações, CPU, memória e disco rígido e o `Agent-based Dicovery` com mais informações e atualizações gerais. Ambas migrações podem ser visualizadas pelo AWS Migration Hub.
+
+O **`Application Migration Service`** converte servidores físicos, virtuais e baseados na nuvem para a AWS.
+
+O **`Migration Evaluator`** auxilia na criação de um caso de uso orientado a negócios para migração instalando o coletor sem agente.
+
+O **`Fault Injection Simulator (FIS)`** executa testes de falhas baseado em engenharia do caos com promoção de cargas de estresse para as aplicações.
+
+O **`Step Functions`** constrói um fluxo de trabalho visual (diagrama) serverless para orquestrações de funções Lambdas.
+
+O **`Ground Station`** permite controlar comunicação e dimensionar operações via satélite e assim processar dados do tipo previsão meteorológicas, geolocalizações, etc...
+
+O **`AWS Pinpoint`** serviço escalável de 2 maneiras (entrada e saída) para comunicação de marketing em massa, segmentando e personalizando mensagens de texto, SMS, e-mail, etc... para clientes.

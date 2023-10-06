@@ -60,6 +60,14 @@ Na AWS paga-se pelo uso, computação paga pela computação utilizada, armazena
 
 Os usuários IAM acessam a AWS usando um nome de usuário e uma senha. Uma política do IAM **(Policies)** é uma entidade que, quando anexada a uma identidade ou recurso, define suas permissões. O relatório de credenciais do IAM lista todos os usuários da sua conta e o status de suas diversas credenciais. A outra ferramenta de segurança IAM é o **IAM Access Advisor** que lista as permissões de serviço concedidas a um usuário e quando esses serviços foram acessados pela última vez.
 
+O **`Security Token Service (STS)`** permite a criação de privilégios temporários e limitados para usuário, podendo-se configurar o tempo de expiração.
+
+O **`Cognito`** fornece um banco de dados aos usuários de aplicações web e mobile com controle de acesso simples.
+
+O **`Directory Services`** são diretórios AWS que se conectam com terceiros como AWS Managed Microsoft AD (Active Directory) ou AD Connector, funciona como um proxy que vai redirecionar a solicitação da AWS para o AD Local, ambos possuem autenticação MFA. Também tem o Simple AD que é um diretório simples na nuvem AWS e não pode ser associado a um AD Local.
+
+O **`IAM Identity Center`** antigo Single Sign-On, é um login para toas as contas AWS na organização.
+
 ## EC2
 
 Um dos serviços mais essências apresentado pela AWS, sendo do tipo `IaaS` que fornece aluguel de máquinas virtuais, armazenamento de dados em unidades virtuais ou em volumes **(EBS)**, distribuição de carga através das máquinas **(ELB)**, dimensionamento de serviços utilizando grupos de auto-scaling **(ASG)**.
