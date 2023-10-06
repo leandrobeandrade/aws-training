@@ -76,6 +76,10 @@ Fornece a escolha de máquinas com os 3 principais sistemas operacionais: Window
 
 Os **`grupos de segurança`** ficam fora do EC2 e controlam todo tráfego de entrada e saída das instâncias EC2 contendo regras de permissões referenciando IP's ou outros grupos de segurança. São como um firewall que regulam os acessos as portas, os IP's autorizados e o controle dos tráfegos de entrada e saída. Um grupo pode ser anexado a várias instâncias e uma instância pode conter vários grupos. São bloqueados para uma VPC/Region, todo tráfego de entrada é bloqueado e todo tráfego de saída é autorizado por padrão.
 
+> O processo de dimensionamento correto para uma instância EC2 é combinar o tamanho do tipo da instância para trabalhar com os
+  requisitos de desempenho e capacidade com o menor custo possível. Começar pequeno e aumentar conforme exigido. Aumentar a 
+  escala é fácil, por isso começar sempre aos poucos.
+
 Tipos de aquisição de instâncias EC2:
 
 - **`On Demand`:** Paga pelo uso, tem custo mais alto, porém sem custos antecipados ou a longo prazo, cargas de trabalho curta e ininterrupta.
