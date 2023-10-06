@@ -30,8 +30,8 @@ O **`Well-Architected Framework`** auxilia os clientes em todos os ciclos da cri
   data centers, medir eficiência, analisar despesas, uso de serviços em larga escala diminuindo custos.
 
 - Sustentabilidade
-> Minimização do impacto ambiental nas cargas de trabalho, consciência ambiental na aquisição de produtos ou serviços, c
-  ompartilhamento de recursos para minimizar gastos energéticos como água e energia elétrica e emissão de carbono.
+> Minimização do impacto ambiental nas cargas de trabalho, consciência ambiental na aquisição de produtos ou serviços, 
+  compartilhamento de recursos para minimizar gastos energéticos como água e energia elétrica e emissão de carbono.
 
 O **`Well-Architected Tool`** é uma ferramenta on-line na AWS que serve como auxílio para por em prática os pilares do Well-Architected Framework.
 
