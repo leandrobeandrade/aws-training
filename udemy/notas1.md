@@ -89,4 +89,4 @@ O **`Instance Store`** é utilizado para melhorar o desempenho de I/O com boa ta
 
 O **`Elastic File System (EFS)`** é um sistema de arquivos de rede ou NFS, pode ser montado em centenas de instâncias EC2 por vez, funcionando em diversas AZ's com máquinas Linux, sendo altamente disponível, escalável e bastante caro, cerca de 3x mais que o EBS, pagando pelo uso sem o planejamento de capacidade. O **`EFS-IA (Infrequent Access)`** é uma classe de armazenamento otimizada para arquivos com pouca frequência de acesso com custo de 92% menor que o EFS.
 
-O **`Amazon FSx`** torna fácil e econômico lançar e executar sistemas de arquivos populares totalmente gerenciados pela AWS. Ele vem em duas ofertas: FSx for Windows File Server (usado para aplicativos de negócios) e FSx for Lustre (usado para computação de alto desempenho).
+O **`Amazon FSx`** torna fácil e econômico o lançamento e execução de sistemas de arquivos populares totalmente gerenciados pela AWS. Ele vem em duas ofertas: FSx for Windows File Server (usado para aplicativos de negócios) e FSx for Lustre (usado para computação de alto desempenho).
