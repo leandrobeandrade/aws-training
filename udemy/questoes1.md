@@ -2,45 +2,47 @@
 
 ## 1º Teste (Seção 3 - Cloud Computing)
 
->  **Você SÓ deseja gerenciar aplicativos e dados. Que tipo de modelo de Cloud Computing você deve usar?**
+> 01] **Você SÓ deseja gerenciar aplicativos e dados. Que tipo de modelo de Cloud Computing você deve usar?**
 
-`[]` On-premises `[]` Infrastructure as a Service (IaaS) `[]` Software as a Service (SaaS) `[]` Platform as a Service (PASS)
+[ ] On-premises [ ] Infrastructure as a Service (IaaS) [ ] Software as a Service (SaaS) [ ] Platform as a Service (PASS)
 
+> 02] **Qual é o modelo de preços da computação em nuvem?**
 
->  **What is the pricing model of Cloud Computing?**
-- R: Pay-as-you-go
+[ ] Descontos ao longo do tempo [ ] Pague conforme usar [ ] Pague uma vez por ano [ ] Preços fixos
 
-> **Which Global Infrastructure identity is composed of one or more discrete data centers with redundant power, networking, and connectivity, and are used to deploy infrastructure?**
-- R: Az's
+> 03] **Qual identidade de infraestrutura global é composta por um ou mais data centers discretos com energia, rede e conectividade redundantes e é usada para implantar infraestrutura?**
 
-> **Which of the following is NOT one of the Five Characteristics of Cloud Computing?**
-- R: Dedicate support Agent to help you deploy aplications
+[ ] Locais de borda [ ] Az's [ ] Regions
 
-> **Which are the 3 pricing fundamentals of the AWS Cloud?**
+> 04] **Qual das alternativas a seguir NÃO é uma das Cinco Características da Computação em Nuvem?**
+
+R: Dedicate support Agent to help you deploy aplications
+
+> 05] **Quais são os três fundamentos de precificação da Nuvem AWS?**
 - R: Compute, Storage and Data Transfer out of the AWS Cloud
 
-> **Which of the following options is NOT a point of consideration when choosing an AWS Region?**
+> 06] **Qual das opções a seguir NÃO é um ponto a ser considerado ao escolher uma região da AWS?**
 - R: Capacity availability
 
-> **Which of the following is NOT an advantage of Cloud Computing?**
+> 07] **Qual das opções a seguir NÃO é uma vantagem da computação em nuvem?**
 - R: Train your employees less
 
-> **AWS Regions are composed of?**
+> 08] **As regiões da AWS são compostas por?**
 - R: Three or more AZ's
 
-> **Which of the following services has a global scope?**
+> 09] **Quais dos serviços a seguir têm escopo global?**
 - R: IAM
 
-> **Which of the following is the definition of Cloud Computing?**
+> 10] **Qual das alternativas a seguir é a definição de computação em nuvem?**
 - R: On-demand availability of computer system resources, specially data storage (cloud storage) and computer power, without direct active managment by user
 
-> **What defines the distribution of responsibilities for security in the AWS Cloud?**
+> 11] **O que define a distribuição de responsabilidades pela segurança na Nuvem AWS?**
 - R: The Shared Responsability Model
 
-> **A company would like to benefit from the advantages of the Public Cloud but would like to keep sensitive assets in its own infrastructure. Which deployment model should the company use?**
+> 12] **Uma empresa gostaria de beneficiar das vantagens da Nuvem Pública, mas gostaria de manter ativos sensíveis na sua própria infraestrutura. Qual modelo de implantação a empresa deve usar?**
 - R: Hybrid Cloud
 
-> **What is NOT authorized to do on AWS according to the AWS Acceptable Use Policy?**
+> 13] **O que NÃO está autorizado a fazer na AWS de acordo com a Política de Uso Aceitável da AWS?**
 - R: Run analytics on stolen content
 
 ## 2º Teste (Seção 4 - IAM)
