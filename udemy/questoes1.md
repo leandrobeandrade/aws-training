@@ -2,8 +2,10 @@
 
 ## 1º Teste (Seção 3 - Cloud Computing)
 
->  **You ONLY want to manage Applications and Data. Which type of Cloud Computing model should you use?**
-- R: PaaS
+>  **Você SÓ deseja gerenciar aplicativos e dados. Que tipo de modelo de Cloud Computing você deve usar?**
+
+`[]` On-premises `[]` Infrastructure as a Service (IaaS) `[]` Software as a Service (SaaS) `[]` Platform as a Service (PASS)
+
 
 >  **What is the pricing model of Cloud Computing?**
 - R: Pay-as-you-go
@@ -92,3 +94,51 @@
 
 > **Which EC2 Purchasing Option should you use for an application you plan on running on a server continuously for 1 year?**
 - R: Reserved Instances
+
+## Respostas
+
+> 1º Teste 
+01) PaaS
+02) Pay-as-you-go 
+03) Az's
+04) Dedicate support Agent to help you deploy aplications
+05) 
+06) 
+07) 
+08) 
+09) 
+10) 
+11) 
+12)  
+13) 
+
+> 2º Teste
+01) 
+02)  
+03) 
+04) 
+05) 
+06) 
+07) 
+08) 
+09) 
+10) 
+11) 
+12)  
+13) 
+
+> 3º Teste
+01) 
+02)  
+03) 
+04) 
+05) 
+06) 
+07) 
+08) 
+09) 
+10) 
+11) 
+12)  
+13) 
+

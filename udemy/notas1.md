@@ -24,7 +24,7 @@ Possuindo **`5`** característica principais e **`6`** vantagens sobre computaç
 
 - Trocar negociações de despesas capitais (CAPEX) por despesas operacionais (OPEX), aluguel de hardware.
 - Benefícios de enormes economias de escala, devido ao tanto de clientes utilizando e alimentando AWS em escala.
-- Parar de adivinhar capacidade,através de dimensionamento dos recursos.
+- Parar de adivinhar capacidade, através de dimensionamento dos recursos.
 - Agilidade e velocidade sem bloqueios ou esperas, tudo em apenas poucos instantes.
 - Parar com custo de execução e manutenção de data centers.
 - Alcançe global em minutos fornecido pela infraestrutura global AWS.
@@ -36,11 +36,11 @@ Possibilitando assim a computação em nuvem a resolução de problemas como:
 - `escalabilidade:` adicionar mais recursos quando necessário.
 - `elasticidade:` escalonamentos verticais e horizontais.
 - `disponibilidade:` alta disponibilidade de recursos e tolerâncias a falhas.
-- `agilidade:` desenvolvimento, testes e lançamanto de serviços e produtos rapidamente e globalmente.
+- `agilidade:` desenvolvimento, testes e lançamento de serviços e produtos rapidamente e globalmente.
 
 ### Tipos de Computação em nuvem
 
-- IaaS (Infrastructure as a Service)
+- Infrastructure as a Service (IaaS)
     - Fornece blocos de construção para TI.
     - Fornece rede, computação, espaço de armazenamento de dados em forma bruta.
     - Alto nível de flexibilidade.
@@ -66,11 +66,11 @@ O **`Cognito`** fornece um banco de dados aos usuários de aplicações web e mo
 
 O **`Directory Services`** são diretórios AWS que se conectam com terceiros como AWS Managed Microsoft AD (Active Directory) ou AD Connector, funciona como um proxy que vai redirecionar a solicitação da AWS para o AD Local, ambos possuem autenticação MFA. Também tem o Simple AD que é um diretório simples na nuvem AWS e não pode ser associado a um AD Local.
 
-O **`IAM Identity Center`** antigo Single Sign-On, é um login para toas as contas AWS na organização.
+O **`IAM Identity Center`** antigo Single Sign-On, é um login para todas as contas AWS na organização.
 
 ## EC2
 
-Um dos serviços mais essências apresentado pela AWS, sendo do tipo `IaaS` que fornece aluguel de máquinas virtuais, armazenamento de dados em unidades virtuais ou em volumes **(EBS)**, distribuição de carga através das máquinas **(ELB)**, dimensionamento de serviços utilizando grupos de auto-scaling **(ASG)**.
+Um dos serviços mais essênciais apresentado pela AWS, sendo do tipo `IaaS` que fornece aluguel de máquinas virtuais, armazenamento de dados em unidades virtuais ou em volumes **(EBS)**, distribuição de carga através das máquinas **(ELB)**, dimensionamento de serviços utilizando grupos de auto-scaling **(ASG)**.
 
 Fornece a escolha de máquinas com os 3 principais sistemas operacionais: Windows, Linux e MacOS, assim como a potência de computação, quantidade de núcleos necessárias, quanto de espaço de armazenamento, placa de rede e firewall. A instância é inicializada (bootstrapping) por um script chamado `Userdata` que é utilizado apenas na primeira inicialização. O **`AMI (Amazon Machine Image)`** fornece a personalização de uma instância EC2 pública através de customização da instância por meio de configurações de sistemas operacionais e especificação de regions.
 
