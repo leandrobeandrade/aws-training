@@ -2,53 +2,53 @@
 
 ## 1º Teste (Seção 3 - Cloud Computing)
 
-> 01] **Você SÓ deseja gerenciar aplicativos e dados. Que tipo de modelo de Cloud Computing você deve usar?**
+> 01] **You ONLY want to manage Applications and Data. Which type of Cloud Computing model should you use?**
 
 [ ] On-premises [ ] Infrastructure as a Service (IaaS) [ ] Software as a Service (SaaS) [ ] Platform as a Service (PASS)
 
-> 02] **Qual é o modelo de preços da computação em nuvem?**
+> 02] **What is the pricing model of Cloud Computing?**
 
-[ ] Descontos ao longo do tempo [ ] Pague conforme usar [ ] Pague uma vez por ano [ ] Preços fixos
+[ ] Discounts over time [ ] Pay-as-you-go [ ] Pay once a year [ ] Flat-rate pricing
 
-> 03] **Qual identidade de infraestrutura global é composta por um ou mais data centers discretos com energia, rede e conectividade redundantes e é usada para implantar infraestrutura?**
+> 03] **Which Global Infrastructure identity is composed of one or more discrete data centers with redundant power, networking, and connectivity, and are used to deploy infrastructure?**
 
-[ ] Locais de borda [ ] Az's [ ] Regions
+[ ] Edge Locations [ ] Az's [ ] Regions
 
-> 04] **Qual das alternativas a seguir NÃO é uma das Cinco Características da Computação em Nuvem?**
+> 04] **Which of the following is NOT one of the Five Characteristics of Cloud Computing?**
 
-R: Dedicate support Agent to help you deploy aplications
+[ ] Rapid elasticity and scalability [ ] Multi-tenancy and resource pooling [ ] Dedicate support Agent to help you deploy aplications [ ] On-demand self service
 
-> 05] **Quais são os três fundamentos de precificação da Nuvem AWS?**
-- R: Compute, Storage and Data Transfer out of the AWS Cloud
+> 05] **Which are the 3 pricing fundamentals of the AWS Cloud?**
+[ ] Compute, Storage and Data Transfer in the AWS Cloud [ ] Compute, Networking and Data Transfer out of the AWS Cloud [ ] Compute, Storage and Data Transfer out of the AWS Cloud [ ] Storage, Functions and Data Transfer out of the AWS Cloud
 
-> 06] **Qual das opções a seguir NÃO é um ponto a ser considerado ao escolher uma região da AWS?**
-- R: Capacity availability
+> 06] **Which of the following options is NOT a point of consideration when choosing an AWS Region?**
+[ ] Compliance with data governance [ ] Latency [ ] Capacity availability [ ] Pricing
 
-> 07] **Qual das opções a seguir NÃO é uma vantagem da computação em nuvem?**
-- R: Train your employees less
+> 07] **Which of the following is NOT an advantage of Cloud Computing?**
+[ ] Trade capital [ ] Train your employees less [ ] Go global in minutes [ ] Stop spending money running and maintaning data centers
 
-> 08] **As regiões da AWS são compostas por?**
-- R: Three or more AZ's
+> 08] **AWS Regions are composed of?**
+[ ] Two or more Edge Locations [ ] One or more discrete data centers [ ] Three or more AZ's
 
-> 09] **Quais dos serviços a seguir têm escopo global?**
-- R: IAM
+> 09] **Which of the following services has a global scope?**
+[ ] EC2 [ ] IAM [ ] Lambda [ ] Rekognition
 
-> 10] **Qual das alternativas a seguir é a definição de computação em nuvem?**
-- R: On-demand availability of computer system resources, specially data storage (cloud storage) and computer power, without direct active managment by user
+> 10] **Which of the following is the definition of Cloud Computing?**
+[ ] Rapidly develop, test and launch software applications [ ] Automatic and quick ability to acquire resources as you need them and release resources when you no longer need them [ ] On-demand availability of computer system resources, specially data storage (cloud storage) and computer power, without direct active managment by user [ ] Change resource types when needed
 
-> 11] **O que define a distribuição de responsabilidades pela segurança na Nuvem AWS?**
-- R: The Shared Responsability Model
+> 11] **What defines the distribution of responsibilities for security in the AWS Cloud?**
+[ ] AWS Pricing Fundamentals [ ] The Shared Responsability Model [ ] AWS Acceptable Use Policy [ ] The AWS Management Console
 
-> 12] **Uma empresa gostaria de beneficiar das vantagens da Nuvem Pública, mas gostaria de manter ativos sensíveis na sua própria infraestrutura. Qual modelo de implantação a empresa deve usar?**
-- R: Hybrid Cloud
+> 12] **A company would like to benefit from the advantages of the Public Cloud but would like to keep sensitive assets in its own infrastructure. Which deployment model should the company use?**
+[ ] Private Cloud [ ] Public Cloud [ ] Hybrid Cloud
 
-> 13] **O que NÃO está autorizado a fazer na AWS de acordo com a Política de Uso Aceitável da AWS?**
-- R: Run analytics on stolen content
+> 13] **What is NOT authorized to do on AWS according to the AWS Acceptable Use Policy?**
+[ ] Building a gaming application [ ] Deploying a website [ ] Run analytics on stolen content [ ] Backup your data
 
 ## 2º Teste (Seção 4 - IAM)
 
 > **What is a proper definition of IAM Roles?**
-- R: An IAM entity that defines a set of permissions for making AWS service requests, that will be used by aws services.
+[ ] An IAM entity that defines a set of permissions for making AWS service requests, that will be used by aws services [ ] IAM Users in multiple Groups [ ] A password policy [ ] Permissions assigned to Users to perform actions
 
 > **Which of the following is an IAM Security Tool?**
 - R: IAM Credential Report
@@ -77,7 +77,7 @@ R: Dedicate support Agent to help you deploy aplications
 ## 3º Teste (Seção 5 - Elastic Compute Cloud)
 
 > **Which EC2 Purchasing Option can provide the biggest discount, but is not suitable for critical jobs or databases?**
-- R: Instância Spot
+- R: Instance Spot
 
 > **Which network security tool can you use to control traffic in and out of EC2 Instances?**
 - R: Security Groups
@@ -101,46 +101,35 @@ R: Dedicate support Agent to help you deploy aplications
 
 > 1º Teste 
 01) PaaS
-02) Pay-as-you-go 
+02) Pay-as-you-go
 03) Az's
 04) Dedicate support Agent to help you deploy aplications
-05) 
-06) 
-07) 
-08) 
-09) 
-10) 
-11) 
-12)  
-13) 
+05) Compute, Storage and Data Transfer out of the AWS Cloud
+06) Capacity availability
+07) Train your employees less
+08) Three or more AZ's
+09) IAM
+10) On-demand availability of computer system resources, specially data storage (cloud storage) and computer power, without direct active managment by user
+11) The Shared Responsability Model
+12) Hybrid Cloud
+13) Run analytics on stolen content
 
 > 2º Teste
-01) 
-02)  
-03) 
-04) 
-05) 
-06) 
-07) 
-08) 
-09) 
-10) 
-11) 
-12)  
-13) 
+01) An IAM entity that defines a set of permissions for making AWS service requests, that will be used by aws services
+02) IAM Credential Report
+03) IAM Users access AWS with the root account credentials
+04) Don't uses the root user account
+05) JSON documents to define Users, Groups or Role's permissions
+06) Assigning users proper IAM Policies
+07) AWS CLI can interact using commands in cli shell, while the AWS SDK can interact programmatically
+08) Grant least privilege
+09) Enable Multi-Factor Authentication (MFA)
 
 > 3º Teste
-01) 
-02)  
-03) 
-04) 
-05) 
-06) 
-07) 
-08) 
-09) 
-10) 
-11) 
-12)  
-13) 
-
+01) Spot Instances
+02) Security Groups
+03) The Customer
+04) 1 or 3 years
+05) Compute Optimized
+06) Connect Instances
+07) Reserved Instances
