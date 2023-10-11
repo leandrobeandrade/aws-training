@@ -3,95 +3,124 @@
 ## 4º Teste (Seção 6 - EC2 Storage)
 
 > 01] **Which EC2 Storage would you use to create a shared network file system for your EC2 Instances?**
-[ ] EFS
+
+[ ] EBS Volume [ ] EC2 Instance Store [ ] EBS Snapshots [ ] EFS
 
 > 02] **Which EC2 Storage would you use to create a shared network file system for your EC2 Instances?**
-[ ] EC2 Image Builder
+
+[ ] AMI [ ] EC2 Image Builder [ ] EBS Snapshots [ ] IAM
 
 > 03] **Which of the following is a fully managed native Microsoft Windows file system?**
-[ ] FSx
+
+[ ] EFS [ ] FSx [ ] EBS
 
 > 04] **What are AMIs NOT used for?**
-[ ] Add your own IP addresses
+
+[ ] Add your own software license [ ] Add your own configuration [ ] Add your own operating-system [ ] Add your own IP addresses
 
 > 05] **EBS Volumes CANNOT be attached to multiple EC2 instances at a time.**
-[ ] true
+
+[ ] true [ ] false
 
 > 06] **An EBS Volume is a network drive you can attach to your instances while they run, so your instances' data persist even after their termination.**
-[ ] true
+
+[ ] true [ ] false
 
 > 07] **Which statement is CORRECT regarding EC2 Instance Store?**
-[ ] It has a better I/O performance, but the data is lost if the EC2 Instance is terminated
+
+[ ] It is not good to use as a disk to cache content [ ] It has a better I/O performance, but the data is lost if the EC2 Instance is terminated [ ] Your data is always safe with EC2 Instance Store
 
 > 08] **What is an EBS Snapshot?**
-[ ] A backup of yours EBS Volumes at a point in time
+
+[ ] The operating-system on an EC2 Instance [ ] A backup of yours EBS Volumes at a point in time [ ] The amount of CPU and RAM of an EC2 Instance
 
 > 09] **Where can you find a third party's AMI so you can use it to launch your EC2 Instance?**
-[ ] AWS Marketplace AMIs
+
+[ ] Public AMIs [ ] My own AMIs [ ] AWS Marketplace AMIs
 
 > 10] **What is an EBS Volume tied to?**
-[ ] An AZ
+
+[ ] A region  [ ] A data center [ ] An edge location [ ] An AZ
 
 ## 5º Teste (Seção 7 - ELB/ASG)
 
 > 01] **What is the main purpose of High Availability in the Cloud?**
-[ ] Application thriving even in case of a disaster
+
+[ ] Increase scalability [ ] Application thriving even in case of a disaster [ ] Access on computers and smartphones [ ] Handle greater loads by launching EC2 instances based on the demand
 
 > 02] **Which AWS offered Load Balancer should you use to handle hundreds of thousands of connections with low latency?**
-[ ] NLB
+
+[ ] Application Load Balancer [ ] Network Load Balancer [ ] Elastic Load Balancer
 
 > 03] **Changing an EC2 Instance Type from a t3a.medium to a t3a.2xlarge is an example of?**
-[ ] Vertical scaling
+
+[ ] Horizontal scaling [ ] High Availability [ ] Agility [ ] Vertical scaling
 
 > 04] **What can you use to handle quickly and automatically the changing load on your websites and applications by adding compute resources?**
-[ ] Auto Scaling Group
+
+[ ] An Elastic Load Balancer [ ] A bigger instance type [ ] An Auto Scaling Group [ ] Health Checks on your instances
 
 > 05] **Which of the following statements is INCORRECT regarding Auto Scaling Groups?**
-[ ] Automatically changing the EC2 instances types
+
+[ ] Replace unhealthy instances [ ] Are cost-effective by running at optimal capacity [ ] Automatically register new instances to a load balancer [ ] Automatically changing the EC2 instances types
 
 > 06] **Which Load Balancer is best suited for HTTP/HTTPS load balancing traffic?**
-[ ] ALB
+
+[ ] Network Load Balancer [ ] Classic Load Balancer [ ] Elastic Load Balancer [ ] Application Load Balancer
 
 > 07] **Which of the following is NOT an Auto Scaling Strategy?**
-[ ] Active scaling
+
+[ ] Manual scaling [ ] Dynamic scaling [ ] Active scaling [ ] Predictive scaling
 
 > 08] **Which AWS service offers easy horizontal scaling of compute capacity?**
-[ ] ASG
+
+[ ] EBS [ ] AMI [ ] IAM [ ] ASG
 
 > 09] **Which of the following statements is NOT a feature of Load Balancers?**
-[ ] Back-end autoscaling
+
+[ ] Do regular health checks to your instances [ ] Spread load across multiple downstream instances [ ] Handle failures of downstream instances [ ] Back-end autoscaling
 
 ## 6º Teste (Seção 8 - S3)
 
 > 01] **Which S3 Storage Class is the most cost-effective for archiving data with no retrieval time requirement?**
-[ ] AWS Glacier Deep Archive
+
+[ ] Amazon Glacier [ ] AWS Glacier Deep Archive [ ] Amazon S3 Standard-Infrequent Access [ ] Amazon S3 Intelligent tiering
 
 > 02] **What hybrid AWS service is used to allow on-premises servers to seamlessly use the AWS Cloud at the storage layer?**
-[ ] Storage Gateway
+
+[ ] Elastic Block Store [ ] Snowball [ ] S3 [ ] Storage Gateway
 
 > 03] **Which of the following services is a petabyte-scale data moving service (as a fleet) in or out of AWS with computing capabilities?**
-[ ] Snowball Edge
+
+[ ] Snowcone [ ] Snowball Edge [ ] Snowmobile
 
 > 04] **Which of the following is an exabytes-scale data moving service in or out of AWS?**
-[ ] Snowmobile
+
+[ ] Snowcone [ ] Snowball Edge [ ] Snowmobile
 
 > 05] **What are Objects NOT composed of?**
-[ ] Access Keys
+
+[ ] Key [ ] Value [ ] Access Keys [ ] Metadata
 
 > 06] **Where are objects stored in Amazon S3?**
-[ ] Buckets
+
+[ ] Folders [ ] Buckets [ ] Files [ ] Bin
 
 > 07] **A research team deployed in a location with low-internet connection would like to move 5 TBs of data to the Cloud. Which service can it use?**
-[ ] Snowcone
+
+[ ] Storage Gateway [ ] Snowball Edge [ ] Snowcone [ ] OpsHub
 
 > 08] **What can you use to define actions to move S3 objects between different storage classes?**
-[ ] Lifecycle Rules
+
+[ ] Scaling Policy [ ] Bucket Policy [ ] Lifecycle Rules [ ] Replication
 
 > 09] **A non-profit organization needs to regularly transfer petabytes of data to the cloud and to have access to local computing capacity. Which service can help with this task?**
-[ ] Snowball Edge - Storage optmized
+
+[ ] Snowball Edge - Storage optmized [ ] Snowball Edge - Compute optmized [ ] Snowcone [ ] Snowmobile
 
 > 10] **Which S3 Storage Class is suitable for less frequently accessed data, but with rapid access when needed, while keeping a high durability and allowing an Availability Zone failure?**
-[ ] AWS S3 Standard-Infrequent Access
+
+[ ] AWS S3 Standard-General Purpose [ ] AWS Glacier [ ] AWS S3 One Zone-Infrequent Access [ ] AWS S3 Standard-Infrequent Access
 
 ## Respostas
 
