@@ -197,7 +197,7 @@
 
 ## Respostas
 
-> 1º Teste
+> 4º Teste
 01) EFS
 02) EC2 Image Builder
 03) FSx
@@ -209,7 +209,7 @@
 09) AWS Marketplace AMIs
 10) An AZ
 
-> 2º Teste
+> 5º Teste
 01) Application thriving even in case of a disaster
 02) NLB
 03) Vertical scaling
@@ -220,7 +220,7 @@
 08) ASG
 09) Back-end autoscaling
 
-> 3º Teste
+> 6º Teste
 01) AWS Glacier Deep Archive
 02) Storage Gateway
 03) Snowball Edge
