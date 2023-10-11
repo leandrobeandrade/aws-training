@@ -19,83 +19,108 @@
 [ ] Rapid elasticity and scalability [ ] Multi-tenancy and resource pooling [ ] Dedicate support Agent to help you deploy aplications [ ] On-demand self service
 
 > 05] **Which are the 3 pricing fundamentals of the AWS Cloud?**
+
 [ ] Compute, Storage and Data Transfer in the AWS Cloud [ ] Compute, Networking and Data Transfer out of the AWS Cloud [ ] Compute, Storage and Data Transfer out of the AWS Cloud [ ] Storage, Functions and Data Transfer out of the AWS Cloud
 
 > 06] **Which of the following options is NOT a point of consideration when choosing an AWS Region?**
+
 [ ] Compliance with data governance [ ] Latency [ ] Capacity availability [ ] Pricing
 
 > 07] **Which of the following is NOT an advantage of Cloud Computing?**
+
 [ ] Trade capital [ ] Train your employees less [ ] Go global in minutes [ ] Stop spending money running and maintaning data centers
 
 > 08] **AWS Regions are composed of?**
+
 [ ] Two or more Edge Locations [ ] One or more discrete data centers [ ] Three or more AZ's
 
 > 09] **Which of the following services has a global scope?**
+
 [ ] EC2 [ ] IAM [ ] Lambda [ ] Rekognition
 
 > 10] **Which of the following is the definition of Cloud Computing?**
+
 [ ] Rapidly develop, test and launch software applications [ ] Automatic and quick ability to acquire resources as you need them and release resources when you no longer need them [ ] On-demand availability of computer system resources, specially data storage (cloud storage) and computer power, without direct active managment by user [ ] Change resource types when needed
 
 > 11] **What defines the distribution of responsibilities for security in the AWS Cloud?**
+
 [ ] AWS Pricing Fundamentals [ ] The Shared Responsability Model [ ] AWS Acceptable Use Policy [ ] The AWS Management Console
 
 > 12] **A company would like to benefit from the advantages of the Public Cloud but would like to keep sensitive assets in its own infrastructure. Which deployment model should the company use?**
+
 [ ] Private Cloud [ ] Public Cloud [ ] Hybrid Cloud
 
 > 13] **What is NOT authorized to do on AWS according to the AWS Acceptable Use Policy?**
+
 [ ] Building a gaming application [ ] Deploying a website [ ] Run analytics on stolen content [ ] Backup your data
 
 ## 2º Teste (Seção 4 - IAM)
 
-> **What is a proper definition of IAM Roles?**
+> 01] **What is a proper definition of IAM Roles?**
+
 [ ] An IAM entity that defines a set of permissions for making AWS service requests, that will be used by aws services [ ] IAM Users in multiple Groups [ ] A password policy [ ] Permissions assigned to Users to perform actions
 
-> **Which of the following is an IAM Security Tool?**
-- R: IAM Credential Report
+> 02] **Which of the following is an IAM Security Tool?**
 
-> **Which answer is INCORRECT regarding IAM Users?**
-- R: IAM Users access AWS with the root account credentials
+[ ] IAM Credentials Report [ ] IAM Root Account Manager [ ] IAM Services Report [ ] IAM Security Advisor
 
-> **Which of the following is an IAM best practice?**
-- R: Don't uses the root user account
+> 03] **Which answer is INCORRECT regarding IAM Users?**
 
-> **What are IAM Policies?**
-- R: JSON documents to define Users, Groups or Role's permissions
+[ ] IAM Users can belong to multiple groups [ ] IAM Users don't have to belong to a group [ ] IAM Users can have policies assigned to them [ ] IAM Users access AWS with the root account credentials
 
-> **Under the shared responsibility model, what is the customer responsible for in IAM?**
-- R: Assigning users proper IAM Policies
+> 04] **Which of the following is an IAM best practice?**
 
-> **Which of the following statements is TRUE?**
-- R: AWS CLI can interact using commands in cli shell, while the AWS SDK can interact programmatically
+[ ] Don't uses the root user account [ ] Create Several users for a physical person [ ] Share credentials so a colleague can perform a task for you [ ] Don't enable MFA for easier access
 
-> **Which principle should you apply regarding IAM Permissions?**
-- R: Grant least privilege
+> 05] **What are IAM Policies?**
 
-> **What should you do to increase your root account security?**
-- R: Enable Multi-Factor Authentication (MFA)
+[ ] AWS services performable actions [ ] JSON documents to define Users, Groups or Role's permissions [ ] Rules to set up a password for IAM Users
+
+> 06] **Under the shared responsibility model, what is the customer responsible for in IAM?**
+
+[ ] Infrastructure security [ ] Compliance validation [ ] Configuration and vulnerability analisys [ ] Assigning users proper IAM Policies
+
+> 07] **Which of the following statements is TRUE?**
+
+[] AWS CLI can interact using commands in cli shell, while the AWS SDK can interact programmatically [] AWS SDK can interact using commands in cli shell, while the AWS CLI can interact programmatically
+
+> 08] **Which principle should you apply regarding IAM Permissions?**
+
+[ ] Grant most privilege [ ] Grant least privilege [ ] Grant permissions if your employee asks you to [ ] Restrict root account permissions
+
+> 09] **What should you do to increase your root account security?**
+
+[ ] Enable Multi-Factor Authentication (MFA) [ ] Remove permissions from the root account [ ] Use AWS only through the Command Line Interface (CLI)
 
 ## 3º Teste (Seção 5 - Elastic Compute Cloud)
 
-> **Which EC2 Purchasing Option can provide the biggest discount, but is not suitable for critical jobs or databases?**
-- R: Instance Spot
+> 01] **Which EC2 Purchasing Option can provide the biggest discount, but is not suitable for critical jobs or databases?**
 
-> **Which network security tool can you use to control traffic in and out of EC2 Instances?**
-- R: Security Groups
+[ ] Scheduled Instances [ ] Convertible Instances [ ] Dedicated Hosts [ ] Spot Instances
 
-> **Under the Shared Responsibility Model, who is responsible for operating-system patches and updates on EC2 Instances?**
-- R: The Customer
+> 02] **Which network security tool can you use to control traffic in and out of EC2 Instances?**
 
-> **How long can you reserve an EC2 Reserved Instance?**
-- R: 1 or 3 years
+[ ] Network Access Control List (NACL) [ ] Identity and Management Access (IAM) [ ] GuardDuty [ ] Security Groups
 
-> **A company would like to deploy a high-performance computing (HPC) application on EC2. Which EC2 instance type should it choose?**
-- R: Compute Optimized
+> 03] **Under the Shared Responsibility Model, who is responsible for operating-system patches and updates on EC2 Instances?**
 
-> **Which of the following is NOT an EC2 Instance Purchasing Option?**
-- R: Connect Instances
+[ ] The Customer [ ] AWS [ ] Both AWS and the customer
 
-> **Which EC2 Purchasing Option should you use for an application you plan on running on a server continuously for 1 year?**
-- R: Reserved Instances
+> 04] **How long can you reserve an EC2 Reserved Instance?**
+
+[ ] 1 or 3 years [ ] 2 or 4 years [ ] 6 months or 1 year [ ] Anytime between 1 and 3 years
+
+> 05] **A company would like to deploy a high-performance computing (HPC) application on EC2. Which EC2 instance type should it choose?**
+
+[ ] Compute Optimized [ ] Storage Optimized [ ] Memory Optimized [ ] General Purpose
+
+> 06] **Which of the following is NOT an EC2 Instance Purchasing Option?**
+
+[ ] Spot Instances [ ] Reserved Instances [ ] On-demand Instances [ ] Connect Instances
+
+> 07] **Which EC2 Purchasing Option should you use for an application you plan on running on a server continuously for 1 year?**
+
+[ ] Reserved Instances [ ] Spot Instances [ ] On-demand Instances [ ] Covertible Instances
 
 ## Respostas
 
@@ -116,7 +141,7 @@
 
 > 2º Teste
 01) An IAM entity that defines a set of permissions for making AWS service requests, that will be used by aws services
-02) IAM Credential Report
+02) IAM Credentials Report
 03) IAM Users access AWS with the root account credentials
 04) Don't uses the root user account
 05) JSON documents to define Users, Groups or Role's permissions
