@@ -2,93 +2,130 @@
 
 ## 4º Teste (Seção 6 - EC2 Storage)
 
-> **Which EC2 Storage would you use to create a shared network file system for your EC2 Instances?**
-- R: EFS
+> 01] **Which EC2 Storage would you use to create a shared network file system for your EC2 Instances?**
+[ ] EFS
 
-> **Which EC2 Storage would you use to create a shared network file system for your EC2 Instances?**
-- R: EC2 Image Builder
+> 02] **Which EC2 Storage would you use to create a shared network file system for your EC2 Instances?**
+[ ] EC2 Image Builder
 
-> **Which of the following is a fully managed native Microsoft Windows file system?**
-- R: FSx
+> 03] **Which of the following is a fully managed native Microsoft Windows file system?**
+[ ] FSx
 
-> **What are AMIs NOT used for?**
-- R: Add your own IP addresses
+> 04] **What are AMIs NOT used for?**
+[ ] Add your own IP addresses
 
-> **EBS Volumes CANNOT be attached to multiple EC2 instances at a time.**
-- R: true
+> 05] **EBS Volumes CANNOT be attached to multiple EC2 instances at a time.**
+[ ] true
 
-> **An EBS Volume is a network drive you can attach to your instances while they run, so your instances' data persist even after their termination.**
-- R: true
+> 06] **An EBS Volume is a network drive you can attach to your instances while they run, so your instances' data persist even after their termination.**
+[ ] true
 
-> **Which statement is CORRECT regarding EC2 Instance Store?**
-- R: It has a better I/O performance, but the data is lost if the EC2 Instance is terminated
+> 07] **Which statement is CORRECT regarding EC2 Instance Store?**
+[ ] It has a better I/O performance, but the data is lost if the EC2 Instance is terminated
 
-> **What is an EBS Snapshot?**
-- R: A backup of yours EBS Volumes at a point in time
+> 08] **What is an EBS Snapshot?**
+[ ] A backup of yours EBS Volumes at a point in time
 
-> **Where can you find a third party's AMI so you can use it to launch your EC2 Instance?**
-- R: AWS Marketplace AMIs
+> 09] **Where can you find a third party's AMI so you can use it to launch your EC2 Instance?**
+[ ] AWS Marketplace AMIs
 
-> **What is an EBS Volume tied to?**
-- R: An AZ
+> 10] **What is an EBS Volume tied to?**
+[ ] An AZ
 
 ## 5º Teste (Seção 7 - ELB/ASG)
 
-> **What is the main purpose of High Availability in the Cloud?**
-- R: Application thriving even in case of a disaster
+> 01] **What is the main purpose of High Availability in the Cloud?**
+[ ] Application thriving even in case of a disaster
 
-> **Which AWS offered Load Balancer should you use to handle hundreds of thousands of connections with low latency?**
-- R: NLB
+> 02] **Which AWS offered Load Balancer should you use to handle hundreds of thousands of connections with low latency?**
+[ ] NLB
 
-> **Changing an EC2 Instance Type from a t3a.medium to a t3a.2xlarge is an example of?**
-- R: Vertical scaling
+> 03] **Changing an EC2 Instance Type from a t3a.medium to a t3a.2xlarge is an example of?**
+[ ] Vertical scaling
 
-> **What can you use to handle quickly and automatically the changing load on your websites and applications by adding compute resources?**
-- R: Auto Scaling Group
+> 04] **What can you use to handle quickly and automatically the changing load on your websites and applications by adding compute resources?**
+[ ] Auto Scaling Group
 
-> **Which of the following statements is INCORRECT regarding Auto Scaling Groups?**
-- R: Automatically changing the EC2 instances types
+> 05] **Which of the following statements is INCORRECT regarding Auto Scaling Groups?**
+[ ] Automatically changing the EC2 instances types
 
-> **Which Load Balancer is best suited for HTTP/HTTPS load balancing traffic?**
-- R: ALB
+> 06] **Which Load Balancer is best suited for HTTP/HTTPS load balancing traffic?**
+[ ] ALB
 
-> **Which of the following is NOT an Auto Scaling Strategy?**
-- R: Active scaling
+> 07] **Which of the following is NOT an Auto Scaling Strategy?**
+[ ] Active scaling
 
-> **Which AWS service offers easy horizontal scaling of compute capacity?**
-- R: ASG
+> 08] **Which AWS service offers easy horizontal scaling of compute capacity?**
+[ ] ASG
 
-> **Which of the following statements is NOT a feature of Load Balancers?**
-- R: Back-end autoscaling
+> 09] **Which of the following statements is NOT a feature of Load Balancers?**
+[ ] Back-end autoscaling
 
 ## 6º Teste (Seção 8 - S3)
 
-> **Which S3 Storage Class is the most cost-effective for archiving data with no retrieval time requirement?**
-- R: AWS Glacier Deep Archive 
+> 01] **Which S3 Storage Class is the most cost-effective for archiving data with no retrieval time requirement?**
+[ ] AWS Glacier Deep Archive
 
-> **What hybrid AWS service is used to allow on-premises servers to seamlessly use the AWS Cloud at the storage layer?**
-- R: Storage Gateway
+> 02] **What hybrid AWS service is used to allow on-premises servers to seamlessly use the AWS Cloud at the storage layer?**
+[ ] Storage Gateway
 
-> **Which of the following services is a petabyte-scale data moving service (as a fleet) in or out of AWS with computing capabilities?**
-- R: Snowball Edge
+> 03] **Which of the following services is a petabyte-scale data moving service (as a fleet) in or out of AWS with computing capabilities?**
+[ ] Snowball Edge
 
-> **Which of the following is an exabytes-scale data moving service in or out of AWS?**
-- R: Snowmobile
+> 04] **Which of the following is an exabytes-scale data moving service in or out of AWS?**
+[ ] Snowmobile
 
-> **What are Objects NOT composed of?**
-- R: Access Keys
+> 05] **What are Objects NOT composed of?**
+[ ] Access Keys
 
-> **Where are objects stored in Amazon S3?**
-- R: Buckets
+> 06] **Where are objects stored in Amazon S3?**
+[ ] Buckets
 
-> **A research team deployed in a location with low-internet connection would like to move 5 TBs of data to the Cloud. Which service can it use?**
-- R: Snowcone
+> 07] **A research team deployed in a location with low-internet connection would like to move 5 TBs of data to the Cloud. Which service can it use?**
+[ ] Snowcone
 
-> **What can you use to define actions to move S3 objects between different storage classes?**
-- R: Lifecycle Rules
+> 08] **What can you use to define actions to move S3 objects between different storage classes?**
+[ ] Lifecycle Rules
 
-> **A non-profit organization needs to regularly transfer petabytes of data to the cloud and to have access to local computing capacity. Which service can help with this task?**
-- R: Snowball Edge - Storage optmized
+> 09] **A non-profit organization needs to regularly transfer petabytes of data to the cloud and to have access to local computing capacity. Which service can help with this task?**
+[ ] Snowball Edge - Storage optmized
 
-> **Which S3 Storage Class is suitable for less frequently accessed data, but with rapid access when needed, while keeping a high durability and allowing an Availability Zone failure?**
-- R: AWS S3 Standard-Infrequent Access
+> 10] **Which S3 Storage Class is suitable for less frequently accessed data, but with rapid access when needed, while keeping a high durability and allowing an Availability Zone failure?**
+[ ] AWS S3 Standard-Infrequent Access
+
+## Respostas
+
+> 1º Teste
+01) EFS
+02) EC2 Image Builder
+03) FSx
+04) Add your own IP addresses
+05) true
+06) true
+07) It has a better I/O performance, but the data is lost if the EC2 Instance is terminated
+08) A backup of yours EBS Volumes at a point in time
+09) AWS Marketplace AMIs
+10) An AZ
+
+> 2º Teste
+01) Application thriving even in case of a disaster
+02) NLB
+03) Vertical scaling
+04) Auto Scaling Group
+05) Automatically changing the EC2 instances types
+06) ALB
+07) Active scaling
+08) ASG
+09) Back-end autoscaling
+
+> 3º Teste
+01) AWS Glacier Deep Archive
+02) Storage Gateway
+03) Snowball Edge
+04) Snowmobile
+05) Access Keys
+06) Buckets
+07) Snowcone
+08) Lifecycle Rules
+09) Snowball Edge - Storage optmized
+10) AWS S3 Standard-Infrequent Access
