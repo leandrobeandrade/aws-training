@@ -1,6 +1,6 @@
 # Questões no curso Ultimate AWS Certified Cloud Practitioner
 
-# 17º Teste (Seção 19 - Advanced Identity)
+# 18º Teste (Seção 20 - Advanced Identity)
 
 > **A company would like to use their on-premises Microsoft Active Directory to connect to its AWS resources. Which service can it use?**
 - R: Directory Services
@@ -14,7 +14,7 @@
 > **A company would like to centrally manage access to multiple AWS accounts and business applications. Which service can it use?**
 - R: IAM Identity Center
 
-# 18º Teste (Seção 20 - Others Services)
+# 19º Teste (Seção 21 - Others Services)
 
 > **You would like to convert an S3 file so it can be played on users’ devices. Which AWS service can help?**
 - R: Elastic Transcoder
@@ -34,7 +34,7 @@
 > **A hybrid company would like to provision desktops to their employees so they can access securely both the AWS Cloud and their data centers. Which AWS service can help?**
 -R : WorkSpaces
 
-# 19º Teste (Seção 21 - AWS Architect & Ecosystem)
+# 20º Teste (Seção 22 - AWS Architect & Ecosystem)
 
 > **Auto Scaling in EC2 and DynamoDB are examples of?**
 - R: Horizontal scaling

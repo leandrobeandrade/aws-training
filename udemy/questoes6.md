@@ -1,6 +1,6 @@
 # Questões no curso Ultimate AWS Certified Cloud Practitioner
 
-## 14º Teste (Seção 17 - Machine Learning)
+## 15º Teste (Seção 17 - Machine Learning)
 
 > **You should use Amazon Transcribe to turn text into lifelike speech using deep learning.**
 - R: False
@@ -32,7 +32,7 @@
 > **Which of the following services is a document search service powered by machine learning?**
 - R: Kendra
 
-## 15º Teste (Seção 18 - Account Management, Billing & Support)
+## 16º Teste (Seção 18 - Account Management, Billing & Support)
 
 > **Which tool allows you to centrally manage all users and roles permissions in your organization?**
 - R: SCP - Service Control Policies
@@ -70,7 +70,7 @@
 > **Which of the following options uses machine learning to recommend optimal AWS resources and therefore reduces costs?**
 - R: Compute Optimizer
 
-# 16º Teste (Seção 18 - Pricing)
+# 17º Teste (Seção 19 - Pricing)
 
 > **Which services are free to use in AWS?**
 - R: IAM, VPC, Consolidate Billing and Elastic Beanstalk

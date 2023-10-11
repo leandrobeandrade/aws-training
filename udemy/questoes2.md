@@ -31,11 +31,11 @@
 
 > 05] **EBS Volumes CANNOT be attached to multiple EC2 instances at a time.**
 
-    [ ] true [ ] false
+    [ ] True [ ] False
 
 > 06] **An EBS Volume is a network drive you can attach to your instances while they run, so your instances' data persist even after their termination.**
 
-    [ ] true [ ] false
+    [ ] True [ ] False
 
 > 07] **Which statement is CORRECT regarding EC2 Instance Store?**
 
@@ -202,8 +202,8 @@
 02) EC2 Image Builder
 03) FSx
 04) Add your own IP addresses
-05) true
-06) true
+05) True
+06) True
 07) It has a better I/O performance, but the data is lost if the EC2 Instance is terminated
 08) A backup of yours EBS Volumes at a point in time
 09) AWS Marketplace AMIs

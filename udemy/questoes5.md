@@ -1,6 +1,6 @@
 # Questões no curso Ultimate AWS Certified Cloud Practitioner
 
-## 11º Teste (Seção 14 - Cloud Monitoring)
+## 12º Teste (Seção 14 - Cloud Monitoring)
 
 > **Which CloudWatch feature would you use to trigger notifications when a metric reaches a threshold you specify?**
 - R: CloudWatch Alarm
@@ -26,7 +26,7 @@
 > **If a resource is deleted in AWS, which service should you use to investigate first?**
 - R: CloudTrail
 
-## 12º Teste (Seção 15 - VPC & Network)
+## 13º Teste (Seção 15 - VPC & Network)
 
 > **Your private subnets need to connect to the Internet while still remaining private. Which AWS-managed VPC component allows you to do this?**
 - R: NAT Gateways
@@ -51,7 +51,7 @@
 
 > **Your VPC needs to connect with the Internet. Which VPC component can help?**
 
-## 13º Teste (Seção 16 - Security & Compliance)
+## 14º Teste (Seção 16 - Security & Compliance)
 
 > **Data sitting on an RDS instance would be referred to as?**
 - R: Data at rest (Dados em repouso)

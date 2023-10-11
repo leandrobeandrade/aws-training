@@ -115,7 +115,7 @@
 
 > 17] **RDS Multi-AZ deployments’ main purpose is high availability, while RDS Read replicas’ main purpose is scalability.**
     
-    [ ] true [ ] false
+    [ ] True [ ] False
 
 ## 8º Teste (Seção 10 - ECS, Lambda, Batch, Lightsail)
 
@@ -198,7 +198,6 @@
 ## Respostas
 
 > 7º Teste
-
 01) Managed Blockchain
 02) Redshift
 03) Athena
@@ -215,7 +214,7 @@
 14) QuickSight
 15) DocumentDB
 16) DAX - DynamnoDB Accelerator
-17) true
+17) True
 
 > 8º Teste
 01) Per call and per duration
