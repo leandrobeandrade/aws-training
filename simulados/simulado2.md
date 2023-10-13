@@ -1,76 +1,76 @@
 # Simulado AWS Cloud Practitioner em Português 2023
 
-**`01` - Qual serviço AWS ou ferramenta uma empresa deve usar para solicitar e rastrear aumentos de limites do serviço de forma centralizada?**
+`01-` **Qual serviço AWS ou ferramenta uma empresa deve usar para solicitar e rastrear aumentos de limites do serviço de forma centralizada?**
 
     [ ] AWS Service Catalog
     [ ] AWS Config
     [ ] AWS Budgets
     [ ] Service Quotas
 
-**`02` - Uma grande empresa com vários VPCs em várias regiões do mundo precisa conectar e gerenciar centralmente a conectividade de rede entre os seus VPCs. Qual serviço AWS ou recurso atende a esses requisitos?**
+`02-` **Uma grande empresa com vários VPCs em várias regiões do mundo precisa conectar e gerenciar centralmente a conectividade de rede entre os seus VPCs. Qual serviço AWS ou recurso atende a esses requisitos?**
 
     [ ] AWS Direct Connect
     [ ] AWS Transit Gateway
     [ ] AWS Site-to-Site VPN
     [ ] VPC Endpoints
 
-**`03` - Qual serviço ou recurso da AWS verifica as políticas de acesso e oferece recomendações práticas para ajudar os usuários a configurar políticas seguras e funcionais?**
+`03-` **Qual serviço ou recurso da AWS verifica as políticas de acesso e oferece recomendações práticas para ajudar os usuários a configurar políticas seguras e funcionais?**
 
     [ ] AWS IAM Access Analyzer
     [ ] AWS System Manager
     [ ] AWS Trusted Advisor
     [ ] AWS GuardDuty
 
-**`04` - Uma empresa está planejando executar um aplicativo de marketing global na AWS Cloud. O aplicativo terá vídeos que podem ser visualizados pelos usuários. A empresa deve garantir que todos os usuários possam visualizar esses vídeos com baixa latência. Qual serviço da AWS a empresa deve usar para atender a esse requisito?**
+`04-` **Uma empresa está planejando executar um aplicativo de marketing global na AWS Cloud. O aplicativo terá vídeos que podem ser visualizados pelos usuários. A empresa deve garantir que todos os usuários possam visualizar esses vídeos com baixa latência. Qual serviço da AWS a empresa deve usar para atender a esse requisito?**
 
     [ ] AWS Kinesis Video Streams
     [ ] AWS CloudFront
     [ ] AWS Auto Scaling
     [ ] Elastic Load Balacing
 
-**`05` - Uma empresa de mídia global usa a AWS Organizations para gerenciar várias contas da AWS. Que serviço ou recurso da AWS a empresa pode usar para limitar o acesso a serviços da AWS para contas membro?**
+`05-` **Uma empresa de mídia global usa a AWS Organizations para gerenciar várias contas da AWS. Que serviço ou recurso da AWS a empresa pode usar para limitar o acesso a serviços da AWS para contas membro?**
 
     [ ] Unidades Organizacionais (OUs)
     [ ] Lista de controles de aceso (ACLs)
     [ ] Serviço de gerenciamento de Identidade e Acesso AWS (IAM)
     [ ] Políticas de controle de serviço (SCPs)
 
-**`06` - Uma empresa deseja implementar a detecção de ameaças em sua infraestrutura AWS. No entanto, a empresa não deseja implantar software adicional. Qual serviço da AWS a empresa deve usar para atender a esses requisitos?**
+`06-` **Uma empresa deseja implementar a detecção de ameaças em sua infraestrutura AWS. No entanto, a empresa não deseja implantar software adicional. Qual serviço da AWS a empresa deve usar para atender a esses requisitos?**
 
     [ ] AWS GuardDuty
     [ ] AWS Direct Connect
     [ ] AWS VPC
     [ ] AWS EC2
 
-**`07` - Quais das seguintes opções estão incluídas na AWS Enterprise Support? (Escolha duas)**
+`07-` **Quais das seguintes opções estão incluídas na AWS Enterprise Support? (Escolha duas)**
 
     [ ] Suporte lidaderado por parceiros da AWS
     [ ] Suporte à integração de software de terceiros à AWS
     [ ] Gerente de conta técnica (TAM)
     [ ] Tempo de resposta de 5 minutos para problemas críticos
 
-**`08` - Qual tarefa requer o uso de credenciais de usuário root da conta AWS?**
+`08-` **Qual tarefa requer o uso de credenciais de usuário root da conta AWS?**
 
     [ ] Iniciar e parar instâncias AWS EC2
     [ ] Ver informações de cobrança
     [ ] Abrir um caso de suporte AWS
     [ ] Mudar o plano de suporte AWS
 
-**`09` - Que serviço AWS usa localidades de borda (edge locations)?**
+`09-` **Que serviço AWS usa localidades de borda (edge locations)?**
 
     [ ] AWS Aurora
     [ ] AWS Connect
     [ ] AWS Globl Accelerator
     [ ] AWS Outposts
 
-**`10` - Uma empresa deseja migrar uma aplicação crítica para a AWS. A aplicação tem um tempo de execução curto. A aplicação é invocada por mudanças nos dados ou por deslocamentos no estado do sistema. A empresa precisa de uma solução de computação que maximize a eficiência operacional e minimize o custo de execução da aplicação. Qual a solução AWS que a empresa deve usar para cumprir esses requisitos?**
+`10-` **Uma empresa deseja migrar uma aplicação crítica para a AWS. A aplicação tem um tempo de execução curto. A aplicação é invocada por mudanças nos dados ou por deslocamentos no estado do sistema. A empresa precisa de uma solução de computação que maximize a eficiência operacional e minimize o custo de execução da aplicação. Qual a solução AWS que a empresa deve usar para cumprir esses requisitos?**
 
     [ ] AWS EC2 Instâncias Spot
     [ ] AWS Lambda
     [ ] AWS EC2 Instâncias On-Demand
     [ ] AWS EC2 Instâncias Reservadas
 
-**`11` - Qual são as responsabilidades de uma empresa que está usando a AWS Lambda? (Escolha dois)**
+`11-` **Qual são as responsabilidades de uma empresa que está usando a AWS Lambda? (Escolha dois)**
 
     [ ] Escrevendo e atualizando código
     [ ] Segurança da infraestrutura subjacente
@@ -78,14 +78,14 @@
     [ ] Seleção de recursos de CPU
     [ ] Empacotamento do sistema operacional
 
-**`12` - Uma empresa quer usar a nuvem AWS para prover acesso seguro a aplicativos desktop que estão sendo executados em um ambiente totalmente gerenciado. Qual serviço AWS deve a empresa usar para atender ao requisito?**
+`12-` **Uma empresa quer usar a nuvem AWS para prover acesso seguro a aplicativos desktop que estão sendo executados em um ambiente totalmente gerenciado. Qual serviço AWS deve a empresa usar para atender ao requisito?**
 
     [ ] AWS S3
     [ ] AWS AppStream 2.0
     [ ] AWS Outposts
     [ ] AWS AppSync
 
-**`13` - Quais das seguintes são características das ACLs de rede, conforme usadas na AWS Cloud? (Escolha duas)**
+`13-` **Quais das seguintes são características das ACLs de rede, conforme usadas na AWS Cloud? (Escolha duas)**
 
     [ ] Eles processam regras em ordem, começando pela regra de número mais baixo, ao decidir se permitem o tráfego
     [ ] Eles avaliam todas as regras antes de permitir o tráfego
@@ -93,21 +93,21 @@
     [ ] Serviços stateless
     [ ] Eles operam no nível da instância
 
-**`14` - Uma empresa deseja lançar sua carga de trabalho na AWS e precisa que o sistema se recupere automaticamente de falhas. Qual pilares do AWS Well-Architected Framework inclui este requisito?**
+`14-` **Uma empresa deseja lançar sua carga de trabalho na AWS e precisa que o sistema se recupere automaticamente de falhas. Qual pilares do AWS Well-Architected Framework inclui este requisito?**
 
     [ ] Confiabilidade
     [ ] Eficiência de desempenho
     [ ] Otimização de custos
     [ ] Excelência operacional
 
-**`15` - Um usuário precisa determinar se os grupos de segurança de uma instância Amazon EC2 foram modificados no último mês. Como o usuário pode ver se uma alteração foi feita?**
+`15-` **Um usuário precisa determinar se os grupos de segurança de uma instância Amazon EC2 foram modificados no último mês. Como o usuário pode ver se uma alteração foi feita?**
 
     [ ] Usar o AWS EC2 para ver se o grupo de segurança foi alterado
     [ ] Usar o AWS CloudWatch para ver se o grupo de segurança foi alterado
     [ ] Usar o AWS CloudTrail para ver se o grupo de segurança foi alterado
     [ ] Usar o AWS IAM para ver quais usuário ou função alterou o grupo de segurança
 
-**`16` - Uma empresa está desenvolvendo um aplicativo móvel que precisa de um banco de dados NoSQL de alta performance. Quais serviços AWS a empresa poderia usar para esse banco de dados? (Escolha dois.)**
+`16-` **Uma empresa está desenvolvendo um aplicativo móvel que precisa de um banco de dados NoSQL de alta performance. Quais serviços AWS a empresa poderia usar para esse banco de dados? (Escolha dois.)**
 
     [ ] AWS Redshift
     [ ] AWS DynamoDB
@@ -115,105 +115,105 @@
     [ ] AWS DocumentDB
     [ ] AWS RDS
 
-**`17` - Um usuário deseja implantar um serviço na AWS Cloud, usando princípios de infraestrutura como código (IaC). Qual serviço AWS pode ser usado para atender a esse requisito?**
+`17-` **Um usuário deseja implantar um serviço na AWS Cloud, usando princípios de infraestrutura como código (IaC). Qual serviço AWS pode ser usado para atender a esse requisito?**
 
     [ ] AWS CloudFormation
     [ ] AWS Systems Manager
     [ ] AWS Config
     [ ] AWS CodeCommit
 
-**`18` - Qual é o escopo de uma VPC na rede AWS?**
+`18-` **Qual é o escopo de uma VPC na rede AWS?**
 
     [ ] A VPC pode abranger todas as AZs globalmente
     [ ] A VPC pode abranger todas as AZs dentro de uma Region AWS
     [ ] A VPC deve abranger pelo menos 2 localizações de borda em cada Region AWS
     [ ] A VPC deve abranger pelo menos 2 subnets em cada Region AWS
 
-**`19` - Uma empresa que possui várias unidades de negócio deseja gerenciar e governar centralmente os seus ambientes da AWS Cloud. A empresa deseja automatizar a criação de contas da AWS, aplicar políticas de controle de serviços (SCPs) e simplificar processos de faturamento. Qual serviço ou ferramenta da AWS a empresa deve usar para atender a essas exigências?**
+`19-` **Uma empresa que possui várias unidades de negócio deseja gerenciar e governar centralmente os seus ambientes da AWS Cloud. A empresa deseja automatizar a criação de contas da AWS, aplicar políticas de controle de serviços (SCPs) e simplificar processos de faturamento. Qual serviço ou ferramenta da AWS a empresa deve usar para atender a essas exigências?**
 
     [ ] AWS Budgets
     [ ] AWS Organizations
     [ ] AWS Trusted Advisor
     [ ] Cost Explorer
 
-**`20` - Qual serviço AWS pode ajudar a proteger aplicativos que executam na AWS de ataques DDoS?**
+`20-` **Qual serviço AWS pode ajudar a proteger aplicativos que executam na AWS de ataques DDoS?**
 
     [ ] AWS Shield
     [ ] AWS Inspector
     [ ] AWS GuardDuty
     [ ] AWS WAF
 
-**`21` - Uma empresa online estava executando uma carga de trabalho on premise e estava tendo problemas para lançar novos produtos e recursos. Após migrar a carga de trabalho para a AWS, a empresa pode lançar rapidamente produtos e recursos e pode dimensionar sua infraestrutura conforme necessário. Qual da seguinte proposição de valor da AWS esse cenário descreve?**
+`21-` **Uma empresa online estava executando uma carga de trabalho on premise e estava tendo problemas para lançar novos produtos e recursos. Após migrar a carga de trabalho para a AWS, a empresa pode lançar rapidamente produtos e recursos e pode dimensionar sua infraestrutura conforme necessário. Qual da seguinte proposição de valor da AWS esse cenário descreve?**
 
     [ ] Auditoria centralizada
     [ ] Alta disponibilidade
     [ ] Agilidade de negócios
     [ ] Segurança
 
-**`22` - Uma empresa planeja migrar sistemas legados complexos para a AWS. A empresa usará vários sistemas operacionais, vários bancos de dados e várias linguagens de programação. Qual o benefício da Nuvem AWS que esse cenário representa?**
+`22-` **Uma empresa planeja migrar sistemas legados complexos para a AWS. A empresa usará vários sistemas operacionais, vários bancos de dados e várias linguagens de programação. Qual o benefício da Nuvem AWS que esse cenário representa?**
 
     [ ] Escalabilidade
     [ ] Confiabilidade
     [ ] Segurança
     [ ] Flexibilidade
 
-**`23` - Como o modelo de preços da AWS Cloud difere do modelo tradicional de custos de armazenamento de on-premises?**
+`23-` **Como o modelo de preços da AWS Cloud difere do modelo tradicional de custos de armazenamento de on-premises?**
 
     [ ] Não há custos de licenciamentos de software
     [ ] Recursos AWS não incorrem custos
     [ ] Não há custos de operação de infraestrutura
     [ ] Não há compromissos de custos adiantados
 
-**`24` - Uma empresa deseja melhorar a disponibilidade geral e o desempenho dos seus aplicativos hospedados na AWS. Qual serviço da AWS a empresa deve usar?**
+`24-` **Uma empresa deseja melhorar a disponibilidade geral e o desempenho dos seus aplicativos hospedados na AWS. Qual serviço da AWS a empresa deve usar?**
 
     [ ] AWS LightSail
     [ ] AWS Connect
     [ ] AWS Storage Gateway
     [ ] AWS Global Accelerator
 
-**`25` - A AWS tem a capacidade de alcançar preços pay-as-you-go (pré-pago) mais baixos, agregando o uso de centenas de milhares de usuários. Isso descreve qual vantagem da AWS Cloud?**
+`25-` **A AWS tem a capacidade de alcançar preços pay-as-you-go (pré-pago) mais baixos, agregando o uso de centenas de milhares de usuários. Isso descreve qual vantagem da AWS Cloud?**
 
     [ ] Alta economia de escala
     [ ] Lançar globalmente em minutos
     [ ] Aumentar a velocidade e agilidade
     [ ] Não adivinhar sobre a capacidade de computação
 
-**`26` - Qual documentação o AWS Artifact fornece?**
+`26-` **Qual documentação o AWS Artifact fornece?**
 
     [ ] Lista de tipos de instância AWS EC2 de gerações anteriores
     [ ] Certificações ISO AWS
     [ ] Serviço AWS EC2
     [ ] Histórico de gastos da empresa na AWS
 
-**`27` - Uma empresa precisa maximizar sua capacidade de se adaptar às mudanças nas necessidades dos negócios, sem comprometer seu orçamento. Qual estratégia a empresa deve implementar para atender a esses requisitos?**
+`27-` **Uma empresa precisa maximizar sua capacidade de se adaptar às mudanças nas necessidades dos negócios, sem comprometer seu orçamento. Qual estratégia a empresa deve implementar para atender a esses requisitos?**
 
     [ ] Otimizar operações
     [ ] Usar Saving Plans
     [ ] Pague menos usando mais
     [ ] Usar preços pagos à medida que vai usando
 
-**`28` - Uma empresa possui um servidor de banco de dados que está sempre executando. A empresa hospeda o banco de dados em instâncias Amazon EC2. O tamanho das instâncias é adequado para a carga de trabalho. A carga de trabalho vai rodar por 1 ano. Qual opção de compra de instância EC2 satisfará esses requisitos de maneira MAIS eficaz em custos?**
+`28-` **Uma empresa possui um servidor de banco de dados que está sempre executando. A empresa hospeda o banco de dados em instâncias Amazon EC2. O tamanho das instâncias é adequado para a carga de trabalho. A carga de trabalho vai rodar por 1 ano. Qual opção de compra de instância EC2 satisfará esses requisitos de maneira MAIS eficaz em custos?**
 
     [ ] Standard Reserved Instances
     [ ] On-Demand Instances
     [ ] Spot Instances
     [ ] Convertible Reserved Instances
 
-**`29` - Uma empresa deseja revisar seus custos mensais de uso do Amazon EC2 e do Amazon RDS nos últimos anos. Qual serviço AWS ou ferramenta fornece essas informações?**
+`29-` **Uma empresa deseja revisar seus custos mensais de uso do Amazon EC2 e do Amazon RDS nos últimos anos. Qual serviço AWS ou ferramenta fornece essas informações?**
 
     [ ] AWS Trusted Advisor
     [ ] AWS Forecast
     [ ] AWS Cost Explorer
     [ ] AWS CloudWatch
 
-**`30` - Qual serviço AWS pode ser usado para criptografar dados?**
+`30-` **Qual serviço AWS pode ser usado para criptografar dados?**
 
     [ ] AWS Security Hub
     [ ] AWS Shield
     [ ] AWS KMS
     [ ] AWS GuardDuty
 
-**`31` - Uma empresa deseja migrar seus aplicativos de seu data center local para um VPC na AWS Cloud. Esses aplicativos precisarão acessar recursos localmente. Quais ações atenderão a esses requisitos? (Escolha duas.)**
+`31-` **Uma empresa deseja migrar seus aplicativos de seu data center local para um VPC na AWS Cloud. Esses aplicativos precisarão acessar recursos localmente. Quais ações atenderão a esses requisitos? (Escolha duas.)**
 
     [ ] Usar uma distribuição do AWS CloudFront e configurá-la para acelerar a entrega de conteúdo próximo aos recursos locais
     [ ] Usar o AWS Service Catalog para identificar uma lista de recursos locais que podem ser migrados
@@ -221,77 +221,77 @@
     [ ] Configurar uma conexão AWS Direct Connect entre o data center local e a AWS
     [ ] Usar o AWS CloudFront para restringir o acesso a conteúdo web estático fornecido através dos servidores web localmente
 
-**`32` - Uma empresa deseja executar cargas de trabalho de produção na AWS. A empresa precisa de um serviço de concierge, um gerente de conta técnica AWS designado (TAM) e suporte técnico que esteja disponível 24 horas por dia, 7 dias por semana. Que plano de suporte AWS atenderá a esses requisitos?**
+`32-` **Uma empresa deseja executar cargas de trabalho de produção na AWS. A empresa precisa de um serviço de concierge, um gerente de conta técnica AWS designado (TAM) e suporte técnico que esteja disponível 24 horas por dia, 7 dias por semana. Que plano de suporte AWS atenderá a esses requisitos?**
 
     [ ] AWS Business Support
     [ ] AWS Basic Support
     [ ] AWS Enterprise Support
     [ ] AWS Developer Support
 
-**`33` - Uma empresa precisa processar centenas de solicitações simultaneamente de diferentes usuários. Qual é a combinação de serviços AWS que a empresa deve usar para construir uma solução operacionalmente eficiente?**
+`33-` **Uma empresa precisa processar centenas de solicitações simultaneamente de diferentes usuários. Qual é a combinação de serviços AWS que a empresa deve usar para construir uma solução operacionalmente eficiente?**
 
     [ ] AWS Data Pipeline e AWS EC2
     [ ] AWS Amplify e AWS AppSync
     [ ] AWS SQS e AWS Lambda
     [ ] AWS Kinesis e AWS Athena
 
-**`34` - Uma empresa precisa visualizar graficamente cobrança e uso da AWS ao longo do tempo. A empresa também precisa de informações sobre seus custos mensais da AWS. Qual ferramenta de Gerenciamento de Cobrança e Custos da AWS oferece esses dados em formato gráfico?**
+`34-` **Uma empresa precisa visualizar graficamente cobrança e uso da AWS ao longo do tempo. A empresa também precisa de informações sobre seus custos mensais da AWS. Qual ferramenta de Gerenciamento de Cobrança e Custos da AWS oferece esses dados em formato gráfico?**
 
     [ ] AWS Budgets
     [ ] AWS Cost Explorer
     [ ] AWS Bills
     [ ] AWS Cost and Usage Reposrts
 
-**`35` - Qual princípio de design de arquitetura descreve a necessidade de isolar falhas entre componentes dependentes na AWS Cloud?**
+`35-` **Qual princípio de design de arquitetura descreve a necessidade de isolar falhas entre componentes dependentes na AWS Cloud?**
 
     [ ] Fraco acoplamento
     [ ] Design de pontos únicos de falha
     [ ] Usar um design monolítico
     [ ] Design para automação
 
-**`36` - Uma empresa está lançando um aplicativo de comércio eletrônico que deve estar sempre disponível. O aplicativo será executado em instâncias Amazon EC2 continuamente nos próximos 12 meses. Qual é a opção de compra de instância MAIS econômica que atenda a esses requisitos?**
+`36-` **Uma empresa está lançando um aplicativo de comércio eletrônico que deve estar sempre disponível. O aplicativo será executado em instâncias Amazon EC2 continuamente nos próximos 12 meses. Qual é a opção de compra de instância MAIS econômica que atenda a esses requisitos?**
 
     [ ] Instâncias Spot
     [ ] Saving Plans
     [ ] Host Dedicados
     [ ] Instâncias On-Demand
 
-**`37` - Qual serviço ou recurso AWS atua como um firewall para instâncias do Amazon EC2?**
+`37-` **Qual serviço ou recurso AWS atua como um firewall para instâncias do Amazon EC2?**
 
     [ ] Network ACL
     [ ] Security Group
     [ ] Elastic network interface
     [ ] AWS VPC
 
-**`38` - Qual serviço da AWS usa aprendizado de máquina para ajudar a descobrir, monitorar e proteger dados sensíveis armazenados em buckets Amazon S3?**
+`38-` **Qual serviço da AWS usa aprendizado de máquina para ajudar a descobrir, monitorar e proteger dados sensíveis armazenados em buckets Amazon S3?**
 
     [ ] AWS Cognito
     [ ] AWS Network Firewall
     [ ] AWS Macie
     [ ] AWS Shield
 
-**`39` - Um novo usuário da AWS que tem pouca experiência na nuvem deseja construir um aplicativo usando serviços AWS. O usuário deseja aprender como implementar serviços específicos AWS pelos exemplos de outros clientes. O usuário também deseja fazer perguntas a especialistas AWS. Qual serviço ou recurso AWS atenderá a esses requisitos?**
+`39-` **Um novo usuário da AWS que tem pouca experiência na nuvem deseja construir um aplicativo usando serviços AWS. O usuário deseja aprender como implementar serviços específicos AWS pelos exemplos de outros clientes. O usuário também deseja fazer perguntas a especialistas AWS. Qual serviço ou recurso AWS atenderá a esses requisitos?**
 
     [ ] AWS documentação
     [ ] AWS Online Tech Talks
     [ ] AWS Marketplace
     [ ] AWS Health Dashboard
 
-**`40` - O usuário está comparando as opções de compra para uma aplicação que roda no Amazon EC2 e Amazon RDS. A aplicação não pode suportar nenhuma interrupção. A aplicação experimenta uma quantidade previsível de uso, incluindo alguns picos sazonais que duram apenas algumas semanas de cada vez. Não é possível modificar a aplicação. Qual opção de compra atende a esses requisitos da MANEIRA MAIS custo-efetiva?**
+`40-` **O usuário está comparando as opções de compra para uma aplicação que roda no Amazon EC2 e Amazon RDS. A aplicação não pode suportar nenhuma interrupção. A aplicação experimenta uma quantidade previsível de uso, incluindo alguns picos sazonais que duram apenas algumas semanas de cada vez. Não é possível modificar a aplicação. Qual opção de compra atende a esses requisitos da MANEIRA MAIS custo-efetiva?**
 
     [ ] Compre instâncias reservadas para a quantidade prevista de uso ao longo do ano. Permita que qualquer uso sazonal seja executado em uma taxa sob demanda
     [ ] Compre instâncias reservadas para a quantidade prevista de uso ao longo do ano. Permitir que qualquer uso sazonal seja executado em instâncias Spot
     [ ] Compre instâncias reservadas para cobrir todo o uso potencial resultante do uso sazonal
     [ ] Revise o AWS Marketplace e compre instâncias reservadas iniciais parciais para cobrir a carga prevista e sazonal
 
-**`41` - Uma empresa tinha um ciclo de implantação de aplicativos On-Premises de 3 a 4 semanas. Após a migração para a AWS Cloud, a empresa consegue implantar o aplicativo em 2 a 3 dias. Qual benefício essa empresa experimentou ao se mudar para a AWS Cloud?**
+`41-` **Uma empresa tinha um ciclo de implantação de aplicativos On-Premises de 3 a 4 semanas. Após a migração para a AWS Cloud, a empresa consegue implantar o aplicativo em 2 a 3 dias. Qual benefício essa empresa experimentou ao se mudar para a AWS Cloud?**
 
     [ ] Agilidade
     [ ] Flexibilidade
     [ ] Resiliência
     [ ] Elasticidade
 
-**`42` - Quais são algumas vantagens de usar instâncias Amazon EC2 para hospedar aplicativos na AWS Cloud em vez de on premise? (Escolha dois)**
+`42-` **Quais são algumas vantagens de usar instâncias Amazon EC2 para hospedar aplicativos na AWS Cloud em vez de on premise? (Escolha dois)**
 
     [ ] Integração do EC2 com o AWS VPC, o AWS cloudTrail e o AWS IAM
     [ ] EC2 tem um acordo de nível de serviço (SLA) de 100%
@@ -299,35 +299,35 @@
     [ ] EC2 inclui gerenciamento de atualizações do sistema operacional
     [ ] EC2 tem otimização automática de custos de armazenamento
 
-**`43` - Qual serviço AWS ou recurso identifica se um bucket da Amazon S3 ou uma função IAM foi compartilhada com uma entidade externa?**
+`43-` **Qual serviço AWS ou recurso identifica se um bucket da Amazon S3 ou uma função IAM foi compartilhada com uma entidade externa?**
 
     [ ] AWS IAM Access Analyzer
     [ ] AWS Service Catalog
     [ ] AWS Systems Manager
     [ ] AWS Organizations
 
-**`44` - Uma empresa planeja criar um data lake que utilize o Amazon S3. Qual opção terá o MAIOR efeito no custo?**
+`44-` **Uma empresa planeja criar um data lake que utilize o Amazon S3. Qual opção terá o MAIOR efeito no custo?**
 
     [ ] Taxas para transferir os dados existentes para o AWS S3
     [ ] Escolha de camadas de armazenamento S3
     [ ] Adição de políticas de contêineres S3
     [ ] Taxa de ingestão S3 para cada solicitação
 
-**`45` - Uma empresa projetou sua infraestrutura da AWS Cloud para executar suas cargas de trabalho de maneira eficaz. A empresa também tem protocolos para melhorar continuamente os processos de suporte. Qual pilastra da AWS Well-Architected Framework esse cenário representa?**
+`45-` **Uma empresa projetou sua infraestrutura da AWS Cloud para executar suas cargas de trabalho de maneira eficaz. A empresa também tem protocolos para melhorar continuamente os processos de suporte. Qual pilastra da AWS Well-Architected Framework esse cenário representa?**
 
     [ ] Excelência operacional
     [ ] Eficiência de desempenho
     [ ] Segurança
     [ ] Otimização de custos
 
-**`46` - Uma grande empresa possui vários departamentos, cada um com uma conta aws. Cada departamento já comprou instâncias reservadas do Amazon EC2. Alguns departamentos não usam todas as instâncias reservadas que compraram e outros precisam de mais instâncias reservadas do que compraram. A empresa precisa gerenciar as contas da AWS para todos os departamento para que eles possam compartilhar as instâncias reservadas. Qual serviço ou ferramenta da AWS a empresa deve usar para atender a esses requisitos?**
+`46-` **Uma grande empresa possui vários departamentos, cada um com uma conta aws. Cada departamento já comprou instâncias reservadas do Amazon EC2. Alguns departamentos não usam todas as instâncias reservadas que compraram e outros precisam de mais instâncias reservadas do que compraram. A empresa precisa gerenciar as contas da AWS para todos os departamento para que eles possam compartilhar as instâncias reservadas. Qual serviço ou ferramenta da AWS a empresa deve usar para atender a esses requisitos?**
 
     [ ] AWS Cost Explorer
     [ ] AWS Systems Manager
     [ ] AWS Organizations
     [ ] AWS Trusted Advisor
 
-**`47` - Qual dos seguintes são componentes de uma conexão de VPN Site-to-Site da AWS? (Escolha dois.)**
+`47-` **Qual dos seguintes são componentes de uma conexão de VPN Site-to-Site da AWS? (Escolha dois.)**
 
     [ ] Internet Gateway
     [ ] NAT Gateway 
@@ -335,98 +335,98 @@
     [ ] Customer Gateway
     [ ] Virtual Private Gateway
 
-**`48` - Qual serviço AWS deve ser usado para monitorar as instâncias Amazon EC2 para utilização de CPU e rede?**
+`48-` **Qual serviço AWS deve ser usado para monitorar as instâncias Amazon EC2 para utilização de CPU e rede?**
 
     [ ] AWS CloudTrail
     [ ] AWS Config
     [ ] AWS CloudWatch
     [ ] AWS Inspector
 
-**`49` - Uma empresa possui uma frota de navios de carga. Os navios de carga possuem sensores que coletam dados no mar, onde há conectividade à internet intermitente ou nenhuma conectividade. A empresa precisa coletar, formatar e processar os dados no mar e mover os dados para a AWS posteriormente. Qual serviço AWS a empresa deve usar para atender a esses requisitos?**
+`49-` **Uma empresa possui uma frota de navios de carga. Os navios de carga possuem sensores que coletam dados no mar, onde há conectividade à internet intermitente ou nenhuma conectividade. A empresa precisa coletar, formatar e processar os dados no mar e mover os dados para a AWS posteriormente. Qual serviço AWS a empresa deve usar para atender a esses requisitos?**
 
     [ ] AWS IoT Core
     [ ] AWS Storage Gateway
     [ ] AWS LightSail
     [ ] AWS Snowball Edge
 
-**`50` - Uma empresa deseja limitar o acesso ao seu conjunto de empregados para um portifólio de recursos AWS pré-definidos. Qual solução AWS a empresa deve usar para atender a esse requisito?**
+`50-` **Uma empresa deseja limitar o acesso ao seu conjunto de empregados para um portifólio de recursos AWS pré-definidos. Qual solução AWS a empresa deve usar para atender a esse requisito?**
 
     [ ] AWS Service Catalog
     [ ] AWS SDKs
     [ ] AWS Config
     [ ] AWS AppSync
 
-**`51` - Uma empresa precisa instalar uma aplicação em um container Docker. Qual serviço AWS elimina a necessidade de provisionar e gerenciar os hosts de container?**
+`51-` **Uma empresa precisa instalar uma aplicação em um container Docker. Qual serviço AWS elimina a necessidade de provisionar e gerenciar os hosts de container?**
 
     [ ] AWS EC2
     [ ] AWS FSx para Windows File Server
     [ ] AWS ECS
     [ ] AWS Fargate
 
-**`52` - Uma empresa está planejando substituir seus servidores de computação físicos próprios pelos serviços de computação sem servidor da AWS. A empresa deseja poder aproveitar rapidamente as tecnologias avançadas após a migração. Qual dos pilares do AWS Well-Architected Framework representa esse plano?**
+`52-` **Uma empresa está planejando substituir seus servidores de computação físicos próprios pelos serviços de computação sem servidor da AWS. A empresa deseja poder aproveitar rapidamente as tecnologias avançadas após a migração. Qual dos pilares do AWS Well-Architected Framework representa esse plano?**
 
     [ ] Confiabilidade
     [ ] Eficiência de desempenho
     [ ] Segurança
     [ ] Excelência operacional
 
-**`53` - Qual serviço AWS suporta a criação de relatórios visuais a partir dos dados do relatório de custo e uso da AWS?**
+`53-` **Qual serviço AWS suporta a criação de relatórios visuais a partir dos dados do relatório de custo e uso da AWS?**
 
     [ ] AWS CloudWatch
     [ ] AWS Athena
     [ ] AWS Organizations
     [ ] AWS QuickSight
 
-**`54` - Qual característica da nuvem AWS ajuda os usuários a eliminar capacidade de CPU não utilizada?**
+`54-` **Qual característica da nuvem AWS ajuda os usuários a eliminar capacidade de CPU não utilizada?**
 
     [ ] Durabilidade
     [ ] Elasticidade
     [ ] Agilidade
     [ ] Confiabilidade
 
-**`55` - Uma empresa está lançando um aplicativo na AWS Cloud. O aplicativo usará o armazenamento Amazon S3. Uma grande equipe de pesquisadores terá acesso compartilhado aos dados. A empresa deve ser capaz de recuperar dados que são sobrescritos ou excluídos acidentalmente. Qual recurso do S3 a empresa deve ativar para atender a esse requisito?**
+`55-` **Uma empresa está lançando um aplicativo na AWS Cloud. O aplicativo usará o armazenamento Amazon S3. Uma grande equipe de pesquisadores terá acesso compartilhado aos dados. A empresa deve ser capaz de recuperar dados que são sobrescritos ou excluídos acidentalmente. Qual recurso do S3 a empresa deve ativar para atender a esse requisito?**
 
     [ ] Regras de ciclo de vida S3
     [ ] Log de acesso ao servidor
     [ ] Versão S3
     [ ] Criptografia em trânsito e em repouso
 
-**`56` - Uma empresa deseja migrar seus workloads para a AWS, mas ela não possui especialização em computação na nuvem AWS. Qual serviço ou recurso AWS ajudará a empresa com sua migração?**
+`56-` **Uma empresa deseja migrar seus workloads para a AWS, mas ela não possui especialização em computação na nuvem AWS. Qual serviço ou recurso AWS ajudará a empresa com sua migração?**
 
     [ ] AWS Artifacts
     [ ] AWS Consulting Partners
     [ ] AWS Managed Services
     [ ] AWS Trusted Advisor
 
-**`57` - Uma empresa precisa estabelecer uma conexão entre dois VPCs. Os VPCs estão localizados em duas regiões diferentes da AWS. A empresa deseja usar a infraestrutura existente dos VPCs para essa conexão. Qual serviço ou recurso da AWS pode ser usado para estabelecer essa conexão?**
+`57-` **Uma empresa precisa estabelecer uma conexão entre dois VPCs. Os VPCs estão localizados em duas regiões diferentes da AWS. A empresa deseja usar a infraestrutura existente dos VPCs para essa conexão. Qual serviço ou recurso da AWS pode ser usado para estabelecer essa conexão?**
 
     [ ] VPC Endpoints
     [ ] AWS Client VPN
     [ ] VPC Peering
     [ ] AWS Direct Connect
 
-**`58` - Quais serviços ou recursos da AWS permitem que os usuários se conectem e implementem serviços AWS de forma programática?**
+`58-` **Quais serviços ou recursos da AWS permitem que os usuários se conectem e implementem serviços AWS de forma programática?**
 
     [ ] AWS CodePipeline
     [ ] AWS Management Console
     [ ] AWS SDK's
     [ ] AWS Cloud9
 
-**`59` - Uma empresa possui uma instância única do Amazon EC2. A empresa deseja adotar uma arquitetura altamente disponível. O que a empresa pode fazer para atender a esse requisito?**
+`59-` **Uma empresa possui uma instância única do Amazon EC2. A empresa deseja adotar uma arquitetura altamente disponível. O que a empresa pode fazer para atender a esse requisito?**
 
     [ ] Escalar verticalmente para um tamanho maior de instância EC2
     [ ] Mudar a família da instância EC2 para uma instância otimizada para computação
     [ ] Comprar uma instância dedicada EC2
     [ ] Escalar horizontalmente em várias AZs
 
-**`60` - Qual serviço ou funcionalidade AWS uma empresa poderia usar para determinar qual unidade de negócio está usando recursos específicos da AWS?**
+`60-` **Qual serviço ou funcionalidade AWS uma empresa poderia usar para determinar qual unidade de negócio está usando recursos específicos da AWS?**
 
     [ ] AWS Trusted Advisor
     [ ] Pae de chaves
     [ ] Tags de alocação de custos (cost allocation tags)
     [ ] AWS Inspector
 
-**`61` - Qual das características são vantagens de se utilizar a nuvem AWS?**
+`61-` **Qual das características são vantagens de se utilizar a nuvem AWS?**
 
     [ ] Melhoria na segurança
     [ ] Um contrato de nível de serviços (SLA) de 100% para todos os serviços AWS
@@ -434,28 +434,28 @@
     [ ] Capacidade de computação que se ajusta sob demanda
     [ ] Aumento nos custos e complexidade
 
-**`62` - Uma empresa recentemente implantou uma instância Amazon RDS em sua VPC. A empresa precisa implementar um firewall com estado para limitar o tráfego para a rede corporativa privada. Qual serviço AWS ou recurso a empresa deve usar para limitar o tráfego de rede diretamente para sua instância RDS?**
+`62-` **Uma empresa recentemente implantou uma instância Amazon RDS em sua VPC. A empresa precisa implementar um firewall com estado para limitar o tráfego para a rede corporativa privada. Qual serviço AWS ou recurso a empresa deve usar para limitar o tráfego de rede diretamente para sua instância RDS?**
 
     [ ] Network ACLs
     [ ] AWS WAF
     [ ] Secutiry groups
     [ ] AWS GuardDuty
 
-**`63` - Uma empresa está se preparando para lançar uma nova aplicação web que espera receber um alto volume de tráfego em um próximo evento. A aplicação é executada apenas na AWS e a empresa possui um plano de suporte da AWS Enterprise. Que recurso da AWS fornecerá orientação sobre como a empresa deve escalar sua arquitetura e suporte operacional durante o evento?**
+`63-` **Uma empresa está se preparando para lançar uma nova aplicação web que espera receber um alto volume de tráfego em um próximo evento. A aplicação é executada apenas na AWS e a empresa possui um plano de suporte da AWS Enterprise. Que recurso da AWS fornecerá orientação sobre como a empresa deve escalar sua arquitetura e suporte operacional durante o evento?**
 
     [ ] Serviços Profissionais AWS
     [ ] O gerente de conta técnica designado (TAM)
     [ ] Equipe de abuso da AWS
     [ ] Gerenciamento de eventos de infraestrutura AWS
 
-**`64` - Políticas de controle de serviço (SCPs) geram permissões para o qual das seguintes opções?**
+`64-` **Políticas de controle de serviço (SCPs) geram permissões para o qual das seguintes opções?**
 
     [ ] AWS Regions
     [ ] AWS AZs
     [ ] Edge Locations
     [ ] AWS Organizations
 
-**`65` - Qual dos seguintes são benefícios de migrar para o AWS Cloud? (Escolha dois.)**
+`65-` **Qual dos seguintes são benefícios de migrar para o AWS Cloud? (Escolha dois.)**
 
     [ ] Excelência de negócios
     [ ] Resiliência operacional
