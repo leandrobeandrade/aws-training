@@ -92,7 +92,7 @@ Tipos de aquisição de instâncias EC2:
 
 O **`Elastic Block Store (EBS)`** são drivers de rede que podem ser anexados nas instâncias EC2 ou NÃO, permitindo persistir dados mesmo depois da instâncias estarem encerradas. Sendo o EBS vinculado a uma AZ específica com 30GB grátis em free tier, útil para failovers, porém pode-se copiar um EBS a outra AZ com um EBS instantâneo (backup) ou EBS Snapshot levando de 24 a 72 horas para cópias.
 
-O **`Amazon Machine Image (AMI)`** são personalizações de uma instância EC2 pública que pode ter a customização da instância por meio das configurações, assim como os sistemas operacionais e especificação de regions.
+O **`Amazon Machine Image (AMI)`** são personalizações de uma instância EC2 pública que pode ter a customização da instância por meio das configurações, assim como os sistemas operacionais e especificação de regions. Pode-se copiar uma AMI dentro da mesma região da AWS ou para diferentes regiões da AWS, assim também como cancelar seus registros.
 
 O **`Image Builder`** automatiza a criação de máquinas virtuais ou imagens de contêineres. É um pipeline automatizado para criação, manutenção, validação, testes, compartilhamento e implantação de imagens Linux ou 
 Windows para uso na AWS e no local (on-premises).

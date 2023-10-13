@@ -37,7 +37,7 @@ O EC2 possui os seguintes tipos de preços:
 - **Host dedicado** - pode-se utilizar com on-demand ou instância reservada de 1 ou 3 anos.
 - **Saving Plans** - o cliente compromete-se a gastar uma certa quantia em dólares por hora durante 1 ou 3 anos sem a necessidade de pensar nos recursos mas sim em termos somente do custo. Com este modelo para instância EC2 obtém-se 72% de desconto em relação a on-demand podendo pagar adiantado e para Computação Cloud são chamados de plano poupança de computação com 66% de desconto em relação a on-demand.
 
-O **`Compute Optimizer`** recomenda recursos ideais para suas cargas de trabalho, a fim de reduzir custos e melhorar o desempenho usando machine learning para analisar métricas de históricos de utilização.
+O **`Compute Optimizer`** recomenda recursos ideais para suas cargas de trabalho, a fim de reduzir custos e melhorar o desempenho usando machine learning para analisar métricas de históricos de utilização. Funciona para instâncias EC2, Lambda Functions e EBS (Elastic Block Store). 
 
 O **`Pricing Calculator`** é uma calculadora que serve para estimar preços de serviços AWS.
 
