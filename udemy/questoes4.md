@@ -135,7 +135,7 @@
 
 > 07] **Which features are available with Route 53?**
 
-    [ ] Health Checks, Auto Scalling, Routing Policy, DNS
+    [ ] Health Checks, Auto Scaling, Routing Policy, DNS
     [ ] Load Balancing, DNS, Domain Registration, Monitoring
     [ ] Domain Registration, DNS, Health Checks, DDoS Protection
     [ ] Domain Registration, DNS, Health Checks, Routing Policy
@@ -160,7 +160,7 @@
 
     [ ] AWS Simple Notification Service (SNS)
     [ ] AWS Simple Queue Service (SQS)
-    [ ] Auto Scalling Groups (ASG)
+    [ ] Auto Scaling Groups (ASG)
 
 > 03] **You can use Kinesis to perform real-time analysis from video streams.**
 
@@ -176,7 +176,7 @@
 
     [ ] AWS Simple Notification Service (SNS)
     [ ] AWS Simple Queue Service (SQS)
-    [ ] Auto Scalling Groups (ASG)
+    [ ] Auto Scaling Groups (ASG)
 
 ## Respostas
 
