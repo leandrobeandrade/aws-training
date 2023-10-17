@@ -34,9 +34,9 @@ Armazenamento em escala infinita, utilizado também para fazer integrações ent
 As políticas de segurança dos buckets (Buckets Security Policies) são por meio de IAM com um documento do tipo **JSON** que garante acesso específico por usuário ou por outro serviços (Roles), também pode garantir acesso por cruzamento de contas, por ACL's, assim também como por meio de criptografia. Políticas:
 
 - effect: permitir/negar (allow/deny)
-- actions: conjunto de API para permitir/negar (S3:GetObject)
-- principal: usuário/conta que se aplica a regra (* - todos)
-- resource: o recurso a ser aplicado a regra (arn:aws:s3:::examplebucket/*)
+- actions: conjunto de API para permitir/negar (S3:GetObject por exemplo)
+- principal: usuário/conta que se aplica a regra (* - todos por exemplo)
+- resource: o recurso a ser aplicado a regra (arn:aws:s3:::examplebucket/* por exemplo)
 
 O **S3 Replication** consiste na replicação de um bucket seno que o CRR (Cross-Region Replication) replica o bucket em outras regions e o SRR (Same-Region Replication) replica na mesma region, todos de forma assíncronas.
 
