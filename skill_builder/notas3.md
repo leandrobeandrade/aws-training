@@ -4,7 +4,7 @@ Anotações referentes ao curso [AWS Cloud Practitioner Essentials](https://expl
 
 ## Bancos de Dados AWS
 
-A AWS fornece suporte para conexão com os mais variados sistemas **RDBS** ou sistemas de banco de dados relacionais por meio de um EC2 por meio da técnica de `lift-and-shift` ou então executar banco de dados com um maior gerenciamento pelo **`AWS RDS`** ou Amazon Relational Database Service. Ambos são compatíveis com os principais mecanismos de banco de dados como MySQL, PostgreSQL, Oracle, Microsoft MSQL, entre outros.
+A AWS fornece suporte para conexão com os mais variados sistemas **RDBS** ou sistemas de banco de dados relacionais por meio de instâncias EC2 ou por meio da técnica de `lift-and-shift`, assim também como executando banco de dados com um maior gerenciamento pelo **`AWS RDS`** ou Amazon Relational Database Service. Ambos são compatíveis com os principais mecanismos de banco de dados como MySQL, PostgreSQL, Oracle, Microsoft MSQL, entre outros.
 
 ### AWS RDS - Relational Database Service
 
