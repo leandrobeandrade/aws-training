@@ -57,13 +57,13 @@ O **`Anomaly Detection`** monitora continuamente os custos e uso, utilizando Mac
 
 O **`Service Quotas`** cria alarmes em conjunto com CloudWatch para alertas sobre limites ultrapassados.
 
-O **`Trusted Advisor`** executa uma série de verificações analisando as contas fornecendo recomendações sobre tempo de otimização de custos, desempenho, segurança, tolerância a falhas e limite de serviços. Verificações planos `Básico/Developer`: permissões S3, SG (algumas portas), IAM Use, MFA (na conta raíz), EBS com snapshots públicos, RDS, limites de serviços. Verificações planos `Business/Enterprise` todas dos planos básicos/developer mais alarmes CloudWatch ao aitngir limites e acesso programático usando AWS Support API.
+O **`Trusted Advisor`** executa uma série de verificações analisando as contas fornecendo recomendações sobre tempo de otimização de custos, desempenho, segurança, tolerância a falhas e limite de serviços. Verificações planos `Básico/Developer`: permissões S3, SG (algumas portas), IAM Use, MFA (na conta raíz), EBS com snapshots públicos, RDS, limites de serviços. Verificações planos `Business/Enterprise` todas dos planos básicos/developer mais alarmes CloudWatch ao atingir limites e acesso programático usando AWS Support API.
 
 > Suporte
 
 A AWS fornece alguns tipos de planos de suporte que satisfaz cada necessidade.
 
-- **Basic Plan**: gratuito com suporte 24/7. documentações, white papers e a fóruns de suporte.
+- **Basic Plan**: gratuito com suporte 24/7, documentações, whitepapers e a fóruns de suporte.
 - **Developer Plan**: plano básico mais acesso ao e-mail Cloud Support Associates e orientações gerais dentro de 24 horas e problemas no sistema contato em 12 horas.
 - **Business Plan**: planos anteriores mais telefone, e-mail e chat para contato imediato com o suporte e acesso de gerenciamento de eventos de infraestrutura por uma taxa adicional.
 - **Enterprise Plan**: planos anteriores mais pool de gerentes técnicos (TAM - Technical Account Manager), além de Concierge Support Team para boas práticas sobre contas e análises de operações.
