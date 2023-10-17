@@ -23,9 +23,9 @@ O **`Auto Scaling Group (ASG)`** escala horizontalmente podendo criar e excluir 
 Estratégias ASG:
 
 - Escalabilidade manual.
-- Dimensionamento dinâmico para responder as demandas de mudanças com cloudwatch e TTS (target tracking scaling).
+- Dimensionamento dinâmico para responder as demandas de mudanças com CloudWatch e TTS (Target Tracking Ccaling).
 - Escalonamento agendado que antecipa o escalonamento baseado em alguns padrões.
-- Escalonamento predidtivo que utiliza aprendizado de máquina para prever o tráfego futuro.
+- Escalonamento preditivo que utiliza aprendizado de máquina para prever o tráfego futuro.
 
 ## S3
 
@@ -38,7 +38,7 @@ As políticas de segurança dos buckets (Buckets Security Policies) são por mei
 - principal: usuário/conta que se aplica a regra (* - todos por exemplo)
 - resource: o recurso a ser aplicado a regra (arn:aws:s3:::examplebucket/* por exemplo)
 
-O **S3 Replication** consiste na replicação de um bucket seno que o CRR (Cross-Region Replication) replica o bucket em outras regions e o SRR (Same-Region Replication) replica na mesma region, todos de forma assíncronas.
+O **S3 Replication** consiste na replicação de um bucket sendo que o CRR (Cross-Region Replication) replica o bucket em outras regions e o SRR (Same-Region Replication) replica na mesma region, todos de forma assíncronas.
 
 ### S3 - Classes
 
