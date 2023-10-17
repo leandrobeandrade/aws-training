@@ -4,7 +4,7 @@ Anotações referentes ao curso [AWS Cloud Practitioner Essentials](https://expl
 
 ## Regions AWS
 
-Data centers com variados tipos de recursos de computação e serviços AWS sendo que cada region pode se conectar com todas as outras por meio de fibra óptica de alta velocidade. Cada region é isolada uma das outras no sentido de dependência de serviços e nenhum dado entra ou sai do ambiente desta region sem a devida permissão. A soberania dos dados é permanente na AWS e os dados estão sujeitos a les e regulamentos locais do país da region. Existem 4 pontos relacionados importantes na hora de escolher uma região:
+Data centers com variados tipos de recursos de computação e serviços AWS sendo que cada region pode se conectar com todas as outras por meio de fibra óptica de alta velocidade. Cada region é isolada uma das outras no sentido de dependência de serviços e nenhum dado entra ou sai do ambiente desta region sem a devida permissão. A soberania dos dados é permanente na AWS e os dados estão sujeitos a leis e regulamentos locais do país da region. Existem 4 pontos relacionados importantes na hora de escolher uma região:
 
 - 1- conformidade: Dados que estejam dentro de uma região satisfazendo legislações e leis locais desta region.
 - 2- proximidade: Base de clientes mais próximo da região escolhida trás maior velocidade e um menor latência.
@@ -89,7 +89,7 @@ A resolução envolve um servidor DNS que se comunica com um servidor web e conv
 
 ### Route 53
 
-Serviço AWS web de DNS roteando e conectando solicitações web à infraestrura AWS como instâncias EC2 e Load balance assim também como realizar direcionamento para fora da infraestrutura AWS. Também faz todo o gerenciamento dos registros DNS para nomes de domínio como criação e transferência de registros.
+Serviço AWS web de DNS para roteamento conectando solicitações web à infraestrura AWS como instâncias EC2 e ELB, assim também como realiza direcionamento para fora da infraestrutura AWS. Também faz todo o gerenciamento dos registros DNS para nomes de domínio como criação e transferência de registros.
 
 ## Armazenamentos de Instância
 
@@ -131,10 +131,10 @@ Monitora os padrões de acessos dos objetos, se pouco utilizados move para o S3 
 
 Pode-se mover dados para ele ou criar cofres e depois preenchê-los com arquivos, ideal para dados armazenados por um longo prazo mas que não dependam que sejam recuperados rapidamente. Também fornece a política de `Vault Locker` podendo ser bloqueada a qualquer momento, sendo que após o bloqueio a política não poderá mais ser alterada. Custo baixo para arquivamentos de dados.
 
-**S3 Glacier Deep Archive**
+> **S3 Glacier Deep Archive**
 
 Fornece prontidão na recuperação de dados arquivados, capaz de recuperar objetos em 12 horas. Custo baixo para armazenamento de arquivos. Este serviço é otimizado para dados de arquivamento junto com o S3 Glacier.
 
 ### EFS - Elastic File Service
 
-Sistema de arquivos escalável usado com serviços AWS e recursos locais, a medida que adiciona ou remove arquivos o EFS expande ou retrai automaticamente, dimensionando sobre demanda para petabytes sem interromper os aplicativos. Armazena dados em várias AZ's e entre elas, também podem ser caessados por Direct Connect.
+Sistema de arquivos escalável usado com serviços AWS e recursos locais, a medida que adiciona ou remove arquivos o EFS expande ou retrai automaticamente, dimensionando sobre demanda para petabytes sem interromper os aplicativos. Armazena dados em várias AZ's e entre elas, também podem ser acessados por Direct Connect.
