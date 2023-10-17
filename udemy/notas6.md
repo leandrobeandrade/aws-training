@@ -40,7 +40,7 @@ O **`CAF (Cloud Adoption Framework)`** é um Whitepaper e não um serviço, que 
 - **Business**: prove clareza dos benefícios da adoção da nuvem AWS nos negócios.
 - **People**: serve como uma ponte entre tecnologia e pessoas, pessoas capacitadas com maior performance na nuvem.
 - **Governance**: orquestra iniciativas na nuvem, maximizando os ganhos e minimizando os riscos.
-- **Plataform**: prove uma plataforma híbrida, escalável com modernização para cargas de trabalho existentese e inovações.
+- **Plataform**: prove uma plataforma híbrida, escalável com modernização para cargas de trabalho existentes e inovações.
 - **Security**: prove confidencialidade, integridade e disponibilidade dos dados.
 - **Operations**: garante que os serviços em nuvem sejam oferecidos em um nível que atenda os requisitos do negócio.
 
