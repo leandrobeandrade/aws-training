@@ -12,7 +12,7 @@ As **`Sub-redes (Subnets)`** são parte de uma VPC e são associadas a uma AZ, o
 
 O **`Internet Gateway`** auxilia a subnet pública a acessar a internet por meio de rotas (Route Tables).
 
-O **`NAT Gateways`** auxilia a subnet privada a acessar a internet caso necessário. São acopladas nas subnets públicas e fazem a conexão entre a subnet privada e a internet por meio da subnet pública e suas rotas.
+O **`Network Address Translation (NAT) Gateways`** auxilia a subnet privada a acessar a internet caso necessário. São acopladas nas subnets públicas e fazem a conexão entre a subnet privada e a internet por meio da subnet pública e suas rotas.
 
 A **`Network Access Control List (NACL)`** é um Firewall que controla o tráfego de uma subnet, onde são acopladas, possuem regras apenas de inclusão de IP's que podem ser permitidas ou negadas, necessitando que o tráfego de retorno seja permitido (**stateless**).
 
@@ -52,9 +52,9 @@ O **`Penetration Testing (Pen Testing)`** fornece testes contra ataques de penet
 
 A **`Criptografia`** possui dois tipos, em repouso (dados arquivados em disco rígido, RDS, S3 Glacier Deep Archieve, etc...) e em trânsito (on-premises para AWS, EC2 para o DynamoDB, etc...).
 
-O **`Key Management Service (KMS)`** é um serviço gerenciado pela AWS sem fornecer acesso a elas, apenas dizemos quem podemos acessar as chaves.
+O **`Key Management Service (KMS)`** é um serviço gerenciado pela AWS para chaves sem fornecer acesso a elas, apenas dizemos quem podemos acessar as chaves.
 
-O **`Hardware Security Modules (HSM)`** a AWS gerencia o software para criptografia e fornece apenas o hardware e a conta gerencia as chaves.
+O **`Hardware Security Modules (HSM)`** é um serviço que a AWS gerencia o software para criptografia e fornece apenas o hardware e a conta é quem gerencia as chaves.
 
 O **`AWS Certificate Manager (ACM)`** provisiona, gerencia, implanta certificado SSL ou TLS (publico e grátis ou privado pago), fornecendo criptografia in-flight para sites acopladas nos ELB, com renovações dos certificados automáticas.
 
