@@ -55,7 +55,7 @@ A Infraestrura AWS é formada por
 - Data centers: local físico que armazena máquinas de computação e seus equipamentos de hardware relacionados.
 - Regions: local físico em todo o mundo onde agrupamos datacenters.
 - AZ's: um ou mais datacenters distintos com energia, rede e conectividade redundantes em uma região da AWS.
-- Edge Locations (Points of presence): local que o CloudFront usa para armazenar cópias do seu conteúdo em cache para entrega mais rápida aos usuários em qualquer local.
+- Edge Locations (Locais de borda): pontos de presença que o CloudFront usa para armazenar cópias do seu conteúdo em cache para entrega mais rápida aos usuários em qualquer local.
 
 Aplicações se tornam globais através da infraestrutra da AWS que promove baixa latência, recuperação de desastres e proteção contra ataques, otimizando a velocidade das aplicações em até 60%.
 
@@ -69,9 +69,9 @@ O **`Global Accelerator`** não armazena em cache, as solicitações são repass
 
 O **`Outposts`**  são racks de servidores AWS fora da AWS, no data center do cliente com os serviços disponíveis configurados. Sendo o cliente responsável pela segurança em todos os aspectos.
 
-O **`WavesLength`** são sata centers de provedores de telecomunicações na bordas das redes 5G.
+O **`WavesLength`** são data centers de provedores de telecomunicações na bordas das redes 5G.
 
-O **`Local zones`** estende os VPC's para zonas distintas, é uma espécie de implantação de infraestrutura posiciona a computação, armazenamento, banco de dados e outros produtos seletos da AWS perto do público em geral e dos centros industriais. Presente apenas nos EUA.
+O **`Local zones`** estende os VPC's para zonas distintas, é uma espécie de implantação de infraestrutura que posiciona a computação, armazenamento, banco de dados e outros produtos seletos da AWS perto do público em geral e dos centros industriais. Presente apenas nos EUA.
 
 ## Cloud Integrations
 
