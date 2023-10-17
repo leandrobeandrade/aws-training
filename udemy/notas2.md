@@ -23,7 +23,7 @@ O **`Auto Scaling Group (ASG)`** escala horizontalmente podendo criar e excluir 
 Estratégias ASG:
 
 - Escalabilidade manual.
-- Dimensionamento dinâmico para responder as demandas de mudanças com CloudWatch e TTS (Target Tracking Ccaling).
+- Dimensionamento dinâmico para responder as demandas de mudanças com CloudWatch e TTS (Target Tracking Scaling).
 - Escalonamento agendado que antecipa o escalonamento baseado em alguns padrões.
 - Escalonamento preditivo que utiliza aprendizado de máquina para prever o tráfego futuro.
 
