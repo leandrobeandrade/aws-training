@@ -101,7 +101,7 @@ A execução de uma instância a partir de um estado interrompido poderá inicia
 
 ### EBS - Elastic Block Store
 
-Fornece volumes de armazenamento a nível de bloco para instâncias EC2 só que ao contrário do armazenamento de instância caso a instância EC2 seja interrompida ou encerrada, todos os dados no volume do EBS anexo permanecerão disponíveis. Como os dados alocados em volumes EBS precisam ser persistidos, é importante que seja feito backups destes dados através de **`snapshots do EBS`**. Armazena dados em uma única AZ.
+Fornece volumes de armazenamento a nível de bloco para instâncias EC2 só que ao contrário do armazenamento de instância caso a instância EC2 seja interrompida ou encerrada, todos os dados no volume do EBS anexo permanecerão disponíveis. Como os dados alocados em volumes EBS precisam ser persistidos, é importante que seja feito backups dos dados através de **`snapshots do EBS`**. Armazena dados em uma única AZ.
 
 Os snapshots do EBS são um backup incremental sendo que o primeiro backup de um volume copia todos os dados, já nos backups subsequentes somente os blocos de dados alterados desde o snapshot mais recente serão  salvos. Os backups complementares são diferentes dos completos que fazem uma cópia dos dados toda vez que ocorre um backup, incluindo dados que não foram alterados desde o backup mais recente.
 
