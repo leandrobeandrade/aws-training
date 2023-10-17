@@ -88,7 +88,7 @@ Tipos de aquisição de instâncias EC2:
 - **`Instâncias Spot`:** Desconto de 90% em relação a on demand, porém podendo perde-lá se ultrapassar o custo devido a ter que calcular um preço máximo de uso. São mais baratas, boas para cargas resilientes a falhas e não para trabalhos críticos.
 - **`Hosts Dedicados`:** Host físico, custo mais caros de todos. Software com licenças próprias ou empresa com forte necessidade regulatória.
 - **`Instâncias Dedicadas`:** Executadas em hardware físico com compartilhamento com outras instâncias.
-- **`Capacidade Reservada`:** Capacidade reservada de instâncias específicas em uma AZ por qualquer duração de temppo.  
+- **`Capacidade Reservada`:** Capacidade reservada de instâncias específicas em uma AZ por qualquer duração de tempo.  
 
 O **`Elastic Block Store (EBS)`** são drivers de rede que podem ser anexados nas instâncias EC2 ou NÃO, permitindo persistir dados mesmo depois da instâncias estarem encerradas. Sendo o EBS vinculado a uma AZ específica com 30GB grátis em free tier, útil para failovers, porém pode-se copiar um EBS a outra AZ com um EBS instantâneo (backup) ou EBS Snapshot levando de 24 a 72 horas para cópias.
 
