@@ -10,7 +10,7 @@ A AWS fornece suporte para conexão com os mais variados sistemas **RDBS** ou si
 
 Serviço que permite executar banco de dados relacionais na nuvem AWS, sendo um serviço altamente gerenciado que automatiza tarefas como provisionamento de hardware, configurações, patchs, backups, redundância failover, etc. Podendo-se integrar a outros serviços AWS como AWS Lambda para consultar o banco de dados, fornecendo inúmeras opções diferentes de segurança como criptografia em repouso e em trânsito. Compatível com os mecanismos Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle e Microsoft SQL Server.
 
-> Amazon Aurora
+### Amazon Aurora
 
 Banco de dados relacional de nível empresarial compatível com MySQL (Aurora é 5x mais rápido) e PostgreSQL (Aurora é 3x mais rápido). Ajuda a reduzir custos por redução de operações desnecessárias de entrada/saída sendo confíavel e disponível. Ideal para cargas de alta disponibilidade replicando 6 cópias dos dados em 3 AZ's além de fazer backup contínuo dos dados para o S3.
 
@@ -20,7 +20,7 @@ Serviço de banco de dados **NOSQL** por chave-valor, oferecendo um desempenho d
 
 ### AWS Redshift
 
-Serviço de Data warehouse com escalabilidade massiva para análise de big data tendo os sues nós alcançando vários petabytes em escala. Com o auxílio do **AWS Redshift Spectrum** pode-se rodar uma única consulta SQL em Hexabytes de dados não estruturados diretamente no Data link. Tem uma performance 10x maior do que banco de dados tradicionais.
+Serviço de Data warehouse com escalabilidade massiva para análise de big data tendo os seus nós alcançando vários petabytes em escala. Com o auxílio do **AWS Redshift Spectrum** pode-se rodar uma única consulta SQL em Hexabytes de dados não estruturados diretamente no Data link. Tem uma performance 10x maior do que banco de dados tradicionais.
 
 ### AWS DMS - Database Migragtion Service
 
@@ -33,7 +33,7 @@ Fornece migração de um banco de dados on-premises ou já na AWS para a nuvem A
 
 - Migração heterogênea
 
-      Processo em duas eatpas em que a primeira consiste em converter o schema e o código do banco utilizando a ferramenta
+      Processo em duas etapas em que a primeira consiste em converter o schema e o código do banco utilizando a ferramenta
       AWS Schema Convertion Tools, em segundo migramos os dados entre os bancos utilizando o serviço AWS DMS.
 
 ### Outros Bancos AWS
@@ -67,7 +67,7 @@ O IAM oferece o gerenciamento dos acessos aos serviços AWS, com flexibilidade e
     Usuários funcionais que vão realizar as tarefas cotidianas como executar instâncias EC2 ou buckets S3, quando criados não 
     possuem permissões associadas. Recomendado seguir o princípio de menor privilégio ao conceder permissões.
 
-> Políticas
+> Políticas (Policies)
 
     Documento JSON que fornece ou nega permissões para serviços AWS, permitindo personalizar os níveis de acesso ao usuários.
     A política sempre terá o campo Effect que receberá o valor allow ou deny e no campo resource ira declarar a qual serviço
@@ -103,7 +103,7 @@ Conformidade na AWS abrange uma visão de monitoramento continuo do ambiente uti
 
 ### AWS Artifact
 
-Serviço que fornece acesso sob demanda a relatórios de segurança e conformidades AWS assim como a contratos on-line selecionados. Possui duas seções principais: AWS Artifact Agreements e o AWS Artifact Reports, o AWS Artifact fornce vários relatórios de conformidade e regulamentações para uso como ISO, CSA, PCI entre vários outros.
+Serviço que fornece acesso sob demanda a relatórios de segurança e conformidades AWS assim como a contratos on-line selecionados. Possui duas seções principais: AWS Artifact Agreements e o AWS Artifact Reports, o AWS Artifact fornece vários relatórios de conformidade e regulamentações para uso como ISO, CSA, PCI entre vários outros.
 
 - Artifact Agreements 
 
@@ -147,7 +147,7 @@ Serviço que protege aplicativos contra ataques DDoS oferecendo dois tipos de pr
 > AWS KMS - Key Management Service
 
       Permite executar operações de criptografia pelo uso de chaves criptografadas, que é uma cadeia aleatório de dígitos
-      utilizada para criptografar (bloquear) e descriptografar (desbloquear) dados. Permite especificar víveis de controle de
+      utilizada para criptografar (bloquear) e descriptografar (desbloquear) dados. Permite especificar níveis de controle de
       acessos e funções IAM, assim como desativar temporariamente as chaves.
 
 > AWS WAF - Web Application Firewall
@@ -158,7 +158,7 @@ Serviço que protege aplicativos contra ataques DDoS oferecendo dois tipos de pr
 
 > AWS Inspector
 
-      Fornece avaliações automatizdas de segurança e conformidades, verificando vulnerabilidades de segurança e desvios das
+      Fornece avaliações automatizadas de segurança e conformidades, verificando vulnerabilidades de segurança e desvios das
       práticas recomendadas. Depois da avaliação fornece uma lista de descobertas que é priorizada pelo nível de gravidade.
 
 > AWS GuardDuty
