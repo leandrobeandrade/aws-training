@@ -4,7 +4,7 @@ Anotações referentes ao curso [AWS Cloud Practitioner Essentials](https://expl
 
 ## AWS CAF - Cloud Adoption Framework 
 
-Gerencia no processo de migrição para nuvem por meio de orientações, fornecendo aconselhamento à sua empresa para habilitar uma migração rápida e tranquila para a AWS. No nível mais alto do AWS CAF as orientações são organizadas em seis áreas de foco chamadas perspectivas, cada perspectiva aborda responsabilidades distintas. Em geral, as perspectivas de negócio, pessoas e governança se concentram nas capacidades comerciais, enquanto as perspectivas de plataforma, segurança e operações se concentram em capacidades técnicas.
+Gerencia no processo de migração para nuvem por meio de orientações, fornecendo aconselhamento à sua empresa para habilitar uma migração rápida e tranquila para a AWS. No nível mais alto do AWS CAF as orientações são organizadas em seis áreas de foco chamadas perspectivas, cada perspectiva aborda responsabilidades distintas. Em geral, as perspectivas de negócio, pessoas e governança se concentram nas capacidades comerciais, enquanto as perspectivas de plataforma, segurança e operações se concentram em capacidades técnicas.
 
 > **perspectiva de negócio**
 
@@ -64,7 +64,7 @@ Realocação de plataforma, também conhecida como `lift, tinker and shift`, env
 
 - **Refactoring** - Refatoração/rearquitetura
 
-Refatoração envolve reimaginar como um aplicativo é arquitetado e desenvolvido usando recursos nativos da nuvem. A refatoração costuma ser orientada pela forte necessidade que a empresa tem de adicionar recursos, scaling ou desempenho que, de outra forma, seriam difíceis de obter no ambiente atual do palicativo.
+Refatoração envolve reimaginar como um aplicativo é arquitetado e desenvolvido usando recursos nativos da nuvem. A refatoração costuma ser orientada pela forte necessidade que a empresa tem de adicionar recursos, scaling ou desempenho que, de outra forma, seriam difíceis de obter no ambiente atual do aplicativo.
 
 - **Repurchasing** - Recompra
 
@@ -145,7 +145,7 @@ Fornece escopo de como projetar e operar sistemas confiáveis, seguros, eficient
 
 - Confiabilidade
 
-      Capacidade de um sistema fazer o seguinte: recuperar-se de interrupções na infraestrutura ou no serviço, Adquirir 
+      Capacidade de um sistema fazer o seguinte: recuperar-se de interrupções na infraestrutura ou no serviço, adquirir 
       dinamicamente recursos de computação para atender à demanda, reduzir interrupções, como configurações incorretas ou 
       problemas de rede transitórios, a confiabilidade inclui testes de procedimentos de recuperação, scaling horizontal para
       aumentar a disponibilidade agregada do sistema e recuperação automática de falhas.
