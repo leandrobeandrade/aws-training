@@ -134,4 +134,4 @@ O suporte AWS analisa o cliente de forma dinâmica, não apenas se ele está ten
 
 ### AWS Marketplace
 
-Catálogo digital seleto com milhares de ofertas de fornecedores independentes de software. podendo-se o usar para encontrar, testar e comprar software que pode ser executado na AWS com acesso a informações detalhadas sobre opções de definição de preço, suporte disponível e avaliações de outros clientes AWS, além de poder explorar soluções de software por setor e caso de uso.
+Catálogo digital seleto com milhares de ofertas de fornecedores independentes de software, tendo seu uso para encontrar, testar e comprar software que pode ser executado na AWS com acesso a informações detalhadas sobre opções de definição de preço, suporte disponível e avaliações de outros clientes AWS, além de poder explorar soluções de software por setor e caso de uso.
