@@ -111,6 +111,6 @@ Existem duas abordagens:
 
 O EC2 Auto Scaling pode ser adicionado como um buffer sobre suas instâncias. Ele pode adicionar novas instâncias ao aplicativo quando necessário e encerrá-las quando não forem mais necessárias. Você pode configurar um grupo de instâncias. Aqui você pode definir uma capacidade mínima de instâncias que sempre estarão em execução. O restante funcionará quando necessário. 
 
-Você pode definir o número desejado de instâncias do AWS EC2 no grupo de escalabilidade. No entanto, a capacidade desejada é padronizada para sua capacidade mínima se não for especificada, a última configuração é Capacidade máxima, aqui você define a capacidade máxima de instâncias a serem utilizadas.
+Você pode definir o número desejado de instâncias do AWS EC2 no grupo de escalabilidade. No entanto, a capacidade desejada é padronizada para sua capacidade mínima se não for especificada, a última configuração é capacidade máxima, aqui você define a capacidade máxima de instâncias a serem utilizadas.
 
  Os grupos de Auto Scaling permitem que você tenha um ambiente dinâmico. Você define a capacidade mínima, o número desejado e a capacidade máxima. O grupo operará dentro da configuração e fornecerá uma arquitetura previsível e econômica.
