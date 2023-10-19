@@ -1,10 +1,10 @@
 # EKS - Elastic Kubernetes Service
 
-O EKS é um serviço gerenciado que permite executar o Kubernetes na AWS. Ele foi desenvolvido para escalar com o Kubernetes.
+O EKS é um serviço gerenciado que permite executar o Kubernetes na AWS e foi desenvolvido para escalar com o Kubernetes.
 
 > O que é Kubernetes?
 
-Kubernetes é um software de código aberto. Ele ajuda você a implantar e gerenciar aplicativos em contêineres. A AWS mantém continuamente o serviço AWS EKS atualizado com os recursos mais recentes do Kubernetes.
+Kubernetes é um software de código aberto que ajuda a implantar e gerenciar aplicativos em contêineres. A AWS mantém continuamente o serviço AWS EKS atualizado com os recursos mais recentes do Kubernetes.
 
 ## Como funciona
 
