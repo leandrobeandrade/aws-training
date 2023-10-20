@@ -1,6 +1,16 @@
 # ECS - Elastic Container Service
 
-O ECS ajuda você a executar aplicativos em contêineres. É um sistema de gestão construído para escala e alto desempenho.
+O ECS ajuda você a executar aplicativos em contêineres, sendo um sistema de gestão construído para escala e alto desempenho.
+
+## Contêineres AWS
+
+Os contêineres são populares para implantar e gerenciar aplicativos na nuvem. Os contêineres permitem que você empacote o código em um único objeto, isolar o código e remover as dependências de outros componentes.
+
+Funciona isoladamente sendo um conceito essencial em arquiteturas de microsserviços. Ter o aplicativo em um contêiner facilita a depuração, isso facilita porque a aplicação fica dentro de um container isolado com o contêiner permanecendo consistente independentemente da implantação.
+
+> Containers e Scale
+
+É importante projetar em escala ao usar contêineres. Pode haver dezenas de hosts com centenas de contêineres à medida que o ambiente cresce. Deve-se preparar para saber como gerenciar operações em escala.
 
 ## Vantagens
 
@@ -13,7 +23,7 @@ O ECS ajuda você a executar aplicativos em contêineres. É um sistema de gest�
 
 O Amazon Elastic Container Service (Amazon ECS) é um serviço de orquestração de contêineres totalmente gerenciado que simplifica a implantação, o gerenciamento e a escalabilidade de aplicações conteinerizadas. Basta descrever suas aplicação e os recursos necessários, e o Amazon ECS vai executar, monitorar e escalar a aplicação em opções flexíveis de computação com integrações automáticas com outros serviços de suporte da AWS de que sua aplicação precise. Execute operações do sistema, como criar regras personalizadas de escalabilidade e capacidade, além de observar e consultar dados de logs de aplicações e telemetria.
 
-É um serviço totalmente gerenciado que ajuda a implantar, gerenciar e dimensionar facilmente aplicações conteinerizadas. Como um serviço totalmente gerenciado, o Amazon ECS vem com práticas recomendadas operacionais e de configuração da AWS incorporadas. Ele é integrado à AWS e a ferramentas de terceiros, como o Amazon Elastic Container Registry (ECR) e o Docker. Essa integração torna mais fácil para as equipes se concentrarem na criação das aplicações, não no ambiente. Você pode executar e dimensionar suas workloads de contêiner na nuvem e on-premises, sem a complexidade de gerenciar um ambiente de gerenciamento.
+É um serviço totalmente gerenciado que ajuda a implantar, gerenciar e dimensionar facilmente aplicações conteinerizadas. Vem com práticas recomendadas operacionais e de configuração da AWS incorporadas, sendo integrado à AWS e a ferramentas de terceiros, como o Amazon Elastic Container Registry (ECR) e o Docker. Essa integração torna mais fácil para as equipes se concentrarem na criação das aplicações, não no ambiente. Você pode executar e dimensionar suas workloads de contêiner na nuvem e on-premises, sem a complexidade de gerenciar um ambiente de gerenciamento.
 
 ## Camadas ECS:
 
