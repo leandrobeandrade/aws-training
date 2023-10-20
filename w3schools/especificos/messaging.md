@@ -1,24 +1,18 @@
 # Messaging System Services
 
-Os serviços de sistema de mensagens da AWS habilitam diferentes sistemas de software e dispositivos finais, muitas vezes usando diferentes linguagens de programação, e em diferentes plataformas – para comunicação e troca de informações. Você pode usar os serviços de sistema de mensagens da AWS para enviar e receber dados nos seus aplicativos de nuvem. A infraestrutura subjacente é provisionada automaticamente e oferece alta disponibilidade e resiliência de mensagens para dar suporte à confiabilidade dos aplicativos.
+Os serviços de sistema de mensagens da AWS habilitam diferentes sistemas de software e dispositivos finais, muitas vezes usando diferentes linguagens de programação, e em diferentes plataformas para comunicação e troca de informações. Você pode usar os serviços de sistema de mensagens da AWS para enviar e receber dados nos seus aplicativos de nuvem. A infraestrutura subjacente é provisionada automaticamente e oferece alta disponibilidade e resiliência de mensagens para dar suporte à confiabilidade dos aplicativos.
 
 ## Aplicações monolíticas e microsserviços
 
-Os aplicativos são feitos de vários componentes. Os componentes se comunicam entre si. A comunicação pode transmitir dados, atender solicitações e manter o aplicativo em execução.
+Os aplicativos são feitos de vários componentes, os componentes se comunicam entre si. A comunicação pode transmitir dados, atender solicitações e manter o aplicativo em execução.
 
 > Aplicação monolítica
 
-Uma arquitetura com componentes fortemente acoplados pode ser chamada de aplicação monolítica. Os componentes podem ser bancos de dados, servidores, interfaces e muito mais.
-
-Um aplicativo monolítico pode ficar vulnerável se um dos componentes falhar. Na pior das hipóteses, isso pode fazer com que todo o serviço seja desativado.
-
-Em vez disso, seu aplicativo pode ser projetado com uma abordagem chamada microsserviços. Os microsserviços podem ajudar a manter seu serviço disponível se um componente falhar.
+Uma arquitetura com componentes fortemente acoplados pode ser chamada de aplicação monolítica. Os componentes podem ser bancos de dados, servidores, interfaces e muito mais. Um aplicativo monolítico pode ficar vulnerável se um dos componentes falhar. Na pior das hipóteses, isso pode fazer com que todo o serviço seja desativado. Em vez disso, seu aplicativo pode ser projetado com uma abordagem chamada microsserviços.
 
 > Microsserviços
 
-Os microsserviços podem ajudar a manter o serviço se um componente falhar. Os serviços podem ser mantidos porque eles se comunicam entre si e os componentes não são fortemente acoplados.
-
-A AWS possui dois serviços que podem fazer essa integração:
+Os microsserviços podem ajudar a manter o serviço se um componente falhar. Os serviços podem ser mantidos porque eles se comunicam entre si e os componentes não são fortemente acoplados. A AWS possui dois serviços que podem fazer essa integração:
 
 - Serviço de notificação simples da AWS (AWS SNS)
 - Serviço de fila simples da AWS (AWS SQS)
@@ -43,9 +37,7 @@ Escalabilidade quase infinita e habilidade de aumentar o throughput de mensagens
 
 Serviço gerenciado de notificação por push móvel e sistema de mensagens de publicação/assinatura para entrega de mensagens com altos níveis de throughput e confiabilidade.
 
-É um serviço de comunicação móvel e mensagens de publicação-assinatura totalmente gerenciado para entrega em massa de mensagens.
-
-Pode ser orientado a eventos, com serviços automatizados respondendo a gatilhos. Sistemas distribuídos e microsserviços podem ser desacoplados com mensagens entre eles por meio do AWS SNS. É possível enviar mensagens de aplicativo para pessoa aos usuários com SMS, push móvel e email.
+Pode ser orientado a eventos, com serviços automatizados respondendo a gatilhos (triggers). Sistemas distribuídos e microsserviços podem ser desacoplados com mensagens entre eles por meio do AWS SNS. É possível enviar mensagens de aplicativo para pessoa aos usuários com SMS, push móvel e email.
 
 > Caso de uso
 
