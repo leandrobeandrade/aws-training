@@ -8,7 +8,7 @@ O pagamento conforme o uso permite que você se adapte facilmente a necessidades
 
 ## Economize ao confirmar (Save when confirming)
 
-Para os produtos AWS Machine Learning e AWS Machine Learning, os Savings Plans oferecem economia em relação ao plano sob demanda em troca de um compromisso de usar uma quantia específica (medida em USD/hora) de um produto ou uma categoria de produtos da AWS, por um período de um ou três anos.
+Para os produtos AWS Machine Learning por exemplo, os Savings Plans oferecem economia em relação ao plano sob demanda em troca de um compromisso de usar uma quantia específica (medida em USD/hora) de um produto ou uma categoria de produtos da AWS, por um período de um ou três anos.
 
 ## Pague menos usando mais (Pay less using more)
 
@@ -88,11 +88,11 @@ A AWS permite que você gerencie várias contas de um local central. A localiza�
 
 ## AWS Budgets
 
-O Orçamento da AWS permite planejar o uso, o custo e as reservas de instância. As informações no orçamento da AWS são atualizadas três vezes ao dia. Crie alertas personalizados em Orçamentos. Use os alertas para avisar se você ultrapassar a previsão de uso.
+O AWS Budgets permite planejar o uso, o custo e as reservas de instância, as informações de orçamento são atualizadas três vezes ao dia. Crie alertas personalizados e use os alertas para avisar se você ultrapassar a previsão de uso.
 
-> Visão geral do orçamento
+> Visão geral do AWS Budgets
 
-    O Orçamento permite comparar o uso real com o orçado.
+    Permite comparar o uso real com o orçado.
     Ele permite que você compare orçamentos com muitas dimensões.
 
 ## AWS Cost Explorer
@@ -113,42 +113,35 @@ O Cost Explorer ou Ferramenta de visualização de custos, permite que você vis
 
 ## Planos de suporte da nuvem AWS
 
-A AWS oferece quatro planos de suporte diferentes.
+A AWS oferece quatro planos de suporte diferentes. As alternativas cobrem diferentes necessidades e todos os planos têm um preço mensal.
 
 - Basic
 - Developer
 - Business
 - Enterprise
 
-### Suporte básico
+### Suporte básico (Basic)
 
-Básico é a opção de suporte padrão. O suporte básico é gratuito. Ele concede acesso a whitepapers, documentação e comunidades de suporte. Existem limitações para o que você pode entrar em contato com a AWS.
+Básico é a opção de suporte padrão sendo gratuito, ele concede acesso a whitepapers, documentação e comunidades de suporte. Existem limitações para o que você pode entrar em contato com a AWS.
 
-As alternativas são:
+### Suporte ao desenvolvedor (Developer)
 
-Desenvolvedor: menor custo
-Negócio: custo no meio
-Empresa: custo mais alto
-
-As alternativas cobrem diferentes necessidades. Todos os planos têm um preço mensal.
-
-### Suporte ao desenvolvedor
-
-Acesso a tudo no Basic plus:
+Com o menor custo e acesso a tudo no Basic mais:
 
 - Orientação de melhores práticas
 - Ferramentas de diagnóstico do lado do cliente
 - Suporte à arquitetura de blocos de construção sobre como usar os serviços da AWS juntos
 
-### Suporte de negócios
+### Suporte de negócios (Business)
 
-Tudo em Básico e Desenvolvedor mais:
+Custo mediano com tudo em Basic e Developer mais:
 
 - Orientação de caso de uso
 - Todas as verificações do TrustedAdvisor
 - Suporte limitado para software de terceiros
+- Suporte técnico por meio de chamadas telefônicas
 
-### Suporte Empresarial
+### Suporte Empresarial (Enterprise)
 
 Tudo em Basic, Developer e Business mais:
 
@@ -158,19 +151,19 @@ Tudo em Basic, Developer e Business mais:
 
 > Gerente técnico de contas (TAM - Technical Account Manager)
 
-O plano Enterprise inclui acesso a um gerente técnico de contas. O TAM é o principal ponto de contato. Ela ajuda você com design, arquitetura e como crescer com a AWS. O TAM tem acesso a expertise em todos os serviços da AWS.
+O TAM é o principal ponto de contato, ele ajuda você com design, arquitetura e como crescer com a AWS. O TAM tem acesso a expertise em todos os serviços da AWS.
 
 ## AWS Marketplace
 
-O AWS Marketplace permite listar e vender software. Marketplace é um catálogo digital onde os fornecedores podem listar e vender seu software. Aqui você pode explorar, testar e comprar software executado na AWS. Ele fornece informações detalhadas sobre produtos em listagens como:
+O AWS Marketplace permite listar e vender software sendo um catálogo digital onde os fornecedores podem listar e vender seu software. Aqui você pode explorar, testar e comprar software executado na AWS. Ele fornece informações detalhadas sobre produtos em listagens como:
 
 - Preços
 - Opções de suporte
 - Avaliações de Clientes
 - Categorias de mercado da AWS
-- As listas são categorizadas.
+- Categorizações de listas.
 
-As categorias ajudam você a encontrar melhor o que procura. Eles também estão tornando mais fácil para outras pessoas encontrarem sua listagem. Visão geral das categorias:
+As categorias ajudam você a encontrar melhor o que procura e também para outras pessoas encontrarem sua listagem. Visão geral das categorias:
 
 - Business Applications
 - Data & Analytics
