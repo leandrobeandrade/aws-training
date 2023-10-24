@@ -73,7 +73,7 @@ Banco de dados relacional em nuvem - Amazon RDS. RDS é um serviço que automati
 
 Os mecanismos de banco de dados AWS RDS oferecem criptografia de dados enquanto os dados são armazenados, enviados e recebidos. O AWS RDS ajuda você a concluir tarefas administrativas mais rapidamente. Diminuir o tempo necessário para tarefas administrativas dá a você mais tempo para desenvolver os recursos do aplicativo.
 
-## AWS Cloud DynamoDB
+## AWS DynamoDB
 
 Banco de dados em nuvem NoSQL não relacional, sendo um banco de dados sem servidor. O DynamoDB é um serviço de alto desempenho. Como o AWS DynamoDB é um banco de dados sem servidor, você não precisa gerenciar servidores ou um sistema operacional para usá-lo.
 
@@ -89,3 +89,18 @@ Um dos tipos de estrutura do banco de dados não relacional são os pares chave-
 | Armazena dados em tabelas de banco de dados   | Armazena dados em documentos          |
 | Mais caro que o AWS DynamoDB                  | Mais barato que o AWS RDS             |
 | Mais lento que o AWS DynamoDB                 | Mais rápido que o AWS RDS             |
+
+### AWS DynamoDB Accelerator (DAX)
+
+É um serviço de cache na memória para AWS DynamoDB. Melhora os tempos de leitura de seus dados não relacionais. Ele melhora os tempos de resposta de milissegundos para microssegundos. É um serviço totalmente gerenciado, flexível e seguro. O Amazon DynamoDB Accelerator (DAX) é um cache de memória totalmente gerenciado e altamente disponível para o Amazon DynamoDB que oferece um ganho de performance de 10 vezes (de milissegundos para microssegundos), mesmo com milhões de solicitações por segundo. 
+
+O DAX faz todo o trabalho pesado necessário para adicionar aceleração em memória às tabelas do DynamoDB sem que os desenvolvedores tenham de gerenciar invalidação de cache, preenchimento de dados ou gerenciamento de clusters. O DAX foi projetado para execução em um ambiente do Amazon Virtual Private Cloud (Amazon VPC).
+
+> Vantagens
+
+- Performance extrema
+- Altamente escalável
+- Totalmente gerenciado
+- Facilidade de uso
+- Flexível
+- Seguro
