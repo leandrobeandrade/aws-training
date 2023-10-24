@@ -14,7 +14,7 @@ Além disso, permite incluir as seções da Nuvem AWS que você deseja na rede i
 
 ### Portal da Internet (Internet Gateway)
 
-O tráfego público pode ser permitido para sua VPC. O tráfego é permitido por um Gateway de Internet. Um Gateway da Internet é uma porta entre a VPC e a Internet.O tráfego entra na VPC por meio do Internet Gateway. Sem o Internet Gateway, você não pode acessar os recursos na VPC.
+O tráfego público pode ser permitido para sua VPC. O tráfego é permitido por um Gateway de Internet. Um Gateway da Internet é uma porta entre a VPC e a Internet e o tráfego entra na VPC por meio do Internet Gateway. Sem o Internet Gateway, você não pode acessar os recursos na VPC.
 
 ### Portal Privado Virtual (Virtual Private Gateway)
 
@@ -24,7 +24,7 @@ O Virtual Private Gateway permite que você crie uma Virtual Private Network (VP
 
 ### Conexão Direta (AWS Direct Connect)
 
-O AWS Direct Connect permite fazer uma conexão privada dedicada entre o datacenter e uma VPC. Uma conexão dedicada é ter o link para você. O link não é compartilhado com outras pessoas. Somente você e seus dados podem viajar pela conexão.
+O AWS Direct Connect permite fazer uma conexão privada dedicada entre o data center e uma VPC. Uma conexão dedicada é ter o link para você. O link não é compartilhado com outras pessoas. Somente você e seus dados podem viajar pela conexão.
 
 ## Sub-redes (Subnets)
 
@@ -51,7 +51,7 @@ Verificando permissões como:
 - Listas de controle de acesso à rede
 - As listas de controle de acesso à rede são chamadas de ACLs
 
-ACL é um firewall que controla o tráfego, tanto de entrada quanto de saída. Ele controla o tráfego no nível da sub-rede. A ACL verifica e controla os pacotes. Se o pacote estiver na lista de aprovados, ele passará. No entanto, se eles não estiverem na lista, o acesso será negado.
+ACL é um firewall que controla o tráfego, tanto de entrada quanto de saída, controla o tráfego no nível da sub-rede. A ACL verifica e controla os pacotes, se o pacote estiver na lista de aprovados, ele passará, no entanto, se eles não estiverem na lista, o acesso será negado.
 
 ### Filtragem de pacotes sem estado (Stateless packet filtering)
 
