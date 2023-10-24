@@ -30,9 +30,9 @@ O **`Site to Site`** conecta uma on-premise VPN a AWS, via internet publica por�
 
 O **`Direct Connect`** é uma conexão física entre on-premises e a AWS por uma rede privada.
 
-O **`Customer Gateway`** estabelece uma VPN site to site no datacenter local e um Virtual Private Gateway na VPC.
+O **`Customer Gateway`** estabelece uma VPN site to site no data center local e um Virtual Private Gateway na VPC.
 
-O **`Client VPN`** cria uma conexão entre um computador usando OpenVPN e a rede privada AWS no datacenter local, através de uma conexão site to site e uma VPC no meio.
+O **`Client VPN`** cria uma conexão entre um computador usando OpenVPN e a rede privada AWS no data center local, através de uma conexão site to site e uma VPC no meio.
 
 O **`Transit Gateway`** conexão de peering entre milhares de VPC e o sistema local com uma conexão estrela hub-and-spoke. Com o gateway centralizando e distribuindo as conexões.
 

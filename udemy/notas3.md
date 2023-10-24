@@ -53,8 +53,8 @@ A AWS fornece também uma suíte completa com serviços para todos os ciclos de 
 A Infraestrura AWS é formada por
 
 - Data centers: local físico que armazena máquinas de computação e seus equipamentos de hardware relacionados.
-- Regions: local físico em todo o mundo onde agrupamos datacenters.
-- AZ's: um ou mais datacenters distintos com energia, rede e conectividade redundantes em uma região da AWS.
+- Regions: local físico em todo o mundo onde agrupamos data centers.
+- AZ's: um ou mais data centers distintos com energia, rede e conectividade redundantes em uma região da AWS.
 - Edge Locations (Locais de borda): pontos de presença que o CloudFront usa para armazenar cópias do seu conteúdo em cache para entrega mais rápida aos usuários em qualquer local.
 
 Aplicações se tornam globais através da infraestrutra da AWS que promove baixa latência, recuperação de desastres e proteção contra ataques, otimizando a velocidade das aplicações em até 60%.
