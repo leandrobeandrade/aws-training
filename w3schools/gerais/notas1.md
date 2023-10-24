@@ -4,7 +4,7 @@ Anotações referentes ao [Tutorial AWS Cloud](https://my-learning.w3schools.com
 
 ## Serverless
 
-Serverless é um serviço onde você não precisa pensar em servidores. Com serverless, você só precisa pensar em código. O provedor de nuvem lida com toda a infraestrutura por trás dele.
+Serverless é um serviço onde você não precisa pensar em servidores, com serverless você só precisa pensar em código e o provedor de nuvem lida com toda a infraestrutura por trás dele.
 
 > A diferença entre EC2 e serveless
 
@@ -47,8 +47,27 @@ Lambda funciona da mesma maneira. O uso é sob demanda quando você executa o c�
 
 > O AWS Lambda pode ser usado para:
 
-- Crie e implante aplicativos
-- Monitore e mantenha aplicativos
+- Criar e implantar aplicativos
+- Monitorar e gerenciar aplicativos
+
+## AWS Fargate - Computação sem servidor para contêineres
+
+Ajuda a implantar e gerenciar aplicativos. A Fargate gerencia a infraestrutura para você. Você não precisa pensar no fornecimento de servidores e gerenciamento de infraestrutura ao usar o Fargate.
+
+O AWS Fargate é uma tecnologia que pode ser usada com o Amazon ECS para executar contêineres sem a necessidade de gerenciar servidores ou clusters de instâncias do Amazon EC2. Com o Fargate, não é mais necessário provisionar, configurar ou dimensionar os clusters de máquinas virtuais para executar contêineres. Isso elimina a necessidade de escolher tipos de servidor, decidir quando dimensionar clusters ou otimizar o agrupamento de clusters.
+
+Ao executar suas tarefas e serviços do Amazon ECS com o tipo de inicialização do Fargate ou um provedor de capacidade do Fargate, empacote a aplicação em contêineres, especifique os requisitos de sistema operacional, CPU e memória, defina as políticas de rede e do IAM e inicie a aplicação. Cada tarefa do Fargate tem seu próprio limite de isolamento e não compartilha o kernel subjacente, os recursos de CPU, os recursos de memória nem a interface de rede elástica com outra tarefa.
+
+> Como funciona o AWS Fargate
+
+É um serviço sem servidor. A Fargate tem um modelo de precificação pré-pago. Ele permite que você se concentre em fazer o que é mais importante: criar seus aplicativos incríveis.
+
+> Vantagens
+
+- Implemente e gerencie seus aplicativos, não a infraestrutura. O Fargate remove a sobrecarga operacional de escalabilidade, patches, proteção e gerenciamento de servidores
+- Monitore suas aplicações por meio de integrações integradas com serviços da AWS, como o Amazon CloudWatch Container Insights. Colete métricas e logs com ferramentas de terceiros
+- Melhore a segurança por meio de isolamento de workload por design. Tarefas do Amazon ECS e pods do Amazon EKS são executados em seu próprio ambiente do tempo de execução dedicado
+- Pague somente pelo que usar. O Fargate escala a computação para ter uma correspondência de perto com seus requisitos de recurso especificados. Com o Fargate, não há excesso de provisionamento nem o pagamento de servidores adicionais
 
 ## ELB - Elastic Load Balancing
 
@@ -67,13 +86,3 @@ AWS EC2 e Elastic Load Balancing são dois serviços diferentes que funcionam be
 > Load Allocation (Alocação de Carga)
 
 O serviço aloca o tráfego de entrada entre os recursos disponíveis. O princípio é o mesmo nos períodos de alta e baixa demanda. Ele irá alocar entre o que está disponível a qualquer momento.
-
-## Contêineres AWS
-
-Os contêineres são populares para implantar e gerenciar aplicativos na nuvem. Os contêineres permitem que você empacote o código em um único objeto. O contêiner isola o código e remove as dependências de outros componentes.
-
-Funciona isoladamente. Os contêineres são um conceito essencial em arquiteturas de microsserviços. Ter o aplicativo em um contêiner facilita a depuração. Isso facilita porque a aplicação fica dentro de um container isolado. O contêiner permanece consistente independentemente da implantação.
-
-> Containers e Scale
-
-É importante projetar em escala ao usar contêineres. Pode haver dezenas de hosts com centenas de contêineres à medida que o ambiente cresce. Deve-se preparar para saber como gerenciar operações em escala.
