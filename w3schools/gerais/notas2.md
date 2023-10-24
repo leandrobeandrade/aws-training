@@ -2,25 +2,6 @@
 
 Anotações referentes ao [Tutorial AWS Cloud](https://my-learning.w3schools.com/tutorial/aws) no site W3Schools.
 
-## AWS Fargate - Computação sem servidor para contêineres
-
-Ajuda a implantar e gerenciar aplicativos. A Fargate gerencia a infraestrutura para você. Você não precisa pensar no fornecimento de servidores e gerenciamento de infraestrutura ao usar o Fargate.
-
-O AWS Fargate é uma tecnologia que pode ser usada com o Amazon ECS para executar contêineres sem a necessidade de gerenciar servidores ou clusters de instâncias do Amazon EC2. Com o Fargate, não é mais necessário provisionar, configurar ou dimensionar os clusters de máquinas virtuais para executar contêineres. Isso elimina a necessidade de escolher tipos de servidor, decidir quando dimensionar clusters ou otimizar o agrupamento de clusters.
-
-Ao executar suas tarefas e serviços do Amazon ECS com o tipo de inicialização do Fargate ou um provedor de capacidade do Fargate, empacote a aplicação em contêineres, especifique os requisitos de sistema operacional, CPU e memória, defina as políticas de rede e do IAM e inicie a aplicação. Cada tarefa do Fargate tem seu próprio limite de isolamento e não compartilha o kernel subjacente, os recursos de CPU, os recursos de memória nem a interface de rede elástica com outra tarefa.
-
-> Como funciona o AWS Fargate
-
-É um serviço sem servidor. A Fargate tem um modelo de precificação pré-pago. Ele permite que você se concentre em fazer o que é mais importante: criar seus aplicativos incríveis.
-
-> Vantagens
-
-- Implemente e gerencie seus aplicativos, não a infraestrutura. O Fargate remove a sobrecarga operacional de escalabilidade, patches, proteção e gerenciamento de servidores
-- Monitore suas aplicações por meio de integrações integradas com serviços da AWS, como o Amazon CloudWatch Container Insights. Colete métricas e logs com ferramentas de terceiros
-- Melhore a segurança por meio de isolamento de workload por design. Tarefas do Amazon ECS e pods do Amazon EKS são executados em seu próprio ambiente do tempo de execução dedicado
-- Pague somente pelo que usar. O Fargate escala a computação para ter uma correspondência de perto com seus requisitos de recurso especificados. Com o Fargate, não há excesso de provisionamento nem o pagamento de servidores adicionais
-
 ## Infraestrutura AWS
 
 A infraestrutura da Nuvem AWS é criada em torno das regiões e zonas de disponibilidade da AWS. Uma região da AWS é um local físico no mundo onde temos várias zonas de disponibilidade. As zonas de disponibilidade consistem em um ou mais data centers discretos, cada um com alimentação, rede e conectividade redundantes, alojados em instalações separadas. Essas zonas de disponibilidade oferecem a capacidade de operar aplicativos e bancos de dados de produção com maior disponibilidade, tolerância a falhas e escalabilidade do que seria possível em um único data center. Para obter as informações mais recentes sobre as zonas de disponibilidade da nuvem AWS e as regiões da AWS.
@@ -60,19 +41,19 @@ Selecionar uma região próxima aos seus clientes pode ajudar a agilizar os serv
 
 > Serviços de Disponibilidade de Região
 
-Nem todos os datacenters da AWS oferecem suporte a todos os serviços e recursos A AWS cria novos serviços o tempo todo. A disponibilização de serviços exige que a AWS crie infraestrutura nos Data Centers.
+Nem todos os data centers da AWS oferecem suporte a todos os serviços e recursos A AWS cria novos serviços o tempo todo. A disponibilização de serviços exige que a AWS crie infraestrutura nos data centers.
 
 Como resultado, os serviços podem ainda não ter chegado a um Data Center perto de você. Você pode selecionar uma região para acessar serviços específicos.
 
-## Zones
+## Availability Zones
 
-Zona de Disponibilidade é um único Data Center ou um grupo de Data Centers em uma região. Em uma Zona de Disponibilidade, os Data Centers estão localizados a muitos quilômetros de distância um do outro. Separá-los reduz o risco de todos caírem caso ocorra um desastre na região. Simultaneamente, tenha o(s) Data Center(s) próximo(s) o suficiente para ter baixa latência.
+Zona de Disponibilidade é um único Data Center ou um grupo de data centers em uma região. Em uma Zona de Disponibilidade, os data centers estão localizados a muitos quilômetros de distância um do outro. Separá-los reduz o risco de todos caírem caso ocorra um desastre na região. Simultaneamente, tenha o(s) Data Center(s) próximo(s) o suficiente para ter baixa latência.
 
 Os recursos de computação em nuvem da Amazon são hospedados em vários locais no mundo todo. Esses locais são compostos por regiões da AWS, zonas de disponibilidade e zonas locais. Cada região da AWS é uma área geográfica separada. Cada região da AWS contém vários locais isolados conhecidos como zonas de disponibilidade.
 
 Usando o Local Zones, é possível colocar recursos, como computação e armazenamento, em vários locais mais próximos dos usuários. O Amazon RDS permite que você coloque recursos, como instâncias de banco de dados, e dados em vários locais. Os recursos não são replicados entre regiões da AWS, a menos que você especifique isso.
 
-A Amazon opera datacenters de última geração e altamente disponíveis. Embora sejam raras, podem ocorrer falhas que afetam a disponibilidade das instâncias de banco de dados que estiverem no mesmo local. Se você hospeda todas as instâncias de banco de dados em um único local afetado por essa falha, nenhuma delas estará disponível.
+A Amazon opera data centers de última geração e altamente disponíveis. Embora sejam raras, podem ocorrer falhas que afetam a disponibilidade das instâncias de banco de dados que estiverem no mesmo local. Se você hospeda todas as instâncias de banco de dados em um único local afetado por essa falha, nenhuma delas estará disponível.
 
 > Local Zones
 
@@ -80,4 +61,22 @@ Uma zona local é uma extensão de uma região AWS que está geograficamente pr�
 
 Quando criar uma instância de banco de dados, você poderá escolher uma sub-rede em uma zona local. As zonas locais têm suas próprias conexões com a Internet e suporte no AWS Direct Connect. Assim, os recursos criados em uma zona local podem atender usuários locais com comunicações de latência muito baixa. Para obter mais informações, consulte Zonas locais da AWS.
 
-Uma zona local é representada por um código de região da AWS seguido por um identificador que indica o local, por exemplo, us-west-2-lax-1a.
+Uma zona local é representada por um código de região da AWS seguido por um identificador que indica o local, exemplo us-west-2-lax-1a.
+
+## Edge Location - Locais de borda
+
+O Edge Location é o Data Center usado para entregar conteúdo rapidamente aos seus usuários. É o site que está mais próximo dos seus usuários.
+
+> Entrega rápida
+
+Os pontos de presença da AWS usam um serviço chamado CloudFront. O CloudFront é usado para armazenar cópias em cache do seu conteúdo. Resultando na entrega rápida do seu conteúdo.
+
+> O que é Cache?
+
+O armazenamento em cache ajuda o software a fornecer conteúdo de maneira mais rápida e econômica. Cache é um armazenamento rápido que copia e armazena partes de dados. Os dados são armazenados em hardware que pode entregar conteúdo rapidamente, por exemplo, RAM (Random-access memory). A principal tarefa do cache é entregar o conteúdo rapidamente. Os dados são salvos na camada de hardware rápido para que não precisem usar o hardware de armazenamento lento.
+
+O conteúdo é entregue mais rapidamente porque os dados não são mais solicitados do local principal. É entregue a partir do ponto de presença. O local mais próximo do usuário.
+
+> Como funciona o cache
+
+O cache salva subconjuntos dos dados, tornando-os disponíveis. Depois que alguém solicita os dados, eles são copiados e armazenados no ponto de presença. Quando a próxima pessoa solicitar os mesmos dados, eles serão entregues mais rapidamente do ponto de presença mais próximo.
