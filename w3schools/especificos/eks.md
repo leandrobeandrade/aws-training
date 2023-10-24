@@ -8,7 +8,7 @@ Kubernetes é um software de código aberto que ajuda a implantar e gerenciar ap
 
 ## Como funciona
 
-O AWS EKS é usado para executar e dimensionar aplicativos Kubernetes na nuvem e local, é um serviço gerenciado do Kubernetes para executar o Kubernetes na nuvem da AWS e em datacenters on-premises. Na nuvem, o Amazon EKS gerencia automaticamente a disponibilidade e a escalabilidade dos nós do ambiente de gerenciamento do Kubernetes, que são responsáveis por programar contêineres, gerenciar a disponibilidade das aplicações, armazenar dados de cluster e outras tarefas principais. 
+O AWS EKS é usado para executar e dimensionar aplicativos Kubernetes na nuvem e local, é um serviço gerenciado do Kubernetes para executar o Kubernetes na nuvem da AWS e em data centers on-premises. Na nuvem, o Amazon EKS gerencia automaticamente a disponibilidade e a escalabilidade dos nós do ambiente de gerenciamento do Kubernetes, que são responsáveis por programar contêineres, gerenciar a disponibilidade das aplicações, armazenar dados de cluster e outras tarefas principais. 
 
 Com o Amazon EKS, você pode aproveitar toda a performance, escalabilidade, confiabilidade e disponibilidade da infraestrutura da AWS, bem como integrações com serviços de rede e segurança da AWS. On-premises, o EKS fornece uma solução Kubernetes consistente e totalmente compatível com ferramentas integradas e implantação simples em AWS Outposts, máquinas virtuais ou servidores bare metal.
 
@@ -28,7 +28,7 @@ Implante aplicativos de diferentes maneiras:
 
 - Implante em ambientes híbridos
 
-      Gerencie seus clusters e aplicações do Kubernetes em ambientes híbridos e execute o Kubernetes em seus datacenters.
+      Gerencie seus clusters e aplicações do Kubernetes em ambientes híbridos e execute o Kubernetes em seus data centers.
 
 - Modele fluxos de trabalho de machine learning (ML)
 
