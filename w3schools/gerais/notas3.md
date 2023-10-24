@@ -2,24 +2,6 @@
 
 Anotações referentes ao [Tutorial AWS Cloud](https://my-learning.w3schools.com/tutorial/aws) no site W3Schools.
 
-## Edge Location - Locais de borda
-
-O Edge Location é o Data Center usado para entregar conteúdo rapidamente aos seus usuários. É o site que está mais próximo dos seus usuários.
-
-> Entrega rápida
-
-Os pontos de presença da AWS usam um serviço chamado CloudFront. O CloudFront é usado para armazenar cópias em cache do seu conteúdo. Resultando na entrega rápida do seu conteúdo.
-
-> O que é Cache?
-
-O armazenamento em cache ajuda o software a fornecer conteúdo de maneira mais rápida e econômica. Cache é um armazenamento rápido que copia e armazena partes de dados. Os dados são armazenados em hardware que pode entregar conteúdo rapidamente, por exemplo, RAM (Random-access memory). A principal tarefa do cache é entregar o conteúdo rapidamente. Os dados são salvos na camada de hardware rápido para que não precisem usar o hardware de armazenamento lento.
-
-O conteúdo é entregue mais rapidamente porque os dados não são mais solicitados do local principal. É entregue a partir do ponto de presença. O local mais próximo do usuário.
-
-> Como funciona o cache
-
-O cache salva subconjuntos dos dados, tornando-os disponíveis. Depois que alguém solicita os dados, eles são copiados e armazenados no ponto de presença. Quando a próxima pessoa solicitar os mesmos dados, eles serão entregues mais rapidamente do ponto de presença mais próximo.
-
 ## Provisionamento de recursos da nuvem AWS
 
 Existem três maneiras principais de interagir com os serviços da AWS.
@@ -58,7 +40,7 @@ Com o AWS Elastic Beanstalk, você fornece definições de código e configuraç
 
 Com o AWS CloudFormation, você pode tratar sua infraestrutura como código. Usando este serviço, você pode criar um ambiente escrevendo linhas de código. Em vez de usar o Console de gerenciamento da AWS para provisionar recursos individualmente.
 
-## Elastic Beanstalk
+### Elastic Beanstalk
 
 O Elastic Beanstalk é um serviço de orquestração. O Elastic Beanstalk é um serviço de gerenciamento de infraestrutura da web. O Beanstalk lida com a implantação e o dimensionamento de aplicativos e serviços da Web. Ajuda a gerenciar automaticamente a instalação, configuração, dimensionamento e provisionamento dos serviços da AWS.
 
@@ -70,7 +52,7 @@ Serviços da AWS gerenciados automaticamente:
 - Amazon DynamoDB
 - Amazon SimpleDB
 
-## CloudFormation
+### CloudFormation
 
 CloudFormation é um serviço de infraestrutura. Ele permite criar modelos que descrevem os serviços da AWS que você deseja. Em seguida, ele trata da configuração e provisionamento dos recursos (como instâncias do Amazon EC2 ou instâncias de banco de dados do Amazon RDS) descritos no modelo.
 
