@@ -8,7 +8,7 @@ Operar na nuvem AWS oferece muitos benefícios em relação à computação em a
 
 - Trocar despesa antecipada por despesas variáveis
 
-Despesas iniciais são data centers, servidores físicos e outros recursos nos quais você precisaria investir antes de usá-los. Em vez de investir substancialmente em datacenters e servidores antes de saber como serão usados, você pode pagar somente ao consumir recursos de computação.
+Despesas iniciais são data centers, servidores físicos e outros recursos nos quais você precisaria investir antes de usá-los. Em vez de investir substancialmente em data centers e servidores antes de saber como serão usados, você pode pagar somente ao consumir recursos de computação.
 
 - Benefícios de enormes economias de escala
 
