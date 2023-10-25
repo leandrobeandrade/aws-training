@@ -12,7 +12,7 @@ Uma arquitetura com componentes fortemente acoplados pode ser chamada de aplica�
 
 > Microsserviços
 
-Os microsserviços podem ajudar a manter o serviço se um componente falhar. Os serviços podem ser mantidos porque eles se comunicam entre si e os componentes não são fortemente acoplados. A AWS possui dois serviços que podem fazer essa integração:
+Os microsserviços podem ajudar a manter o serviço se um componente falhar, os serviços podem ser mantidos porque eles se comunicam entre si e os componentes não são fortemente acoplados. A AWS possui dois serviços que podem fazer essa integração:
 
 - Serviço de notificação simples da AWS (AWS SNS)
 - Serviço de fila simples da AWS (AWS SQS)
