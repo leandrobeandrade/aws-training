@@ -4,7 +4,7 @@ Anotações referentes ao [Tutorial AWS Cloud](https://my-learning.w3schools.com
 
 ## Infraestrutura AWS
 
-A infraestrutura da Nuvem AWS é criada em torno das regiões e zonas de disponibilidade da AWS. Uma região da AWS é um local físico no mundo onde temos várias zonas de disponibilidade. As zonas de disponibilidade consistem em um ou mais data centers discretos, cada um com alimentação, rede e conectividade redundantes, alojados em instalações separadas. Essas zonas de disponibilidade oferecem a capacidade de operar aplicativos e bancos de dados de produção com maior disponibilidade, tolerância a falhas e escalabilidade do que seria possível em um único data center. Para obter as informações mais recentes sobre as zonas de disponibilidade da nuvem AWS e as regiões da AWS.
+A infraestrutura da Nuvem AWS é criada em torno das regiões e zonas de disponibilidade da AWS. Uma região da AWS é um local físico no mundo onde temos várias zonas de disponibilidade. As zonas de disponibilidade consistem em um ou mais data centers discretos, cada um com alimentação, rede e conectividade redundantes, alojados em instalações separadas. Essas zonas de disponibilidade oferecem a capacidade de operar aplicativos e bancos de dados de produção com maior disponibilidade, tolerância a falhas e escalabilidade do que seria possível em um único data center.
 
 > Sobre:
 
@@ -51,15 +51,15 @@ Zona de Disponibilidade é um único Data Center ou um grupo de data centers em 
 
 Os recursos de computação em nuvem da Amazon são hospedados em vários locais no mundo todo. Esses locais são compostos por regiões da AWS, zonas de disponibilidade e zonas locais. Cada região da AWS é uma área geográfica separada. Cada região da AWS contém vários locais isolados conhecidos como zonas de disponibilidade.
 
-Usando o Local Zones, é possível colocar recursos, como computação e armazenamento, em vários locais mais próximos dos usuários. O Amazon RDS permite que você coloque recursos, como instâncias de banco de dados, e dados em vários locais. Os recursos não são replicados entre regiões da AWS, a menos que você especifique isso.
-
 A Amazon opera data centers de última geração e altamente disponíveis. Embora sejam raras, podem ocorrer falhas que afetam a disponibilidade das instâncias de banco de dados que estiverem no mesmo local. Se você hospeda todas as instâncias de banco de dados em um único local afetado por essa falha, nenhuma delas estará disponível.
 
 > Local Zones
 
 Uma zona local é uma extensão de uma região AWS que está geograficamente próxima de seus usuários. É possível estender qualquer VPC da região principal da AWS para as zonas locais. Para isso, crie uma sub-rede e atribua-a à zona local da AWS. Quando você criar uma sub-rede em uma zona local, sua VPC também será estendida para essa zona local. A sub-rede na zona local funciona da mesma forma que outras sub-redes na VPC.
 
-Quando criar uma instância de banco de dados, você poderá escolher uma sub-rede em uma zona local. As zonas locais têm suas próprias conexões com a Internet e suporte no AWS Direct Connect. Assim, os recursos criados em uma zona local podem atender usuários locais com comunicações de latência muito baixa. Para obter mais informações, consulte Zonas locais da AWS.
+Quando criar uma instância de banco de dados, você poderá escolher uma sub-rede em uma zona local. As zonas locais têm suas próprias conexões com a Internet e suporte no AWS Direct Connect. Assim, os recursos criados em uma zona local podem atender usuários locais com comunicações de latência muito baixa.
+
+Usando o Local Zones, é possível colocar recursos, como computação e armazenamento, em vários locais mais próximos dos usuários. O Amazon RDS permite que você coloque recursos, como instâncias de banco de dados, e dados em vários locais. Os recursos não são replicados entre regiões da AWS, a menos que você especifique isso.
 
 Uma zona local é representada por um código de região da AWS seguido por um identificador que indica o local, exemplo us-west-2-lax-1a.
 
@@ -69,13 +69,13 @@ O Edge Location é o Data Center usado para entregar conteúdo rapidamente aos s
 
 > Entrega rápida
 
-Os pontos de presença da AWS usam um serviço chamado CloudFront. O CloudFront é usado para armazenar cópias em cache do seu conteúdo. Resultando na entrega rápida do seu conteúdo.
+Os pontos de presença da AWS usam um serviço chamado CloudFront. O CloudFront é usado para armazenar cópias em cache do seu conteúdo, resultando na entrega rápida do seu conteúdo.
 
 > O que é Cache?
 
 O armazenamento em cache ajuda o software a fornecer conteúdo de maneira mais rápida e econômica. Cache é um armazenamento rápido que copia e armazena partes de dados. Os dados são armazenados em hardware que pode entregar conteúdo rapidamente, por exemplo, RAM (Random-access memory). A principal tarefa do cache é entregar o conteúdo rapidamente. Os dados são salvos na camada de hardware rápido para que não precisem usar o hardware de armazenamento lento.
 
-O conteúdo é entregue mais rapidamente porque os dados não são mais solicitados do local principal. É entregue a partir do ponto de presença. O local mais próximo do usuário.
+O conteúdo é entregue mais rapidamente porque os dados não são mais solicitados do local principal mas sim a partir do ponto de presença, um local mais próximo do usuário.
 
 > Como funciona o cache
 
