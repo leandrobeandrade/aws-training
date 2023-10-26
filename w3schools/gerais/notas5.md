@@ -4,13 +4,13 @@ Anotações referentes ao [Tutorial AWS Cloud](https://my-learning.w3schools.com
 
 ## Sistema de nomes de domínio (Domain Name System)
 
-DNS é o serviço que permite que alguém acesse seu site a partir do navegador. O DNS é como uma lista telefônica. Ele conecta o endereço IP ao nome de domínio.
+DNS é o serviço que permite que alguém acesse seu site a partir do navegador, como uma lista telefônica ele conecta o endereço IP ao nome de domínio.
 
 ## AWS Route 53
 
-O Route 53 é um serviço da Web DNS. Ele roteia usuários finais para aplicativos de internet hospedados na AWS. O Route 53 conecta os usuários e suas solicitações aos recursos da AWS e recursos externos.
+O Route 53 é um serviço DNS pra Web que roteia usuários finais para aplicativos de internet hospedados na AWS. O Route 53 conecta os usuários e suas solicitações aos recursos da AWS e recursos externos.
 
-O Route 53 possui um recurso para gerenciar registros DNS. Você pode registrar novos domínios e transferi-los com o Route 53. Você pode gerenciar todos os seus nomes de domínio no Route 53.
+O Route 53 possui um recurso para gerenciar registros DNS. Você pode registrar novos domínios e transferi-los com o Route 53, também pode-se gerenciar todos os seus nomes de domínio no Route 53.
 
 ## AWS Route 53 e AWS CloudFront
 
@@ -27,7 +27,7 @@ Exemplo: Uma empresa possui 3 instâncias do EC2 em um grupo de Auto Scaling. O 
 
 ## O que são armazenamentos de instância?
 
-Instance Store é um volume de armazenamento que atua como um disco rígido físico. Ele fornece armazenamento temporário para a instância do Amazon EC2. Os dados em um armazenamento de instância persistem durante o tempo de vida de sua instância. Se uma instância for reinicializada, os dados no armazenamento de instâncias persistirão. Quando a instância hiberna ou termina, você perde todos os dados no armazenamento da instância.
+Instance Store é um volume de armazenamento que atua como um disco rígido físico que fornece armazenamento temporário para a instância do Amazon EC2. Os dados em um armazenamento de instância persistem durante o tempo de vida de sua instância, se uma instância for reinicializada, os dados no armazenamento de instâncias persistirão. Quando a instância hiberna ou termina, você perde todos os dados no armazenamento da instância.
 
 Se uma instância iniciar a partir de um estado parado, ela poderá iniciar em outro host no qual o armazenamento de instâncias usado não existe. Recomenda-se evitar o armazenamento de dados valiosos na instância de armazenamento. Armazenamentos de instância são bons para arquivos temporários e dados que podem ser facilmente recriados.
 
@@ -39,13 +39,13 @@ Exemplo:
 
 ## EBS - Elastic Block Store
 
-O EBS é um serviço que fornece volumes de armazenamento. Você pode usar volumes de armazenamento fornecidos em instâncias do Amazon EC2. Os volumes EBS são usados para dados que precisam persistir. É importante fazer backup dos dados com snapshots do AWS EBS. Depois de criar um volume EBS, você pode anexá-lo a uma instância AWS EC2. Se a instância do EC2 parar ou for encerrada, todos os dados no volume do EBS anexado permanecerão.
+O EBS é um serviço que fornece volumes de armazenamento. Você pode usar volumes de armazenamento fornecidos em instâncias do Amazon EC2 por exemplo. Os volumes EBS são usados para dados que precisam persistir, sendo importante fazer o backup dos dados com snapshots do AWS EBS. Depois de criar um volume EBS, você pode anexá-lo a uma instância AWS EC2, se a instância do EC2 parar ou for encerrada, todos os dados no volume do EBS anexado permanecerão.
 
 ### EBS Snapshot
 
-EBS Snapshot é um backup de dados incremental. O primeiro backup de um volume faz backup de todos os dados. Cada próximo backup copia apenas um bloco de dados que foi alterado desde o último snapshot. Economiza em custos de armazenamento por não duplicar dados.
+EBS Snapshot é um backup de dados incremental. O primeiro backup de um volume faz backup de todos os dados, cada próximo backup copia apenas um bloco de dados que foi alterado desde o último snapshot. Economiza em custos de armazenamento por não duplicar dados.
 
-Somente os dados exclusivos desse instantâneo são removidos quando você exclui um instantâneo. Se a instância do EC2 parar ou for encerrada, todos os dados no volume do EBS anexado permanecerão.
+Somente os dados exclusivos desse snapshot são removidos quando você exclui um snapshot. Se a instância do EC2 parar ou for encerrada, todos os dados no volume do EBS anexado permanecerão.
 
 > Comparação entre AWS EBS e AWS S3
 
@@ -58,24 +58,24 @@ Somente os dados exclusivos desse instantâneo são removidos quando você exclu
 
 ## EFS - Elastic File System
 
-Sistema de arquivos em nuvem é um sistema de arquivos. Os dados no EFS são acessados por meio de caminhos de arquivo. Comparado ao AWS EBS, o AWS EFS salva os dados em muitas zonas de disponibilidade, a escalabilidade do AWS EFS não interrompe os aplicativos. É ideal se muitos serviços precisarem acessar os mesmos dados ao mesmo tempo.
+Sistema de arquivos em nuvem onde os dados são acessados por meio de caminhos de arquivo. Comparado ao AWS EBS, o AWS EFS salva os dados em muitas zonas de disponibilidade, a escalabilidade do AWS EFS não interrompe os aplicativos. É ideal se muitos serviços precisarem acessar os mesmos dados ao mesmo tempo.
 
 ## RDS - Relational Database Service
 
-Banco de dados relacional em nuvem - Amazon RDS. RDS é um serviço que automatiza tarefas de banco de dados. Ele permite a execução de bancos de dados relacionais na Nuvem AWS. Ele suporta estes mecanismos de banco de dados:
+Banco de dados relacional em nuvem, é um serviço que automatiza tarefas de banco de dados. Ele permite a execução de bancos de dados relacionais na Nuvem AWS e suporta estes mecanismos de banco de dados:
 
 - AWS Aurora
-- PostgreSQLName
+- PostgreSQL
 - MySQL
 - MariaDB
 - Oracle
 - Servidor Microsoft SQL
 
-Os mecanismos de banco de dados AWS RDS oferecem criptografia de dados enquanto os dados são armazenados, enviados e recebidos. O AWS RDS ajuda você a concluir tarefas administrativas mais rapidamente. Diminuir o tempo necessário para tarefas administrativas dá a você mais tempo para desenvolver os recursos do aplicativo.
+Os mecanismos de banco de dados AWS RDS oferecem criptografia de dados enquanto os dados são armazenados, enviados e recebidos. O AWS RDS ajuda você a concluir tarefas administrativas mais rapidamente, diminuir o tempo necessário para tarefas administrativas dando a você mais tempo para desenvolver os recursos do aplicativo.
 
 ## AWS DynamoDB
 
-Banco de dados em nuvem NoSQL não relacional, sendo um banco de dados sem servidor. O DynamoDB é um serviço de alto desempenho. Como o AWS DynamoDB é um banco de dados sem servidor, você não precisa gerenciar servidores ou um sistema operacional para usá-lo.
+Banco de dados em nuvem NoSQL não relacional, sendo é um serviço de alto desempenho. como sendo um banco de dados sem servidor, você não precisa gerenciar servidores ou um sistema operacional para usá-lo.
 
 > O que é um banco de dados não relacional?
 
@@ -92,7 +92,7 @@ Um dos tipos de estrutura do banco de dados não relacional são os pares chave-
 
 ### AWS DynamoDB Accelerator (DAX)
 
-É um serviço de cache na memória para AWS DynamoDB. Melhora os tempos de leitura de seus dados não relacionais. Ele melhora os tempos de resposta de milissegundos para microssegundos. É um serviço totalmente gerenciado, flexível e seguro. O Amazon DynamoDB Accelerator (DAX) é um cache de memória totalmente gerenciado e altamente disponível para o Amazon DynamoDB que oferece um ganho de performance de 10 vezes (de milissegundos para microssegundos), mesmo com milhões de solicitações por segundo. 
+É um serviço de cache na memória para AWS DynamoDB que melhora os tempos de leitura de seus dados não relacionais. Melhorando os tempos de resposta de milissegundos para microssegundos em 10 vezes para o ganho de performance, mesmo com milhões de solicitações por segundo, sendo um serviço totalmente gerenciado, flexível e seguro. 
 
 O DAX faz todo o trabalho pesado necessário para adicionar aceleração em memória às tabelas do DynamoDB sem que os desenvolvedores tenham de gerenciar invalidação de cache, preenchimento de dados ou gerenciamento de clusters. O DAX foi projetado para execução em um ambiente do Amazon Virtual Private Cloud (Amazon VPC).
 
