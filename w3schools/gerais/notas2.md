@@ -35,19 +35,19 @@ Alguns países não permitem que dados sensíveis sejam processados e armazenado
 Selecionar uma região próxima aos seus clientes pode ajudar a agilizar os serviços. Exemplo:
 
     - Imagine que sua empresa está sediada em Seattle e seus clientes na Noruega.
-    - Você pode querer considerar ter a infraestrutura em um Data Center perto de você.
-    - Simultaneamente, tenha os aplicativos rodando em um Data Center perto de seus clientes na Noruega.
+    - Você pode querer considerar ter a infraestrutura em um data center perto de você.
+    - Simultaneamente, tenha os aplicativos rodando em um data center perto de seus clientes na Noruega.
     - Usar sites próximos aos seus clientes resulta em uma entrega de conteúdo mais rápida.
 
 > Serviços de Disponibilidade de Região
 
-Nem todos os data centers da AWS oferecem suporte a todos os serviços e recursos A AWS cria novos serviços o tempo todo. A disponibilização de serviços exige que a AWS crie infraestrutura nos data centers.
+Nem todos os data centers da AWS oferecem suporte a todos os serviços e recursos, mesmo com a AWS criando novos serviços o tempo todo. A disponibilização de serviços exige que a AWS crie infraestrutura nos data centers.
 
-Como resultado, os serviços podem ainda não ter chegado a um Data Center perto de você. Você pode selecionar uma região para acessar serviços específicos.
+Como resultado, os serviços podem ainda não ter chegado a um data center perto de você, podendo-se selecionar uma região que disponibilize tal serviço para que possa ser uitlizado em específico.
 
 ## Availability Zones
 
-Zona de Disponibilidade é um único Data Center ou um grupo de data centers em uma região. Em uma Zona de Disponibilidade, os data centers estão localizados a muitos quilômetros de distância um do outro. Separá-los reduz o risco de todos caírem caso ocorra um desastre na região. Simultaneamente, tenha o(s) Data Center(s) próximo(s) o suficiente para ter baixa latência.
+Zona de Disponibilidade é um único data center ou um grupo de data centers em uma região. Em uma Zona de Disponibilidade, os data centers estão localizados a muitos quilômetros de distância um do outro. Separá-los reduz o risco de todos caírem caso ocorra um desastre na região. Simultaneamente, tenha o(s) data center(s) próximo(s) o suficiente para ter baixa latência.
 
 Os recursos de computação em nuvem da Amazon são hospedados em vários locais no mundo todo. Esses locais são compostos por regiões da AWS, zonas de disponibilidade e zonas locais. Cada região da AWS é uma área geográfica separada. Cada região da AWS contém vários locais isolados conhecidos como zonas de disponibilidade.
 
@@ -65,13 +65,13 @@ Uma zona local é representada por um código de região da AWS seguido por um i
 
 ## Edge Location - Locais de borda
 
-O Edge Location é o Data Center usado para entregar conteúdo rapidamente aos seus usuários. É o site que está mais próximo dos seus usuários.
+O Edge Location é o data center usado para entregar conteúdo rapidamente aos seus usuários. É o site que está mais próximo dos seus usuários.
 
 > Entrega rápida
 
 Os pontos de presença da AWS usam um serviço chamado CloudFront. O CloudFront é usado para armazenar cópias em cache do seu conteúdo, resultando na entrega rápida do seu conteúdo.
 
-> O que é Cache?
+> O que é cache?
 
 O armazenamento em cache ajuda o software a fornecer conteúdo de maneira mais rápida e econômica. Cache é um armazenamento rápido que copia e armazena partes de dados. Os dados são armazenados em hardware que pode entregar conteúdo rapidamente, por exemplo, RAM (Random-access memory). A principal tarefa do cache é entregar o conteúdo rapidamente. Os dados são salvos na camada de hardware rápido para que não precisem usar o hardware de armazenamento lento.
 
