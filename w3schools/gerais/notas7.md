@@ -10,9 +10,9 @@ Os clientes devem examinar cuidadosamente os serviços que escolherem, pois suas
 
 ## Responsabilidade da AWS
 
-A responsabilidade da AWS é a segurança da nuvem. A AWS gerencia todas as camadas de infraestrutura. Algumas das camadas de infraestrutura são:
+A responsabilidade da AWS é a segurança da nuvem que gerencia todas as camadas de infraestrutura. Algumas das camadas de infraestrutura são:
 
-- Centros de dados (Data centers)
+- Centros de dados (data centers)
 - Hardware e software
 - Virtualização 
 - Rede
@@ -55,7 +55,7 @@ Ao combinar os recursos do IAM, você tem a flexibilidade de configurar acessos 
 
 ### AWS Account Root User (Usuário raiz)
 
-O usuário raiz da conta da AWS é criado quando você inicia uma conta da AWS. Acesse o usuário raiz da sua conta pelas credenciais da conta da AWS (e-mail e senha). Ele tem acesso total a todos os recursos de contas e serviços da AWS. Algumas das boas práticas são:
+O usuário raiz da conta da AWS é criado quando você inicia uma conta da AWS, sendo acessada pelas credenciais da conta da AWS (e-mail e senha) tendo acesso total a todos os recursos de contas e serviços da AWS. Algumas das boas práticas são:
 
 - Evite usar o usuário root para tarefas diárias
 - Use-o para criar IAM com permissões para criar outros usuários
@@ -63,11 +63,11 @@ O usuário raiz da conta da AWS é criado quando você inicia uma conta da AWS. 
 
 ### IAM Users (Usuário comum)
 
-O usuário do IAM representa uma entidade (pessoa ou aplicativo) que interage com os recursos e serviços da AWS. O usuário do IAM é feito de credenciais e um nome. Ele é criado sem permissões por padrão. O usuário root pode conceder permissões ao usuário IAM. É recomendável criar um usuário do IAM para cada indivíduo.
+O usuário do IAM representa uma entidade (pessoa ou aplicativo) que interage com os recursos e serviços da AWS. O usuário do IAM é feito de credenciais e um nome e é criado sem permissões por padrão. O usuário root pode conceder permissões ao usuário IAM sendo recomendável criar um usuário do IAM para cada indivíduo.
 
 ### IAM Policies
 
-As políticas do IAM são documentos. Eles negam ou permitem permissões para recursos e serviços da AWS. Eles personalizam o acesso do usuário aos recursos e serviços da AWS. Você pode conceder apenas as permissões de que cada usuário precisa.
+As políticas do IAM são documentos que negam ou permitem permissões para recursos e serviços da AWS, eles personalizam o acesso do usuário aos recursos e serviços da AWS. Você pode conceder apenas as permissões de que cada usuário precisa.
 
 ### IAM Groups
 
@@ -75,16 +75,15 @@ Uma coleção de usuários do IAM é chamada de grupo do IAM. A política do IAM
 
 ### IAM Roles (Funções)
 
-A função do IAM é acesso temporário a serviços ou recursos. Antes que uma função do IAM possa ser atribuída, o usuário, serviço ou aplicativo do IAM deve ter permissão para alternar as funções. É melhor para casos em que o acesso temporário precisa ser concedido.
-
+A função do IAM fornece acesso temporário a serviços ou recursos. Antes que uma função do IAM possa ser atribuída, o usuário, serviço ou aplicativo do IAM deve ter permissão para alternar as funções. É melhor para casos em que o acesso temporário precisa ser concedido.
 
 ### Multi-factor Authentication
 
-A autenticação multifator é uma autenticação em várias etapas. Ele pode fornecer mais de um formulário de autenticação. É uma camada extra de segurança. Pode vir na forma de um código de segurança que é enviado para o seu dispositivo móvel ou um e-mail.
+A autenticação multifator é uma autenticação em várias etapas que pode fornecer mais de um formulário de autenticação, sendo uma camada extra de segurança. Pode vir na forma de um código de segurança que é enviado para o seu dispositivo móvel ou um e-mail.
 
 ## Organizations AWS
 
-O AWS Organizations é um contêiner para suas contas da AWS. Ele vem com um usuário root da organização por padrão. Ele permite que você gerencie as permissões das contas da sua organização. As permissões nas organizações da AWS são controladas por políticas de controle de serviço (SCPs). Os SCPs permitem que você restrinja recursos e serviços da AWS para cada conta.
+O AWS Organizations é um contêiner para suas contas da AWS que vem com um usuário root da organização por padrão. Ele permite que você gerencie as permissões das contas da sua organização. As permissões nas organizações da AWS são controladas por políticas de controle de serviço (SCPs). Os SCPs permitem que você restrinja recursos e serviços da AWS para cada conta.
 
 ### Organizational Units
 
@@ -92,21 +91,19 @@ Unidades organizacionais (OUs) são grupos de contas na organização da AWS. OU
 
 ## AWS Cloud Compliance
 
-Você pode automatizar seus processos de conformidade e auditoria por meio dos melhores serviços da categoria compatíveis com a escalabilidade e segurança da infraestrutura da AWS, de acordo com o Modelo de responsabilidade compartilhada. Assim, você é capaz de automatizar processos, fiscalizar de maneira contínua a postura de conformidade de todos os seus recursos da AWS, e coletar evidências automaticamente para melhorar a sua operacionalidade de auditoria e a geração de relatórios internos e o monitoramento em curso em tempo real.
+Você pode automatizar seus processos de conformidade e auditoria por meio dos melhores serviços da categoria compatíveis com a escalabilidade e segurança da infraestrutura da AWS, de acordo com o modelo de responsabilidade compartilhada. Assim, você é capaz de automatizar processos, fiscalizar de maneira contínua a postura de conformidade de todos os seus recursos da AWS, e coletar evidências automaticamente para melhorar a sua operacionalidade de auditoria e a geração de relatórios internos e o monitoramento em curso em tempo real.
 
 ### AWS Artifact
 
-AWS Artifact é um serviço. Ele fornece acesso a relatórios de conformidade e segurança da AWS sob demanda. Consiste em AWS Artifact Reports e AWS Artifact Agreements. Existem muitos regulamentos e relatórios que você pode encontrar nos artefatos da AWS.
+AWS Artifact é um serviço que fornece acesso a relatórios de conformidade e segurança da AWS sob demanda. Consiste em AWS Artifact Reports e AWS Artifact Agreements. Existem muitos regulamentos e relatórios que você pode encontrar nos artefatos da AWS.
 
-> Contratos de artefatos da AWS
+> Contratos de artefatos da AWS (Artifact Agreements)
 
-Contratos de artefatos da AWS são acordos sobre o uso de determinados tipos de informações. Os tipos de informações são usados em todos os serviços da AWS. Ele pode gerenciar contratos de contas individuais ou todos os contratos de contas da AWS Organization.
+Contratos de artefatos da AWS são acordos sobre o uso de determinados tipos de informações, os tipos de informações são usados em todos os serviços da AWS. Ele pode gerenciar contratos de contas individuais ou todos os contratos de contas da AWS Organization.
 
-> Relatórios de artefatos da AWS
+> Relatórios de artefatos da AWS (Artifact Reports)
 
-O AWS Artifact Reports fornece relatórios de conformidade. Eles fornecem informações sobre a responsabilidade de conformidade com relação a determinados padrões.
-
-Os AWS Artifact Reports estão sempre atualizados.
+O AWS Artifact Reports fornece relatórios de conformidade e informações sobre a responsabilidade de conformidade com relação a determinados padrões. Os AWS Artifact Reports estão sempre atualizados.
 
 ### Customer Compliance Center - Centro de Conformidade do Cliente
 
