@@ -14,7 +14,7 @@ O AWS EC2 fornece instâncias de servidor virtual. Para executar o EC2, você de
 - Implantação do código
 - Operar e manter os servidores
 
-> Vantagens
+> Vantagens serverless
 
 - Serverless não requer gerenciamento de servidor
 - Pensar menos com o servidor operacional permite que você se concentre nas coisas importantes
@@ -23,7 +23,7 @@ O AWS EC2 fornece instâncias de servidor virtual. Para executar o EC2, você de
 
 ## AWS Lambda
 
-AWS Lambda um serviço de computação sem servidor, este serviço permite que você execute código sem precisar pensar em servidores. Você paga apenas pelo tempo de computação que usar. Pagar pelo que você usa significa que você paga apenas quando seu código está em execução. Ajuda a abstrair a infraestrutura na nuvem, como resultado, reduz custos e pode ajudar a aumentar a inovação, pode também executar código de back-end.
+AWS Lambda um serviço de computação sem servidor que permite que você execute código sem precisar pensar em servidores, pagando apenas pelo tempo de computação que usar. Pagar pelo que você usa significa que você paga apenas quando seu código está em execução, o uso é sob demanda quando você executa o código. Ajuda a abstrair a infraestrutura na nuvem, como resultado, reduz custos e pode ajudar a aumentar a inovação, pode também executar código de back-end.
 
 > Como funciona o AWS Lambda
 
@@ -32,15 +32,6 @@ AWS Lambda um serviço de computação sem servidor, este serviço permite que v
 - O código só é executado quando acionado
 - Pague apenas quando seu código estiver em execução
 
-    Exemplo:
-
-        1- Você pode ver o serverless como um carro.
-        2- Você liga o carro para viajar para o seu destino.
-        3- Quando estiver no destino, você o interrompe.
-        4- Você só usou combustível ao dirigir.
-
-Lambda funciona da mesma maneira. O uso é sob demanda quando você executa o código.
-
 > O AWS Lambda pode ser usado para:
 
 - Criar e implantar aplicativos
@@ -48,9 +39,7 @@ Lambda funciona da mesma maneira. O uso é sob demanda quando você executa o c�
 
 ## AWS Fargate - Computação sem servidor para contêineres
 
-Ajuda a implantar e gerenciar aplicativos gerenciando a infraestrutura para você. Você não precisa pensar no fornecimento de servidores e gerenciamento de infraestrutura ao usar o Fargate.
-
-O AWS Fargate é uma tecnologia que pode ser usada com o Amazon ECS para executar contêineres sem a necessidade de gerenciar servidores ou clusters de instâncias do Amazon EC2. Com o Fargate, não é mais necessário provisionar, configurar ou dimensionar os clusters de máquinas virtuais para executar contêineres. Isso elimina a necessidade de escolher tipos de servidor, decidir quando dimensionar clusters ou otimizar o agrupamento de clusters.
+Ajuda a implantar e gerenciar aplicativos gerenciando a infraestrutura para você sem precisar pensar no fornecimento de servidores e gerenciamento de infraestrutura ao usar o Fargate, sendo uma tecnologia que pode ser usada com o Amazon ECS para executar contêineres sem a necessidade de gerenciar servidores ou clusters de instâncias do Amazon EC2. Com o Fargate, não é mais necessário provisionar, configurar ou dimensionar os clusters de máquinas virtuais para executar contêineres. Isso elimina a necessidade de escolher tipos de servidor, decidir quando dimensionar clusters ou otimizar o agrupamento de clusters.
 
 Ao executar suas tarefas e serviços do Amazon ECS com o tipo de inicialização do Fargate ou um provedor de capacidade do Fargate, empacote a aplicação em contêineres, especifique os requisitos de sistema operacional, CPU e memória, defina as políticas de rede e do IAM e inicie a aplicação. Cada tarefa do Fargate tem seu próprio limite de isolamento e não compartilha o kernel subjacente, os recursos de CPU, os recursos de memória nem a interface de rede elástica com outra tarefa.
 
