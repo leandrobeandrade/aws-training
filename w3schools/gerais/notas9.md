@@ -4,7 +4,7 @@ Anotações referentes ao [Tutorial AWS Cloud](https://my-learning.w3schools.com
 
 ## AWS Snow Family
 
-AWS Snow Family é um grupo de dispositivos que transportam dados para dentro e fora da AWS. Os dispositivos da Família AWS Snow são dispositivos físicos. Eles podem transferir até exabytes de dados. Um exabyte é 1 000 000 000 000 megabytes. A família AWS Snow inclui três tipos de dispositivos:
+AWS Snow Family é um grupo de dispositivos físicos que transportam dados para dentro e fora da AWS, que podem transferir até exabytes (1 000 000 000 000 megabytes) de dados. A família AWS Snow inclui três tipos de dispositivos:
 
 - AWS Snowcone
 - AWS Snowball
@@ -12,7 +12,7 @@ AWS Snow Family é um grupo de dispositivos que transportam dados para dentro e 
 
 ### AWS Snowcone
 
-O AWS Snowcone é um dispositivo pequeno e seguro. Ele transfere dados. É feito de 8 TB de espaço de armazenamento, 4 GB de memória e 2 CPUs.
+O AWS Snowcone é um dispositivo pequeno e seguro que transfere dados. É feito de 8 TB de espaço de armazenamento, 4 GB de memória e 2 CPUs.
 
 ### AWS Snowball
 
@@ -26,7 +26,7 @@ O AWS Snowball possui 2 tipos de dispositivos, descritos na tabela abaixo.
 
 ### AWS Snowmobile
 
-O AWS Snowmobile move grandes quantidades de dados para a AWS. Pode transferir até 100 petabytes de dados. Um petabyte é 1 000 000 000 megabytes.
+O AWS Snowmobile move grandes quantidades de dados para a AWS que pode transferir até 100 petabytes de dados. Um petabyte é 1 000 000 000 megabytes.
 
 ## AWS Cloud Innovation
 
@@ -44,21 +44,16 @@ Algumas opções para resolver seus problemas que a AWS oferece a você são:
 
 > Aprendizado de máquina - ML
 
-A AWS oferece uma ferramenta que ajuda você a desenvolver recursos de ML na nuvem AWS. A AWS tem um serviço chamado Amazon SageMaker. O SageMaker reduz o tempo de desenvolvimento e a complexidade do ML. Com ML, você pode prever situações, resolver problemas complexos, analisar dados e muito mais.
+A AWS oferece uma ferramenta que ajuda você a desenvolver recursos de ML na nuvem AWS permitindo prever situações, resolver problemas complexos, analisar dados e muito mais. A AWS tem um serviço chamado **Amazon SageMaker** que reduz o tempo de desenvolvimento e a complexidade do ML.
 
 > Inteligência Artificial - IA
 
-Inteligência Artificial - IA é um software capaz de realizar tarefas humanas complexas. A AWS oferece muitos serviços baseados em IA:
+IA é um software capaz de realizar tarefas humanas complexas. A AWS oferece muitos serviços baseados em IA:
 
 - Serviço para criar chatbots de voz e texto - Amazon Lex
 - Serviço que pode converter texto em fala - Amazon Transcribe
 - Serviço que pode descobrir padrões de texto - Amazon Comprehend
 - Serviço que pode detectar possíveis atividades de fraude online - Amazon Fraud Detection
-
-
-> Aplicativos sem servidor
-
-Na AWS, você pode executar o aplicativo sem servidor com um serviço chamado AWS Lambda. Ele mantém o servidor para você. Ele permite que você dê mais atenção ao desenvolvimento de aplicativos do que às tarefas de administração.
 
 ## AWS Well-Architected Framework
 
