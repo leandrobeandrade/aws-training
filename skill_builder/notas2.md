@@ -23,7 +23,7 @@ Porém pode-se utilizar serviços AWS dentro de um data center de terceiros, ess
 
 ## Provisionamento de recursos AWS
 
-A forma de interagir com os serviços da AWS e por meio de **API's AWS** que servem basicamente para provisionar, configurar e gerenciar os recursos. Iniciar instâncias de um EC2 ou criar uma função Lambda por exemplo, são formas de utilização destas API's. Existem 3 formas de execução dos serviços AWS gerais que são via Console, via CLI e via SDK's.
+A forma de interagir com os serviços da AWS é por meio de **API's AWS** que servem basicamente para provisionar, configurar e gerenciar os recursos. Iniciar instâncias de um EC2 ou criar uma função Lambda por exemplo, são formas de utilização destas API's. Existem 3 formas de execução dos serviços AWS gerais que são via Console, via CLI e via SDK's.
 
 - Console management: gerencia os recursos através de uma interface visual no site da AWS, tudo é feito manualmente.
 - CLI - Command Interface Line: pelo terminal de uma máquina, cria-se scripts ou programas para chamadas as API's e automações.
