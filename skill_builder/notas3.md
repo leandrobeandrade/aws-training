@@ -42,7 +42,7 @@ Fornece migração de um banco de dados on-premises ou já na AWS para a nuvem A
 - **AWS Neptune**: cria e executa aplicativos que funcionam com conjuntos de dados altamente conectados. Banco de dados em grafo.
 - **AWS QLDB (Quantum Ledger)**: revisa históricos completos de todas alterações nas aplicações, com oss registros sendo imutáveis.
 - **AWS Managed Blockchain**: cria e gerencia redes de blockchain com estruturas de código aberto.
-- **AWS ElasticCache**: adiciona camadas de cache e melhora o tempo de leitura de solicitações comuns. Compatível com Redis e Memcached.
+- **AWS ElastiCache**: adiciona camadas de cache e melhora o tempo de leitura de solicitações comuns. Compatível com Redis e Memcached.
 - **AWS DynamoDB Accelerator (DAX)**: cache em memória para o DynamoDB, ajudando a melhorar os tempos de resposta de ms para microssegundos.
 
 ## Modelo de Responsabilidade Compartilhada
