@@ -12,7 +12,7 @@
 > 02] **Which AWS database is a data warehouse?**
     
     [ ] DynamoDB
-    [ ] ElasticCache
+    [ ] ElastiCache
     [ ] Redshift
     [ ] RDS
 
@@ -28,7 +28,7 @@
     [ ] Athena
     [ ] RDS
     [ ] Glue
-    [ ] ElasticCache
+    [ ] ElastiCache
 
 > 05] **Which relational database is a proprietary technology from AWS and is cloud-optimized?**
     
@@ -102,13 +102,13 @@
 > 15] **A company would like to set up a fully managed MongoDB database. Which AWS database is best-suited for this task?**
     
     [ ] DocumentDB
-    [ ] ElasticCache
+    [ ] ElastiCache
     [ ] RDS
     [ ] Neptune
 
 > 16] **Which exclusive DynamoDB feature is an in-memory cache that can improve your performance up to 10x?**
     
-    [ ] ElasticCache
+    [ ] ElastiCache
     [ ] Edge Locations
     [ ] DynamnoDB Accelerator (DAX)
     [ ] Snowball Edge

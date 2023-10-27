@@ -4,7 +4,7 @@ Anotações referentes ao curso [Ultimate AWS Certified Cloud Practitioner](http
 
 ## Arquitetura na AWS
 
-Uma boa arquitetura na nuvem segue algumas premissas e princípios de design indispensáveis para o seu sucesso, como parar de adivinhar a capacidade e dimensionar conforme a demanda, testar o sistema em escala de produção, automatização para facilitar a experimentação arquitetônica (ClodFormation), permitir que a arquitetura evolua por exemplo caso haja mudanças nos requisitos, arquitetura baseada em dados, escalabilidade (vertical e horizontal), recursos descartáveis (criação e exclusão de instâncias EC2), automações (guiadas pelos princípios serverless), acoplamento solto com quebra em aplicações menores, serviços e não servidores.
+Uma boa arquitetura na nuvem segue algumas premissas e princípios de design indispensáveis para o seu sucesso, como parar de adivinhar a capacidade e dimensionar conforme a demanda, testar o sistema em escala de produção, automatização para facilitar a experimentação arquitetônica (CloudFormation), permitir que a arquitetura evolua por exemplo caso haja mudanças nos requisitos, arquitetura baseada em dados, escalabilidade (vertical e horizontal), recursos descartáveis (criação e exclusão de instâncias EC2), automações (guiadas pelos princípios serverless), acoplamento solto com quebra em aplicações menores, serviços e não servidores.
 
 O **`Well-Architected Framework`** auxilia os clientes em todos os ciclos da criação da arquitetura na AWS, sendo baseado em 6 pilares: 
 
@@ -35,7 +35,7 @@ O **`Well-Architected Framework`** auxilia os clientes em todos os ciclos da cri
 
 O **`Well-Architected Tool`** é uma ferramenta on-line na AWS que serve como auxílio para por em prática os pilares do Well-Architected Framework.
 
-O **`CAF (Cloud Adoption Framework)`** é um Whitepaper e não um serviço, que contribui para planejar de forma abrangente a transformação digital e experiência na AWS. Com recursos organizacionais e capacidades agrupadas em 6 perspectivas:
+O **`CAF (Cloud Adoption Framework)`** é um Whitepaper e não um serviço, que contribui para planejar de forma abrangente a transformação digital e experiência na AWS, com recursos organizacionais e capacidades agrupadas em 6 perspectivas:
 
 - **Business**: prove clareza dos benefícios da adoção da nuvem AWS nos negócios.
 - **People**: serve como uma ponte entre tecnologia e pessoas, pessoas capacitadas com maior performance na nuvem.

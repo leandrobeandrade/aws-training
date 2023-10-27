@@ -50,7 +50,7 @@ A AWS fornece também uma suíte completa com serviços para todos os ciclos de 
 
 ## Infraestrutura Global AWS
 
-A Infraestrura AWS é formada por
+A Infraestrura AWS é formada por:
 
 - Data centers: local físico que armazena máquinas de computação e seus equipamentos de hardware relacionados.
 - Regions: local físico em todo o mundo onde agrupamos data centers.

@@ -76,7 +76,7 @@ A AWS oferece bancos de dados na nuvem, banco de dados NoSQL, serviço de data w
 > Utiliza SQL com gerenciamento para bancos PostgreSQL, MySQL, MariaDB, Oracle, Microsoft SQL Server. Utilizado para transações OLTP. O objetivo principal das implantações RDS Multi-AZ é a alta disponibilidade, enquanto o objetivo principal das réplicas RDS Read é a escalabilidade.
 - Aurora
 > Simula e gerencia bancos PostgreSQL 3x mais performático que no RDS e 5x mais que MySQL no RDS. Expande de 10GB até 128TB, mesmo custando 20% a mais que RDS há economia pela performance melhor.
-- ElasticCache
+- ElastiCache
 > Gerenciador Redis ou memCached, banco de dados na memória com alto desempenho e baixa latência reduzindo cargas sobre o banco.
 - DynamoDB
 > Totalmente gerenciado e altamente disponível com replicação em 3 AZ's e NoSQL para cargas massivas com desempenho rápido e consistente e sem servidor distribuído (Serverless) apesar dos servidores existirem no back-end porém ficam ocultos. Baixo custo e recursos de dimensionamento automático e integrado com IAM para segurança e autorização.

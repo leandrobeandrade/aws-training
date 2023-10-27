@@ -8,7 +8,7 @@ A AWS fornece uma visão geral e completa para o gerenciamento de contas, para o
 
 > Gerenciamento de contas AWS
 
-O **`Organizations`** é um serviço global que gerencia múltiplas contas dentro da AWS, a principal é a mestra e a derivadas são contas-filho. Fornece faturamento consolidado, ou seja, todas as contas derivadas são pagas pela mestra ganhando desconto pelo uso no agregado (em lote) dos serviços e facilita pois só é gerado 1 fatura, também fornece API para automatizar a criação de contas-filho assim como a Control Tower com um painel interativo de fácil gerenciamento. Restringe privilégios de contas facilmente por SCP's. Extensão de várias VPC's através de 1 conta para as contas-filho, uso de tagueamento para detalhes de faturamento, usar CloudTrail em todas as contas com logs enviados para um S3 e CloudWatch na conta mestra.
+O **`Organizations`** é um serviço global que gerencia múltiplas contas dentro da AWS, a principal é a mestra e as derivadas são contas-filho. Fornece faturamento consolidado, ou seja, todas as contas derivadas são pagas pela mestra ganhando desconto pelo uso no agregado (em lote) dos serviços facilitando o gerenciamento, pois só é gerado 1 fatura, também fornece API para automatizar a criação de contas-filho assim como a **Control Tower** com um painel interativo de fácil gerenciamento. Restringe privilégios de contas facilmente por **SCP's**. Extensão de várias VPC's através de 1 conta para as contas-filho, uso de tagueamento para detalhes de faturamento, usar CloudTrail em todas as contas com logs enviados para um S3 e CloudWatch na conta mestra, entre outros benefícios.
 
 O **`Service Control Policies (SCP)`** permite o uso de listas de permissões ou negações de IAM aplicadas no nível de contas-filho ou unidade organizacional(OU) para usuários e funções que por padrão são criadas sem nenhuma permissão.
 
@@ -33,7 +33,7 @@ O EC2 possui os seguintes tipos de preços:
 
 - **On-demand** - sob demanda com tempo mínimo de faturamento de 60s e pago por segundo ou por hora. 
 - **Instâncias reservadas** - 75% de desconto em relação a on-demand por hora, com comprometimento de 1 ou 3 anos podendo pagar tudo adiantado com desconto ou reembolsos. 
-- **Instâncias Spot** - 90% de desconto em relação a on-demand por hora, com lances para as capacidades não usadas.
+- **Instâncias Spot** - 90% de desconto em relação a on-demand por hora, com ofertas para as capacidades não usadas.
 - **Host dedicado** - pode-se utilizar com on-demand ou instância reservada de 1 ou 3 anos.
 - **Saving Plans** - o cliente compromete-se a gastar uma certa quantia em dólares por hora durante 1 ou 3 anos sem a necessidade de pensar nos recursos mas sim em termos somente do custo. Com este modelo para instância EC2 obtém-se 72% de desconto em relação a on-demand podendo pagar adiantado e para Computação Cloud são chamados de plano poupança de computação com 66% de desconto em relação a on-demand.
 
@@ -57,7 +57,10 @@ O **`Anomaly Detection`** monitora continuamente os custos e uso, utilizando Mac
 
 O **`Service Quotas`** cria alarmes em conjunto com CloudWatch para alertas sobre limites ultrapassados.
 
-O **`Trusted Advisor`** executa uma série de verificações analisando as contas fornecendo recomendações sobre tempo de otimização de custos, desempenho, segurança, tolerância a falhas e limite de serviços. Verificações planos `Básico/Developer`: permissões S3, SG (algumas portas), IAM Use, MFA (na conta raíz), EBS com snapshots públicos, RDS, limites de serviços. Verificações planos `Business/Enterprise` todas dos planos básicos/developer mais alarmes CloudWatch ao atingir limites e acesso programático usando AWS Support API.
+O **`Trusted Advisor`** executa uma série de verificações analisando as contas fornecendo recomendações sobre tempo de otimização de custos, desempenho, segurança, tolerância a falhas e limite de serviços, possui os seguintes plano de cobertura:
+
+- **Básico/Developer**: permissões S3, SG (algumas portas), IAM Use, MFA (na conta raíz), EBS com snapshots públicos, RDS, limites de serviços.
+- **Business/Enterprise**: todas dos planos básicos/developer mais alarmes CloudWatch ao atingir limites e acesso programático usando AWS Support API.
 
 > Suporte
 
