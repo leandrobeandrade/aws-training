@@ -38,6 +38,8 @@ O **`System Manager (SSM)`** é um sistema gerenciador híbrido de instâncias E
 
 O **`OpsWorks`** é um serviço alternativo ao SSM e trabalha em conjunto com as aplicações Chef e Puppet que realizam automatizações de configurações repetitivas no servidor.
 
+O **`Quick Starts References`** são criados por arquitetos de soluções e parceiros da AWS para ajudar você a implantar tecnologias populares na AWS, com base nas práticas recomendadas da AWS para segurança e alta disponibilidade. Esses aceleradores reduzem centenas de procedimentos manuais em apenas algumas etapas, para que você possa criar seu ambiente de produção rapidamente e começar a usá-lo imediatamente. Cada Quick Start inclui modelos do AWS CloudFormation que automatizam a implantação e um guia que discute a arquitetura e fornece instruções passo a passo de implantação.
+
 A AWS fornece também uma suíte completa com serviços para todos os ciclos de vida de uma aplicação:  
 
 - **CodeDeploy**: Faz entrega de apps atualizando as versões, funciona com instâncias EC2 e On-Premise Servers.
@@ -65,7 +67,7 @@ O **`CloudFront`** fornece uma rede de entrega de conteúdo **(CDN)** que melhor
 
 O **`S3 Transfer Acceleration`** transfere arquivos de um bucket de um edge location para outro bucket por meio de um caminho de rede otimizado.
 
-O **`Global Accelerator`** não armazena em cache, as solicitações são repassadas dos edge locations para os apps nas regions.
+O **`Global Accelerator`** não armazena os dados em cache, as solicitações são repassadas dos Edge Locations para os apps dentro das regions.
 
 O **`Outposts`**  são racks de servidores AWS fora da AWS, no data center do cliente com os serviços disponíveis configurados. Sendo o cliente responsável pela segurança em todos os aspectos.
 
@@ -77,11 +79,11 @@ O **`Local zones`** estende os VPC's para zonas distintas, é uma espécie de im
 
 A integração de aplicativos na AWS é um conjunto de serviços que permite a comunicação entre componentes desacoplados em microsserviços, sistemas distribuídos e aplicativos sem servidor.
 
-O **`Simple Queue Service (SQS)`** permite receber mensagens de vários produtores e armazenadas em fila (FIFO) para serem consumidas de forma compartilhada pelos consumidores. Desacopla aplicativos e é serverless, retém mensagens por 4 dias por padrão e no máximo por 14 dias.
+O **`Simple Queue Service (SQS)`** permite receber mensagens de vários produtores que são armazenadas em uma fila (FIFO) para serem consumidas de forma compartilhada pelos consumidores. Desacopla aplicativos e é serverless, retém mensagens por 4 dias por padrão e no máximo por 14 dias.
 
 O **`Kinesis`** é um Streaming de big data em real time com baixa latência. Possui 4 serviços Data Firehose, Data Analytics, Data Streams, Video Streams.
 
-O **`Simple Notification Service (SNS)`** publica notificações para um tópico SNS e os inscritos ouvem todas essas notificações.
+O **`Simple Notification Service (SNS)`** notificações do tipo pub/sub, as notificações são publicadas para um tópico SNS e os inscritos ouvem todas essas notificações.
 
 O **`AWS MQ`** trabalha em conjunto com RabbitMQ e ActiveMQ para quem não quiser os outros serviços de mensagens AWS. Utilizado muito em migrações para nuvem para manter a compatibilidade com o que já estava funcionando (protocolos MQTT, AMQP).
 
