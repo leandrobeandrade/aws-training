@@ -17,7 +17,7 @@ São 1 data center ou um grupo de data centers com alimentação redundante, red
 
 ### Edge Locations - Locais de Borda
 
-Os Edge locations são pontos espalhados pelo mundo para ajudar a acelerar a comunicação com os usuários em qualquer localidade e são amplamente utilizadas em conjunto com a **CDN AWS** mais conhecida como `Cloudfront` que os utiliza para armazenar cópias em cache de conteúdo. Os Edge locations são separadas das regions, podendo-se enviar um conteúdo de dentro de uma region para uma coleção destes pontos de presença para acelerar a comunicação e entrega do conteúdo. Também executam um serviço DNS chamado `Route 53` que ajuda a direcionar corretamente requisições para os servidores web, com confiabilidade e baixa latência.
+Os Edge locations são pontos espalhados pelo mundo para ajudar a acelerar a comunicação com os usuários em qualquer localidade e são amplamente utilizadas em conjunto com a **CDN AWS** mais conhecida como `CloudFront` que os utiliza para armazenar cópias em cache de conteúdo. Os Edge locations são separadas das regions, podendo-se enviar um conteúdo de dentro de uma region para uma coleção destes pontos de presença para acelerar a comunicação e entrega do conteúdo. Também executam um serviço DNS chamado `Route 53` que ajuda a direcionar corretamente requisições para os servidores web, com confiabilidade e baixa latência.
 
 Porém pode-se utilizar serviços AWS dentro de um data center de terceiros, esse serviço chamada-se `AWS Outposts`, que consiste basicamante na instalação e configuração de uma mini-region dentro deste data center, tendo toda a responsabilidade e propriedade da AWS, exercendo toda a operação e administração do mesmo.
 
@@ -33,7 +33,7 @@ A forma de interagir com os serviços da AWS é por meio de **API's AWS** que se
 
 Fornece definições de código e configurações para serviços e aplicações da Web com implantações rápidas e simplificadas.
 
-### Cloudformation
+### CloudFormation
 
 Considera a infraestruta como código provisionando os recursos de maneira segura e repetível com reversão rápida em casos de erros, utilizando linguagens declarativas como Json ou Yaml conhecidos como templates. 
 
