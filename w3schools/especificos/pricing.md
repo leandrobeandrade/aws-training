@@ -137,7 +137,7 @@ Com o menor custo e acesso a tudo no Basic mais:
 Custo mediano com tudo em Basic e Developer mais:
 
 - Orientação de caso de uso
-- Todas as verificações do TrustedAdvisor
+- Todas as verificações do Trusted Advisor
 - Suporte limitado para software de terceiros
 - Suporte técnico por meio de chamadas telefônicas
 
