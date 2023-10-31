@@ -8,24 +8,20 @@ Existem três maneiras principais de interagir com os serviços da AWS.
 
 - Console de gerenciamento AWS
 
-      É uma interface baseada na web. Ele é usado para acessar e gerenciar serviços da AWS, possui um aplicativo móvel 
+      É uma interface baseada na web que é usada para acessar e gerenciar serviços da AWS, possui um aplicativo móvel 
       sendo melhor usada para monitorar e acessar informações de cobrança.
 
 - Interface de linha de comando (AWS CLI)
 
       Interface de prompt que executa comandos e economiza tempo ao fazer solicitações de API. Permite que você controle 
       vários serviços da AWS com uma ferramenta, permite automatizar ações em serviços com scripts, sendo disponível em 
-      Windows, macOS e Linux.
+      Windows, MacOS e Linux.
 
 - Kits de desenvolvimento de software (AWS SDK)
 
       Os SDKs são outra opção para acessar e gerenciar os serviços da AWS, facilitando o uso dos serviços da AWS por meio de
       uma API que é ajustada à plataforma ou linguagem de programação que você usa. Os SDKs podem ser usados em aplicativos
       existentes ou novos criados na AWS. Oferecem suporte a linguagens de programação como C++, Java, .NET entre outras.
-
-## Serviços de provisionamento em nuvem da AWS
-
-A AWS oferece duas ferramentas gerenciadas: AWS Elastic Beanstalk e AWS CloudFormation.
 
 ### Elastic Beanstalk
 
@@ -50,9 +46,7 @@ O Elastic Beanstalk implanta os recursos necessários para executar as seguintes
 
 Com o AWS CloudFormation, você pode tratar sua infraestrutura como código, sendo um serviço de infraestrutura que permite criar modelos que descrevem os serviços da AWS que você deseja. Em seguida, ele trata da configuração e provisionamento dos recursos (como instâncias do Amazon EC2 ou instâncias de banco de dados do Amazon RDS) descritos no modelo.
 
-Isso facilita porque você não precisa configurar os recursos individualmente, o CloudFormation ajuda a lidar com as dependências entre os recursos.
-
- Usando este serviço, você pode criar um ambiente escrevendo linhas de código, em vez de usar o Console de gerenciamento da AWS para provisionar recursos individualmente.
+Isso facilita porque você não precisa configurar os recursos individualmente, o CloudFormation ajuda a lidar com as dependências entre os recursos. Usando este serviço, você pode criar um ambiente escrevendo arquivos no formato **JSON** ou **YAML**, em vez de usar o console de gerenciamento da AWS para provisionar recursos individualmente.
 
 > Simplifique o gerenciamento da infraestrutura
 
