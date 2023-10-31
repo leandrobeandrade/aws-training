@@ -22,7 +22,7 @@ Serviço de banco de dados **NOSQL** por chave-valor, oferecendo um desempenho d
 
 Serviço de Data warehouse com escalabilidade massiva para análise de big data tendo os seus nós alcançando vários petabytes em escala. Com o auxílio do **AWS Redshift Spectrum** pode-se rodar uma única consulta SQL em Hexabytes de dados não estruturados diretamente no Data link. Tem uma performance 10x maior do que banco de dados tradicionais.
 
-### AWS DMS - Database Migragtion Service
+### AWS DMS - Database Migration Service
 
 Fornece migração de um banco de dados on-premises ou já na AWS para a nuvem AWS, de forma segura e fácil. O banco de origem permanece intacto e operacional durante a migração. Pode-se utilizar para criar um banco de teste, combinar vários bancos em um só e replicação contínua com cópias dos dados para outra fonte de destino ao invés de migração única.
 
@@ -86,8 +86,8 @@ O IAM oferece o gerenciamento dos acessos aos serviços AWS, com flexibilidade e
 
 > Autenticação multifator (MFA)
 
-    Fornece uma camada adicional de segurança para a conta AWS, tendo o usuário realizar uma entrada autenticada através de
-    um dispositivo configurado que pode ser uma chave de segurança de hardware ou dispositivo de hardware como um telefone.
+    Fornece uma camada adicional de segurança para a conta AWS, tendo o usuário que realizar uma entrada autenticada através 
+    de um dispositivo configurado que pode ser uma chave de segurança de hardware ou dispositivo de hardware como um telefone.
 
 ### Organizations
 
