@@ -166,7 +166,7 @@
 
 `24-` **Uma empresa deseja melhorar a disponibilidade geral e o desempenho dos seus aplicativos hospedados na AWS. Qual serviço da AWS a empresa deve usar?**
 
-    [ ] AWS LightSail
+    [ ] AWS Lightsail
     [ ] AWS Connect
     [ ] AWS Storage Gateway
     [ ] AWS Global Accelerator
@@ -346,7 +346,7 @@
 
     [ ] AWS IoT Core
     [ ] AWS Storage Gateway
-    [ ] AWS LightSail
+    [ ] AWS Lightsail
     [ ] AWS Snowball Edge
 
 `50-` **Uma empresa deseja limitar o acesso ao seu conjunto de empregados para um portifólio de recursos AWS pré-definidos. Qual solução AWS a empresa deve usar para atender a esse requisito?**

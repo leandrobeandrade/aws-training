@@ -40,7 +40,7 @@
     [ ] Multi-AZ reduces database usage costs
     [ ] Multi-AZ protects the database from a regional failure
     [ ] Multi-AZ enhances database availability
-    [ ] Multi-AZ improves database performance for read-heavy wrokloads
+    [ ] Multi-AZ improves database performance for read-heavy workloads
 
 `07-` **Multi AZ (Availability Zone) deployment is an example of which of the following?**
 
@@ -163,12 +163,12 @@
 
     [ ] AWS CloudFormation
     [ ] AWS X-Ray
-    [ ] AWS Pinpoit
+    [ ] AWS Pinpoint
     [ ] AWS Trusted Advisor
 
 `24-` **A Cloud Practitioner would like to deploy identical resources across all regions and accounts using templates while estimating costs. Which AWS service can assist with this task?**
 
-    [ ] AWS LightSail
+    [ ] AWS Lightsail
     [ ] AWS CodeDeploy
     [ ] AWS Directory Service
     [ ] AWS CloudFormation
@@ -204,7 +204,7 @@
 
 `29-` **Which of the following are the serverless computing services offered by AWS (Select two)**
 
-    [ ] AWS LightSail
+    [ ] AWS Lightsail
     [ ] AWS EC2
     [ ] AWS Elasitc Beanstalk
     [ ] AWS Lambda
@@ -485,7 +485,7 @@
 11) AWS Fargate
 12) AWS Cost Explorer
 13) CloudWatch, Lambda
-14) Share the reserved EC2 instances amongst the member AWS accounts
+14) Share the reserved EC2 instances amongst the member AWS accounts, Volume discounts for Amazon EC2 and Amazon S3 aggregated across the member AWS accounts
 15) Restrict account privileges using Service Control Policies (SCP), Create accounts per department
 16) It is a Platform as a Service (PaaS) which allows you to deploy and scale web applications and services
 17) Sell Software as a Service (SaaS) solutions to AWS customers, AWS customer can buy software that has been bundled into customized AMIs by the AWS Marketplace sellers
