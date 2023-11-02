@@ -4,11 +4,7 @@ Anotações referentes ao [Tutorial AWS Cloud](https://my-learning.w3schools.com
 
 ## AWS Cloud Redshift
 
-É um serviço de análise de big data quee pode coletar informações de várias fontes e auxilia você a obter conexões entre seus dados.
-
-> Capacitar
-
-O AWS Redshift é baseado em SQL, hardware projetado pela AWS e aprendizado de máquina. É ótimo quando os dados se tornam muito complexos para o banco de dados relacional tradicional. Auxilia a ropmer silos de dados e a obter insights preditivos e em tempo real sobre todos os dados com poucos cliques, sem migrar nem transformar dados.
+É um serviço de análise de big data que pode coletar informações de várias fontes e auxilia você a obter conexões entre seus dados. O AWS Redshift é baseado em SQL, com hardware projetado pela AWS e aprendizado de máquina, ótimo quando os dados se tornam muito complexos para o banco de dados relacional tradicional. Auxilia a romper silos de dados e a obter insights preditivos e em tempo real sobre todos os dados com poucos cliques, sem migrar nem transformar dados.
 
 Obtenha uma relação preço-performance até cinco vezes melhor do que qualquer outro data warehouse na nuvem, com inovação de performance pronta para uso, sem custo adicional. Extraia insights de dados em segundos sem se preocupar com o gerenciamento de infraestrutura, com um serviço de data warehouse seguro e confiável.
 
@@ -16,13 +12,13 @@ Obtenha uma relação preço-performance até cinco vezes melhor do que qualquer
 
 Ele ajuda você a mover dados entre bancos de dados, utilizando um banco de dados de origem e um banco de dados de destino. Um banco de dados de origem é um banco de dados de onde os dados são migrados, um banco de dados de destino é um banco de dados para o qual os dados serão migrados.
 
-Seu banco de dados de origem permanecerá operacional durante o processo de migração. O AWS DBS é simples de usar, reduz o tempo de inatividade do aplicativo, oferece suporte a uma ampla gama de bancos de dados, tem baixo custo e é confiável.
+Seu banco de dados de origem permanecerá operacional durante o processo de migração, sendo simples de usar, reduzindo o tempo de inatividade do aplicativo, oferecendo suporte a uma ampla gama de bancos de dados, com baixo custo e altamente confiável.
 
 > Uso
 
-- Ative o aplicativo de teste em relação aos dados de produção ou outros dados ambientais, sem afetá-lo
-- Combine vários bancos de dados em um único
-- Para enviar seus dados para outras fontes de dados
+- Ative o aplicativo de teste em relação aos dados de produção ou outros ambientes, sem afetá-los
+- Combine vários bancos de dados em um único banco
+- Envie seus dados para outras fontes de dados
 
 ## Serviços de banco de dados adicionais
 
@@ -63,7 +59,7 @@ AWS QLDB é um serviço de banco de dados contábil que fornece dados histórico
 
 ### AWS Managed Blockchain
 
-AWS Managed Blockchain é um serviço que utiliza estruturas de código aberto para criar ou gerenciar redes blockchain. Com alguns cliques, você pode ingressar, criar e gerenciar redes blockchain. Ethereum e Hyperledger Fabric são tecnologias populares de blockchain de código aberto. O Amazon Managed Blockchain é um serviço totalmente gerenciado que facilita o ingresso em redes públicas e cria e gerencia redes de blockchain privadas usando as conhecidas estruturas de código aberto Hyperledger Fabric e Ethereum.
+AWS Managed Blockchain é um serviço que utiliza estruturas de código aberto para criar ou gerenciar redes blockchain. Com alguns cliques, você pode ingressar, criar e gerenciar redes blockchain. O Amazon Managed Blockchain é um serviço totalmente gerenciado que facilita o ingresso em redes públicas, cria e gerencia redes de blockchain privadas usando as conhecidas estruturas de código aberto Hyperledger Fabric e Ethereum.
 
 > Vantagens
 
@@ -80,7 +76,7 @@ AWS Managed Blockchain é um serviço que utiliza estruturas de código aberto p
 
 ### AWS ElastiCache
 
-O serviço AWS ElastiCache adiciona camadas de captura sobre um banco de dados, a camada de captura armazena uma parte dos dados. Ele acelera o desempenho do aplicativo, melhora os tempos de leitura das solicitações de banco de dados. Redis e Memcached são compatíveis com o serviço AWS ElastiCache.
+O AWS ElastiCache adiciona camadas de captura sobre um banco de dados, a camada de captura armazena uma parte dos dados, acelerando o desempenho do aplicativo e melhorando os tempos de leitura das solicitações de banco de dados. Redis e Memcached são compatíveis com o serviço AWS ElastiCache.
 
 > Vantagens
 
