@@ -8,19 +8,19 @@ A AWS tem muitas opções de conectividade de rede, a maneira de se conectar dep
 
 ### Nuvem privada virtual (VPC - Virtual Private Cloud)
 
-A nuvem privada virtual da AWS também é chamada de AWS VPC. VPC é um serviço que permite isolar seus recursos da AWS em uma rede isolada. Os limites criados em torno dos recursos permitem que a AWS restrinja o tráfego de rede.
+A nuvem privada virtual da AWS é um serviço que permite isolar seus recursos da AWS em uma rede isolada. Os limites criados em torno dos recursos permitem que a AWS restrinja o tráfego de rede.
 
 Além disso, permite incluir as seções da Nuvem AWS que você deseja na rede isolada, os recursos podem ser organizados em sub-redes. Uma sub-rede é uma seção na VPC que pode conter recursos específicos.
 
 ### Portal da Internet (Internet Gateway)
 
-O tráfego público pode ser permitido para sua VPC e esta permissão é fornecida por um Internet Gateway, funcionando como uma porta entre a VPC e o tráfego da Internet. Sem o Internet Gateway, você não pode acessar os recursos na VPC.
+O tráfego público pode ser permitido para sua VPC e esta permissão é fornecida por um Internet Gateway, funcionando como uma porta entre a VPC e o tráfego da Internet. Sem o Internet Gateway, você não se pode acessar os recursos na VPC.
 
 ### Portal Privado Virtual (Virtual Private Gateway)
 
 Um Virtual Private Gateway é usado para acessar recursos privados na VPC, possuindo camadas extras de proteção. O Virtual Private Gateway criptografa o tráfego de internet, mantendo-o protegido. É um componente que permite que o `tráfego criptografado` entre na VPC.
 
-O Virtual Private Gateway permite que você crie uma Virtual Private Network (VPN) entre a VPC e a rede privada, só permitindo o tráfego de redes aprovadas. Muitas empresas usam VPNs para garantir que seu tráfego e dados estejam seguros.
+O Virtual Private Gateway permite que você crie uma **Virtual Private Network (VPN)** entre a VPC e a rede privada, só permitindo o tráfego de redes aprovadas. Muitas empresas usam VPNs para garantir que seu tráfego e dados estejam seguros.
 
 ### Conexão Direta (AWS Direct Connect)
 
@@ -32,7 +32,7 @@ Uma sub-rede é uma seção de uma VPC e permite agrupar recursos, os agrupament
 
 ### Sub-redes públicas
 
-As sub-redes públicas têm recursos que o público pode acessar. Por exemplo, a página da sua empresa, como aws.com.
+As sub-redes públicas têm recursos que o público pode acessar, por exemplo, a página da sua empresa, como aws.com.
 
 ### Sub-redes privadas
 
@@ -42,7 +42,7 @@ As sub-redes públicas e privadas podem se comunicar entre si por meio de canais
 
 ### Tráfego de rede em uma VPC
 
-Os dados solicitados são enviados como um pacote, sendo um pacote um empacotemento de dados enviados por uma rede ou pela Internet. Ele entra na VPC por meio de um gateway da Internet e antes de entrar em uma sub-rede, ele verifica as permissões.
+Os dados solicitados são enviados como um pacote, sendo um pacote um empacotemento de dados enviados por uma rede ou pela Internet. Ele entra na VPC por meio de um Gateway da Internet e antes de entrar em uma sub-rede, ele verifica as permissões.
 
 Verificando permissões como:
 
@@ -52,11 +52,11 @@ Verificando permissões como:
 
 ### ACL's (Access Control List)
 
-ACL é um firewall que controla o tráfego, tanto de entrada quanto de saída, controla o tráfego no nível da sub-rede. A ACL verifica e controla os pacotes, se o pacote estiver na lista de aprovados, ele passará, no entanto, se eles não estiverem na lista, o acesso será negado.
+ACL é um firewall que controla o tráfego, tanto de entrada quanto de saída, controlando o tráfego no nível da sub-rede. A ACL verifica e controla os pacotes, se o pacote estiver na lista de aprovados, ele passará, no entanto, se eles não estiverem na lista, o acesso será negado.
 
 > Filtragem de pacotes sem estado (Stateless packet filtering)
 
-As ACLs fazem a filtragem Stateless Packet, eles não têm memória e esquecerão o pedido depois de verificados. O trabalho deles é verificar os pacotes que entram e saem, usando as regras definidas para aprovar ou negar o acesso.
+As ACLs fazem a filtragem Stateless Packet, elas não têm memória e esquecerão o pedido depois de verificados. O trabalho delas é verificar os pacotes que entram e saem, usando as regras definidas para aprovar ou negar o acesso.
 
 ### Grupos de segurança
 
