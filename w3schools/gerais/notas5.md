@@ -49,12 +49,12 @@ Somente os dados exclusivos desse snapshot são removidos quando você exclui um
 
 > Comparação entre AWS EBS e AWS S3
 
-| AWS EBS                                                                       | AWS S3                                                                        |
-| --                                                                            | --                                                                            |
-| Os dados são armazenados como blocos                                          | Os dados são armazenados como objetos                                         |
-| O bloco de armazenamento pode ter até 16 tebibytes cada (17,6 terabytes)      | O tamanho do objeto individual pode ser de até 5.000 gigabytes (5 terabytes)  |
-| Desempenho mais rápido que o AWS S3                                           | Os dados não sofre perda, degradação ou corrupção por muito tempo             |
-| Os dados podem ser modificados                                                | Os dados não podem ser modificados, a menos que sejam recarregados            |
+| AWS EBS                                                                       | AWS S3                                                                            |
+| --                                                                            | --                                                                                |
+| Os dados são armazenados como blocos                                          | Os dados são armazenados como objetos                                             |
+| O bloco de armazenamento pode ter até 16 tebibytes cada (17,6 terabytes)      | O tamanho do objeto individual pode ser de até 5.000 gigabytes (5 terabytes)      |
+| Desempenho mais rápido que o AWS S3                                           | Os dados não sofrem perda, degradação ou corrupção por muito tempo                |
+| Os dados podem ser modificados                                                | Os dados não podem ser modificados, a menos que sejam recarregados                |
 
 ## EFS - Elastic File System
 
@@ -75,11 +75,11 @@ Os mecanismos de banco de dados AWS RDS oferecem criptografia de dados enquanto 
 
 ## AWS DynamoDB
 
-Banco de dados em nuvem NoSQL não relacional, sendo é um serviço de alto desempenho. como sendo um banco de dados sem servidor, você não precisa gerenciar servidores ou um sistema operacional para usá-lo.
+Banco de dados em nuvem não relacional (NoSQL), sendo é um serviço de alto desempenho, como sendo um banco de dados sem servidor, você não precisa gerenciar servidores ou um sistema operacional para usá-lo.
 
 > O que é um banco de dados não relacional?
 
-Um dos tipos de estrutura do banco de dados não relacional são os pares chave-valor. A chave de dados representa um item e o valor de dados representa os atributos desse item. Cada item pode ter atributos diferentes. Você pode remover qualquer atributo de qualquer item a qualquer momento.
+Um dos tipos de estrutura do banco de dados não relacional são os pares chave-valor. A chave de dados representa um item e o valor de dados representa os atributos desse item. Cada item pode ter atributos diferentes, você pode remover qualquer atributo de qualquer item a qualquer momento.
 
 > Comparação entre AWS RDS e AWS DynamoDB
 
