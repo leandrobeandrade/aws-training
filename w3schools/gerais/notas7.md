@@ -6,11 +6,11 @@ Anotações referentes ao [Tutorial AWS Cloud](https://my-learning.w3schools.com
 
 Segurança e conformidade constituem uma responsabilidade compartilhada entre a AWS e o cliente. Esse modelo compartilhado pode auxiliar a reduzir os encargos operacionais do cliente à medida que a AWS opera, gerencia e controla os componentes do sistema operacional do host e a camada de virtualização, até a segurança física das instalações em que o serviço opera. O cliente assume a gestão e a responsabilidade pelo sistema operacional convidado (inclusive atualizações e patches de segurança), por outros softwares de aplicativos associados e pela configuração do firewall do grupo de segurança fornecido pela AWS. 
 
-Os clientes devem examinar cuidadosamente os serviços que escolherem, pois suas respectivas responsabilidades variam de acordo com os serviços utilizados; a integração desses serviços ao seu ambiente de TI e as leis e regulamentos aplicáveis. A natureza dessas responsabilidades compartilhadas também oferece a flexibilidade e o controle do cliente necessários para a implantação. Como pode ser visto no gráfico abaixo, esta distinção entre responsabilidades é denominada normalmente como segurança “da” nuvem versus segurança “na” nuvem.
+Os clientes devem examinar cuidadosamente os serviços que escolherem, pois suas respectivas responsabilidades variam de acordo com os serviços utilizados, a integração desses serviços ao seu ambiente de TI e as leis e regulamentos aplicáveis. A natureza dessas responsabilidades compartilhadas também oferece a flexibilidade e o controle do cliente necessários para a implantação. Esta distinção entre responsabilidades é denominada normalmente como segurança **"da"** nuvem versus segurança **"na"** nuvem.
 
 ## Responsabilidade da AWS
 
-A responsabilidade da AWS é a segurança da nuvem que gerencia todas as camadas de infraestrutura. Algumas das camadas de infraestrutura são:
+A responsabilidade da AWS é a segurança da nuvem que gerencia todas as camadas de infraestrutura, as camadas são:
 
 - Centros de dados (data centers)
 - Hardware e software
@@ -19,7 +19,7 @@ A responsabilidade da AWS é a segurança da nuvem que gerencia todas as camadas
 
 ## Responsabilidade de um cliente
 
-A responsabilidade dos clientes é a segurança de tudo o que eles fazem na Nuvem AWS.
+A responsabilidade dos clientes é a segurança de tudo o que eles fazem na nuvem AWS.
 
 - O cliente têm total controle sobre o seu conteúdo
 - O cliente gerencia serviços, software e acesso aos dados da AWS
@@ -28,7 +28,7 @@ Diferenças de responsabilidade:
 
 | AWS                           | Cliente                                   |
 |--                             |--                                         |
-| Locais de borda               | Proteção de tráfego de rede de            |
+| Locais de borda               | Proteção de tráfego de rede               |
 | Zonas de disponibilidade      | Criptografia do lado do servidor          |
 | Regiões                       | Criptografia de dados do lado do cliente  |
 | Infraestrutura global da AWS  | Configuração de sistemas operacionais     |
@@ -67,7 +67,7 @@ O usuário do IAM representa uma entidade (pessoa ou aplicativo) que interage co
 
 ### IAM Policies
 
-As políticas do IAM são documentos que negam ou permitem permissões para recursos e serviços da AWS, eles personalizam o acesso do usuário aos recursos e serviços da AWS. Você pode conceder apenas as permissões de que cada usuário precisa.
+As políticas do IAM são documentos que negam ou permitem ações para recursos e serviços da AWS, personalizam o acesso do usuário aos recursos e serviços da AWS. Você pode conceder apenas as permissões de que cada usuário precisa.
 
 ### IAM Groups
 
@@ -77,7 +77,7 @@ Uma coleção de usuários do IAM é chamada de grupo do IAM. A política do IAM
 
 A função do IAM fornece acesso temporário a serviços ou recursos. Antes que uma função do IAM possa ser atribuída, o usuário, serviço ou aplicativo do IAM deve ter permissão para alternar as funções. É melhor para casos em que o acesso temporário precisa ser concedido.
 
-### Multi-factor Authentication
+### Multi-factor Authentication (MFA)
 
 A autenticação multifator é uma autenticação em várias etapas que pode fornecer mais de um formulário de autenticação, sendo uma camada extra de segurança. Pode vir na forma de um código de segurança que é enviado para o seu dispositivo móvel ou um e-mail.
 
@@ -95,7 +95,7 @@ Você pode automatizar seus processos de conformidade e auditoria por meio dos m
 
 ### AWS Artifact
 
-AWS Artifact é um serviço que fornece acesso a relatórios de conformidade e segurança da AWS sob demanda. Consiste em AWS Artifact Reports e AWS Artifact Agreements. Existem muitos regulamentos e relatórios que você pode encontrar nos artefatos da AWS.
+AWS Artifact é um serviço que fornece acesso a relatórios de conformidade e segurança da AWS sob demanda, consiste em AWS Artifact Reports e AWS Artifact Agreements. Existem muitos regulamentos e relatórios que você pode encontrar nos artefatos da AWS.
 
 > Contratos de artefatos da AWS (Artifact Agreements)
 
@@ -111,28 +111,28 @@ O Customer Compliance Center é um grupo de recursos que ajuda você a aprender 
 
 ## Denial-of-Service Attacks - DoS
 
-Ataques de negação de serviço (DDoS) são um esforço para tornar um aplicativo ou site inacessível. O DDoS causa uma inundação excessiva de dados que sobrecarrega um aplicativo ou uma rede de sites. O ataque DDoS vem de uma única fonte.
+Ataques de negação de serviço (DoS) são um esforço para tornar um aplicativo ou site inacessível, causando uma inundação excessiva de dados que sobrecarrega um aplicativo ou uma rede de sites. O ataque DoS vem de uma única fonte.
 
 ## Distributed Denial-of-Service Attacks - DDoS
 
-Ataques distribuídos de negação de serviço (DDoS) vêm de diferentes fontes. Assim como o DoS, o DDoS tenta tornar um aplicativo ou site inacessível. O ataque pode vir de mais de um atacante ou de um único atacante que usa bots. Bots são computadores infectados que inundam automaticamente seu aplicativo ou um site com tráfego excessivo. A AWS fornece um AWS Shield para reduzir os efeitos de ataque DoS e DDoS em seu aplicativo ou site.
+Ataques distribuídos de negação de serviço (DDoS) vêm de diferentes fontes. Assim como o DoS, o DDoS tenta tornar um aplicativo ou site inacessível. O ataque pode vir de mais de um atacante ou de um único atacante que usa bots que são computadores infectados que inundam automaticamente seu aplicativo ou um site com tráfego excessivo. A AWS fornece um AWS Shield para reduzir os efeitos de ataque DoS e DDoS em seu aplicativo ou site.
 
 ## AWS Shield
 
-O AWS Shield oferece proteção contra ataques DoS e DDoS. Ele fornece proteção padrão e avançada. A proteção padrão do AWS Shield protege todos os usuários da AWS sem nenhum custo. O AWS Shield Advanced é um serviço pago. O AWS Shield Advanced fornece detalhes do ataque e pode minimizar os efeitos de ataques mais complexos.
+O AWS Shield oferece proteção contra ataques DoS e DDoS, fornecendo proteção padrão e avançada. A proteção padrão do AWS Shield protege todos os usuários da AWS sem nenhum custo e o AWS Shield Advanced é um serviço pago que fornece detalhes do ataque e pode minimizar os efeitos de ataques mais complexos.
 
 ## AWS KMS
 
-O AWS KMS também é conhecido como AWS Key Management Service. Ele garante a segurança dos dados do seu aplicativo com chaves criptográficas. Uma chave criptográfica é uma sequência de caracteres que pode ser usada para criptografar ou descriptografar dados. A criptografia de dados está bloqueando os dados. A descriptografia de dados está desbloqueando os dados. Você está no controle total de suas chaves. Você pode permitir que os usuários do IAM gerenciem as chaves do AWS KMS.
+O AWS KMS também é conhecido como AWS Key Management Service, garante a segurança dos dados do seu aplicativo com chaves criptográficas. Uma chave criptográfica é uma sequência de caracteres que pode ser usada para criptografar ou descriptografar dados. A criptografia de dados está bloqueando os dados e a descriptografia de dados está desbloqueando os dados. Você está no controle total de suas chaves, podendo permitir que os usuários do IAM gerenciem as chaves do AWS KMS.
 
 ## AWS WAF
 
-O AWS WAF também é conhecido como AWS Web Application Firewall. Ele monitora as solicitações de rede do seu aplicativo. Ele pode permitir ou bloquear o tráfego de rede. Para permitir ou bloquear o tráfego de rede, o AWS WAF usa ACL (lista de controle de acesso à web).
+O AWS WAF também é conhecido como AWS Web Application Firewall que monitora as solicitações de rede do seu aplicativo. Ele pode permitir ou bloquear o tráfego de rede utilizando ACL (lista de controle de acesso à web).
 
-## Amazon Inspector
+## AWS Inspector
 
-O Amazon Inspector ajuda você a melhorar a segurança dos aplicativos. Também ajuda a melhorar a conformidade dos aplicativos. Ele verifica o aplicativo em busca de versões de software e outras vulnerabilidades. Ele oferece um relatório de todos os problemas de segurança e recomendações de soluções para seu aplicativo.
+O Amazon Inspector ajuda você a melhorar a segurança dos aplicativos, assim como a melhorar a conformidade dos aplicativos. Ele verifica o aplicativo em busca de versões de software e outras vulnerabilidades, oferecendo um relatório de todos os problemas de segurança e recomendações de soluções para seu aplicativo.
 
-## Amazon GuardDuty
+## AWS GuardDuty
 
-Amazon GuardDuty é um serviço de detecção de ameaças. Ele detecta ameaças para recursos e infraestrutura da AWS. Ele faz isso monitorando constantemente a atividade na rede. Como o Amazon Inspector, ele relata ameaças encontradas e corrige recomendações.
+AWS GuardDuty é um serviço de detecção de ameaças que detecta ameaças para recursos e infraestrutura da AWS monitorando constantemente a atividade na rede. Assim como o AWS Inspector, ele relata ameaças encontradas e corrige recomendações.
