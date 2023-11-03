@@ -16,9 +16,9 @@ O AWS Snowcone é um dispositivo pequeno e seguro que transfere dados. É feito 
 
 ### AWS Snowball
 
-O AWS Snowball possui 2 tipos de dispositivos, descritos na tabela abaixo. 
+O AWS Snowball ou SnowBall Edge é um serviço de transporte de dados na escala de petabytes que usa dispositivos seguros para transferir grandes quantidades de dados para possui 2 tipos de dispositivos: 
 
-| Dispositivos otimizados para armazenamento Snowball Edge                      | Dispositivos otimizados para computação Snowball Edge |
+| Dispositivos otimizados para `armazenamento`                                    | Dispositivos otimizados para `computação` |
 |--                                                                             | -- |
 | Ótimo para migrações de dados em grande escala                                | Ótimo para serviços que exigem uma grande quantidade de recursos de computação. |
 | Tenha 80 TB de espaço de armazenamento em HDD para armazenamento de objetos   | Tenha 42 TB de armazenamento em HDD para armazenamento de objetos e 7,68 TB de espaço de      armazenamento SSD NVMe para volumes de blocos do AWS EBS. |
