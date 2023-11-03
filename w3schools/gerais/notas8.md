@@ -12,13 +12,13 @@ AWS CloudTrail registra ações dentro do seu ambiente AWS, registrando chamadas
 
 ### Eventos do CloudTrail
 
-CloudTrail pode ser usado para criar eventos, os eventos são configurados para entender o que aconteceu, permitindo filtrar e localizar eventos específicos. Os eventos podem, por exemplo, nos dizer o que?, quem? quando? Como? O evento fornece uma visão situacional.
+CloudTrail pode ser usado para criar eventos, os eventos são configurados para entender o que aconteceu, permitindo filtrar e localizar eventos específicos. Os eventos podem, por exemplo, nos dizer o que?, quem?, quando? e como? O evento fornece uma visão situacional.
 
 O CloudTrail tem um recurso chamado `CloudTrail Insights` que permite a detecção de atividades de API incomuns em sua conta por meio de automação.
 
-## Cloud Inspection Service - AWS TrustedAdvisor
+## AWS Trusted Advisor
 
-Serviço de inspeção de nuvem, o TrustedAdvisor verifica sua conta, avalia e recomenda você a seguir as práticas recomendadas da AWS, é um serviço de recomendação em tempo real baseado na web que verifica sua conta e compara suas descobertas com as seguintes categorias:
+Serviço de inspeção de nuvem, o Trusted Advisor verifica sua conta, avalia e recomenda você a seguir as práticas recomendadas da AWS, é um serviço de recomendação em tempo real baseado na web que verifica sua conta e compara suas descobertas com as seguintes categorias:
 
 - Otimização de custos
 - Desempenho
@@ -26,11 +26,11 @@ Serviço de inspeção de nuvem, o TrustedAdvisor verifica sua conta, avalia e r
 - Tolerância ao erro
 - Limites de serviço
 
-TrustedAdvisor retorna uma lista de ações recomendadas, também fornecerá recomendações de material de aprendizado para entender melhor as práticas recomendadas da AWS.
+Trusted Advisor retorna uma lista de ações recomendadas, também fornecerá recomendações de material de aprendizado para entender melhor as práticas recomendadas da AWS.
 
-### AWS TrustedAdvisor Dashboard
+### AWS Trusted Advisor Dashboard
 
-TrustedAdvisor tem um painel baseado na web com acesso pelo Console de gerenciamento da AWS. O painel fornece uma visão geral das verificações concluídas e dos resultados por categoria.
+Trusted Advisor tem um painel baseado na web com acesso pelo Console de gerenciamento da AWS. O painel fornece uma visão geral das verificações concluídas e dos resultados por categoria.
 
 - Verificação verde: sem problemas
 - Triângulo laranja: investigações recomendadas
@@ -58,7 +58,7 @@ A Perspectiva de Negócios trata de justificar o investimento e garante que os o
 - Gerentes financeiros
 - Partes interessadas da estratégia
 
-> Perspectiva das Pessoas
+> Perspectiva de Pessoas
 
 A Perspectiva de Pessoas avalia habilidades, requisitos e funções em sua organização, trata de garantir que você tenha as habilidades, competências e processos corretos para migrar para a nuvem. O processo de avaliação ajuda você a implementar as mudanças ou melhorias necessárias. Os papéis nas Perspectivas de Pessoas são:
 
