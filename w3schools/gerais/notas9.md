@@ -51,7 +51,8 @@ A AWS oferece uma ferramenta que ajuda você a desenvolver recursos de ML na nuv
 IA é um software capaz de realizar tarefas humanas complexas. A AWS oferece muitos serviços baseados em IA:
 
 - Serviço para criar chatbots de voz e texto - Amazon Lex
-- Serviço que pode converter texto em fala - Amazon Transcribe
+- Serviço que pode converter texto em fala - Amazon Polly
+- Serviço que pode converter fala em texto - Amazon Transcribe
 - Serviço que pode descobrir padrões de texto - Amazon Comprehend
 - Serviço que pode detectar possíveis atividades de fraude online - Amazon Fraud Detection
 
