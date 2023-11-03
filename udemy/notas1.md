@@ -58,7 +58,7 @@ Na AWS paga-se pelo uso, computação paga pela computação utilizada, armazena
 
 ## IAM - Identity and Access Management
 
-Os usuários IAM acessam a AWS usando um nome de usuário e uma senha. Uma política do IAM **(Policies)** é uma entidade que, quando anexada a uma identidade ou recurso, define suas permissões. O relatório de credenciais do IAM lista todos os usuários da sua conta e o status de suas diversas credenciais. A outra ferramenta de segurança IAM é o **IAM Access Advisor** que lista as permissões de serviço concedidas a um usuário e quando esses serviços foram acessados pela última vez.
+Os usuários IAM acessam a AWS usando um nome de usuário e uma senha. Uma política do IAM **(Policies)** é uma entidade que, quando anexada a uma identidade ou recurso, define suas permissões, sendo no formato JSON. O relatório de credenciais do IAM **(IAM Credentials Report)** lista todos os usuários da sua conta e o status de suas diversas credenciais, só são fornecidos em um período de 4 horas após o relatório anterior.. A outra ferramenta de segurança IAM é o **IAM Access Advisor** que lista as permissões de serviço concedidas a um usuário e quando esses serviços foram acessados pela última vez.
 
 O **`Security Token Service (STS)`** permite a criação de privilégios temporários e limitados para usuário, podendo-se configurar o tempo de expiração.
 
@@ -90,7 +90,7 @@ Tipos de aquisição de instâncias EC2:
 - **`Instâncias Dedicadas`:** Executadas em hardware físico com compartilhamento com outras instâncias.
 - **`Capacidade Reservada`:** Capacidade reservada de instâncias específicas em uma AZ por qualquer duração de tempo.  
 
-O **`Elastic Block Store (EBS)`** são drivers de rede que podem ser anexados nas instâncias EC2 ou NÃO, permitindo persistir dados mesmo depois da instâncias estarem encerradas. Sendo o EBS vinculado a uma AZ específica com 30GB grátis em free tier, útil para failovers, porém pode-se copiar um EBS a outra AZ com um EBS instantâneo (backup) ou EBS Snapshot levando de 24 a 72 horas para cópias.
+O **`Elastic Block Store (EBS)`** são drivers de rede que podem ser anexados nas instâncias EC2 (em apenas uma instância ao mesmo tempo), permitindo persistir dados mesmo depois da instâncias estarem encerradas. Sendo o EBS vinculado a uma AZ específica com 30GB grátis em free tier, útil para failovers, porém pode-se copiar um EBS a outra AZ com um EBS instantâneo (backup) ou EBS Snapshot levando de 24 a 72 horas para cópias.
 
 O **`Amazon Machine Image (AMI)`** são personalizações de uma instância EC2 pública que pode ter a customização da instância por meio das configurações, assim como os sistemas operacionais e especificação de regions. Pode-se copiar uma AMI dentro da mesma região da AWS ou para diferentes regiões da AWS, assim também como cancelar seus registros.
 

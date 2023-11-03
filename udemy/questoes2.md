@@ -1,6 +1,6 @@
 # Questões no curso Ultimate AWS Certified Cloud Practitioner
 
-## 4º Teste (Seção 6 - EC2 Storage)
+## 4º Teste (Seção 6 - EC2 Instance Storage)
 
 > 01] **Which EC2 Storage would you use to create a shared network file system for your EC2 Instances?**
 
@@ -9,7 +9,7 @@
     [ ] EBS Snapshots
     [ ] EFS
 
-> 02] **Which EC2 Storage would you use to create a shared network file system for your EC2 Instances?**
+> 02] **Which of the following represents an EC2 image and container automator?**
 
     [ ] AMI
     [ ] EC2 Image Builder
@@ -45,7 +45,8 @@
 
 > 08] **What is an EBS Snapshot?**
 
-    [ ] The operating-system on an EC2 Instance [ ] A backup of yours EBS Volumes at a point in time
+    [ ] The operating-system on an EC2 Instance 
+    [ ] A backup of yours EBS Volumes at a point in time
     [ ] The amount of CPU and RAM of an EC2 Instance
 
 > 09] **Where can you find a third party's AMI so you can use it to launch your EC2 Instance?**

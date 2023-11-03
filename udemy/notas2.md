@@ -31,14 +31,16 @@ Estratégias ASG:
 
 Armazenamento em escala infinita, utilizado também para fazer integrações entre outro serviços AWS. Armazenamento de arquivos, recuperação de desastres, nuvem híbrida, hospedar apps e sites, analisar dados, fornecer atualizações de softwares. O armazenamento é realizado em `Buckets` que devem ter nomes únicos globalmente e podem ser distribuídos em várias regions. Os dados armazenados são conhecidos como **Objects** com tamanho máximo 5 TB (5000GB) e possuem uma key que é o caminho para o arquivo.
 
-As políticas de segurança dos buckets (Buckets Security Policies) são por meio de IAM com um documento do tipo **JSON** que garante acesso específico por usuário ou por outro serviços (Roles), também pode garantir acesso por cruzamento de contas, por ACL's, assim também como por meio de criptografia. Políticas:
+As políticas de segurança dos buckets `(Buckets Security Policies)` são por meio de IAM com um documento do tipo **JSON** que garante acesso específico por usuário ou por outro serviços (Roles), também pode garantir acesso por cruzamento de contas, por ACL's, assim também como por meio de criptografia. Políticas:
 
 - effect: permitir/negar (allow/deny)
 - actions: conjunto de API para permitir/negar (S3:GetObject por exemplo)
 - principal: usuário/conta que se aplica a regra (* - todos por exemplo)
 - resource: o recurso a ser aplicado a regra (arn:aws:s3:::examplebucket/* por exemplo)
 
-O **S3 Replication** consiste na replicação de um bucket sendo que o CRR (Cross-Region Replication) replica o bucket em outras regions e o SRR (Same-Region Replication) replica na mesma region, todos de forma assíncronas.
+O **`S3 Replication`** consiste na replicação de um bucket sendo que o **CRR (Cross-Region Replication)** replica o bucket em outras regions e o **SRR (Same-Region Replication)** replica na mesma region, todos de forma assíncronas.
+
+Os **`Lifecycle Rules`** são regras que definem as ações para mover objetos S3 entre diferentes classes de armazenamento.
 
 ### S3 - Classes
 
@@ -64,7 +66,7 @@ Dispositivos para armazenamento de dados, pode-se utilizar com a interface gráf
 
 - **`Snowcone e Snowcone SSD`:** capacidade de armazenamento 8TB HDD e 14TB SSD, recomendado para pequenos volumes de dados e locais de borda. funciona enviando o dispositivo físico para a AWS ou enviando os dados por uma rede (DataSync).
 - **`Snowball Edge`:** 80TB HDD (Storage Optmized) 42TB HDD ou 28TB VNMe (Compute Optimized), recomendado para grandes armazenamentos e backups volumosos de dados e recuperação de desastres.
-- **`Snowmobile`:** armazenamento de 100PB por um caminhão, temperatura controlada, GPS e segurança. Menos que 10PB utilizar Snowball Edge.
+- **`Snowmobile`:** armazenamento de 100PB (1 exabyte) por um caminhão, temperatura controlada, GPS e segurança. Menos que 10PB utilizar Snowball Edge.
 
 A **computação de borda (Edge Computing)** permite uma computação remota, sem ou com pouco acesso a internet, a infra e a recursos computacionais. Esta computação de borda pode ser utilizada com **Storage Gateway** que serve como uma ponte de conexão entre armazenamento local e a nuvem (cloud híbrida), utilizado para recuperação de dados, backups e restaurações. Possui 3 tipos files, volumes e tapes.
 
