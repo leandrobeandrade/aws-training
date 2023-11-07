@@ -198,7 +198,7 @@
 
 > 10º Teste
 01) Weighted Routing Policy (Ponderado)
-02) WaveLenght
+02) WaveLength
 03) S3 Transfer Acceleration
 04) Caching Content in Edge Locations
 05) Outposts
