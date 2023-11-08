@@ -236,7 +236,7 @@
 ## Respostas
 
 > 12º Teste
-01) CloudWatch Alarm
+01) CloudWatch Alarms
 02) X-Ray
 03) AWS Health Dashboard
 04) CloudWatch
