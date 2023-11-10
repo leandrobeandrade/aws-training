@@ -23,7 +23,7 @@
 > 04] **You would like to find objects, people, text, or scenes in images and videos. What AWS service should you use?**
 
     [ ] Rekognition
-    [ ] Poly
+    [ ] Polly
     [ ] Kendra
     [ ] Lex
 
@@ -132,7 +132,7 @@
 
 > 10] **What can you use to get alerts when your costs and usage are exceeding or are forecasted to exceed your budgeting amount?**
 
-    [ ] CloudWatch Biiling Alarms
+    [ ] CloudWatch Billing Alarms
     [ ] Budgets
     [ ] Cost and Usage Reports
     [ ] Billing Dashboard

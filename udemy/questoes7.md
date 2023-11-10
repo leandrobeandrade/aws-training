@@ -131,7 +131,7 @@
 
 > 19º Teste
 01) Elastic Transcoder
-02) AppStream 20.
+02) AppStream 2.0
 03) Device Farm
 04) AWS IoT Core
 05) False
