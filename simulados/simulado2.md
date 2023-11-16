@@ -42,9 +42,9 @@
     [ ] AWS VPC
     [ ] AWS EC2
 
-`07-` **Quais das seguintes opções estão incluídas na AWS Enterprise Support? (Escolha duas)**
+`07-` **Quais das seguintes opções estão incluídas na AWS Enterprise Support? (Escolha dois)**
 
-    [ ] Suporte lidaderado por parceiros da AWS
+    [ ] Suporte liderado por parceiros da AWS
     [ ] Suporte à integração de software de terceiros à AWS
     [ ] Gerente de conta técnica (TAM)
     [ ] Tempo de resposta de 5 minutos para problemas críticos
@@ -60,7 +60,7 @@
 
     [ ] AWS Aurora
     [ ] AWS Connect
-    [ ] AWS Globl Accelerator
+    [ ] AWS Global Accelerator
     [ ] AWS Outposts
 
 `10-` **Uma empresa deseja migrar uma aplicação crítica para a AWS. A aplicação tem um tempo de execução curto. A aplicação é invocada por mudanças nos dados ou por deslocamentos no estado do sistema. A empresa precisa de uma solução de computação que maximize a eficiência operacional e minimize o custo de execução da aplicação. Qual a solução AWS que a empresa deve usar para cumprir esses requisitos?**
@@ -85,7 +85,7 @@
     [ ] AWS Outposts
     [ ] AWS AppSync
 
-`13-` **Quais das seguintes são características das ACLs de rede, conforme usadas na AWS Cloud? (Escolha duas)**
+`13-` **Quais das seguintes são características das ACLs de rede, conforme usadas na AWS Cloud? (Escolha dois)**
 
     [ ] Eles processam regras em ordem, começando pela regra de número mais baixo, ao decidir se permitem o tráfego
     [ ] Eles avaliam todas as regras antes de permitir o tráfego
@@ -213,7 +213,7 @@
     [ ] AWS KMS
     [ ] AWS GuardDuty
 
-`31-` **Uma empresa deseja migrar seus aplicativos de seu data center local para um VPC na AWS Cloud. Esses aplicativos precisarão acessar recursos localmente. Quais ações atenderão a esses requisitos? (Escolha duas.)**
+`31-` **Uma empresa deseja migrar seus aplicativos de seu data center local para um VPC na AWS Cloud. Esses aplicativos precisarão acessar recursos localmente. Quais ações atenderão a esses requisitos? (Escolha dois.)**
 
     [ ] Usar uma distribuição do AWS CloudFront e configurá-la para acelerar a entrega de conteúdo próximo aos recursos locais
     [ ] Usar o AWS Service Catalog para identificar uma lista de recursos locais que podem ser migrados
@@ -240,7 +240,7 @@
     [ ] AWS Budgets
     [ ] AWS Cost Explorer
     [ ] AWS Bills
-    [ ] AWS Cost and Usage Reposrts
+    [ ] AWS Cost and Usage Reports
 
 `35-` **Qual princípio de design de arquitetura descreve a necessidade de isolar falhas entre componentes dependentes na AWS Cloud?**
 
@@ -422,11 +422,11 @@
 `60-` **Qual serviço ou funcionalidade AWS uma empresa poderia usar para determinar qual unidade de negócio está usando recursos específicos da AWS?**
 
     [ ] AWS Trusted Advisor
-    [ ] Pae de chaves
+    [ ] Par de chaves
     [ ] Tags de alocação de custos (cost allocation tags)
     [ ] AWS Inspector
 
-`61-` **Qual das características são vantagens de se utilizar a nuvem AWS?**
+`61-` **Qual das características são vantagens de se utilizar a nuvem AWS? (Escolha dois)**
 
     [ ] Melhoria na segurança
     [ ] Um contrato de nível de serviços (SLA) de 100% para todos os serviços AWS
@@ -505,7 +505,7 @@
 > - Eles não têm estado: Network ACLs na AWS não têm estado, o que significa que não acompanham o estado de uma conexão. Cada regra Network ACL é avaliada de forma independente e não está ciente dos pacotes anteriores ou subsequentes na mesma conexão. Eles processam as regras em ordem, começando com a regra de número mais baixo, ao decidir se permitem o tráfego: Network ACLs avaliam as regras em ordem sequencial, começando com a regra de número mais baixo. Depois que uma regra corresponde a um pacote, a decisão de permitir ou negar o tráfego é tomada e a avaliação adicional das regras é interrompida. Esse processamento sequencial de regras é uma característica importante das Network ACLs na AWS.
 
 14) Confiabilidade
-> - A Confiabilidade é um dos pilares do AWS Well-Architected Framework que inclui esse requisito. A Confiabilidade lida com como você projeta a fiabilidade e a disponibilidade do sistema e como ele pode monitorar as falhas e recuperar após falhas, garantindo que o atendimento aos objetivos de serviço seja atendido.
+> - A Confiabilidade é um dos pilares do AWS Well-Architected Framework que inclui esse requisito. A Confiabilidade lida com como você projeta a confiabilidade e a disponibilidade do sistema e como ele pode monitorar as falhas e recuperar após falhas, garantindo que o atendimento aos objetivos de serviço seja atendido.
 
 15) Usar o AWS CloudTrail para ver se o grupo de segurança foi alterado
 > - O usuário deve usar o serviço AWS CloudTrail para ver se alguma alteração foi feita no grupo de segurança. O CloudTrail monitora suas API na AWS e fornece logs de auditores que registram qualquer API chamada feita pelo seu usuário, por um serviço da AWS ou por terceiros. Dessa forma, o usuário pode verificar quando houve alterações, com quem foi feita a alteração e qual foi a alteração realizada.
@@ -555,7 +555,7 @@
 30) AWS KMS (Key Management Service)
 > - O AWS Key Management Service (KMS) pode ser usado para criptografar os dados de repouso na AWS. Ele cria e gerencia as chaves de criptografia para proteger os dados, em que as chaves não ficam nos discos e é possível fazer a recuperação delas em casos de perda. O KMS garante que todas as chaves e o conteúdo sejam protegidos com certificados SSL/TLS. Referência: https://aws.amazon.com/blogs/security/how-to-protect-data-at-rest-with-amazon-ec2-instance-store-encryption/
 
-31) Criar uma conexão VPN entre um dispositivo local e um Gateway privado virtual no VPC, configurar uma conexão AWS Direct Coonect entre o data center local e a AWS
+31) Criar uma conexão VPN entre um dispositivo local e um Gateway privado virtual no VPC, configurar uma conexão AWS Direct Connect entre o data center local e a AWS
 > - Crie uma conexão VPN entre um dispositivo local e um gateway privado virtual na VPC: Ao configurar uma conexão VPN (Virtual Private Network) entre um dispositivo local (como um roteador) e um gateway privado virtual na VPC, a empresa pode estabelecer uma conexão segura e criptografada entre sua rede local e a VPC na AWS. Isso permite que os aplicativos em execução na VPC acessem com segurança os recursos locais por meio da conexão VPN. Configure uma conexão AWS Direct Connect entre o data center local e a AWS: O AWS Direct Connect fornece uma conexão de rede dedicada entre o data center local da empresa e a AWS. Ao configurar essa conexão, a empresa pode estabelecer um link de alta velocidade e baixa latência diretamente para a AWS, ignorando a Internet pública. Isso permite que os aplicativos executados na VPC tenham acesso rápido e confiável aos recursos locais.
 
 32) AWS Enterprise Support
@@ -564,7 +564,7 @@
 33) AWS SQS (Simple Queue Service) e AWS Lambda
 > - A opção "AWS SQS e AWS Lambda" é correta porque combina dois serviços da AWS, Amazon Simple Queue Service (Amazon SQS) e AWS Lambda, para criar uma solução operacionalmente eficiente para processar várias solicitações de diferentes usuários. O Amazon SQS é um serviço de enfileiramento de mensagens totalmente gerenciado que permite desacoplar os componentes em um aplicativo, permitindo a comunicação assíncrona entre eles. Ele fornece uma maneira confiável e escalável de lidar com mensagens e atua como um buffer entre os componentes, garantindo que as mensagens sejam processadas com eficiência. Nesse caso, a empresa pode usar o Amazon SQS para receber e armazenar as solicitações recebidas de diferentes usuários.
 
-34) Cost Emplorer
+34) Cost Explorer
 > - A pesquisa "Cost Explorer" da AWS permite que as organizações visualize gráficos de seus custos e uso da AWS. O Cost Explorer permite que você analise os custos mensais, trimestrais, semestrais ou anuais da AWS em visualizações gráficas e facilite a compreensão e otimização dos custos da AWS.
 
 35) Fraco acoplamento
