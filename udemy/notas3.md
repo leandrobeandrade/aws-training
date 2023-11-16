@@ -26,13 +26,16 @@ O **`API Gateway`** é um serviço escalonável que permite a criação de um pr
 
 O **`Batch`** é um serviço de processamento em lote em grande escala e com eficiência totalmente gerenciado. **Batch job** é uma funcionalidade com começo e fim, são imagens Docker e que rodam em um ECS. Provisiona dinamicamente a quantidade e o tipo ideais de recursos de computação (por exemplo, CPU ou instâncias com otimização de memória) com base no volume e nos requisitos de recursos específicos dos trabalhos em lote enviados.
 
-O **`Lightsail`** é a junção de serviços AWS em um único lugar com preços baixos e previsíveis abstraindo as complexidades destes serviços. Podendo-se configurar recursos de notificações e monitoramento. Bom para frameworks como Nginx, MEAN, Node, Lamp e CRM's como Joomla, Magento, Plesk, Wordpress, **também para ambientes de desenvolvimento e testes**.
-
 O **`CloudFormation`** é um forma declarativa de provisionar a infraestrutura através de código na AWS para quaisquer recursos gratuitamente. Cada recurso criado terá uma tag associada para facilmente estimar custos. Com criação e exclusão de recursos rapidamente e programaticamente, geração de diagramas automáticos,  com replicações para AZ's, regions e outras contas AWS.
 
 O **`Cloud Development Kit (CDK)`** é maneira de definir infraestrutura na AWS utilizando uma linguagem familiar como Python, JavaScript, TypeScript, etc... depois o código é compilado para JSON ou YAML para ser utilizado no CloudFormation. Bom para funções Lambda e serviços Docker (ECS/EKS).
 
+O **`Software Development Kit (SDK)`** é um conjunto de bibliotecas e ferramentas que permitem que os desenvolvedores interajam com os serviços da AWS em seus aplicativos.
+Ele fornece APIs e métodos para realizar operações com serviços da AWS, como armazenamento de objetos (S3), computação (EC2), bancos de dados (DynamoDB), e muito mais.
+
 O **`Elastic Beanstalk`** fornece uma visão central para desenvolvedores implantarem um app na AWS sem precisar se preocupar com infraestrutura sendo uma plataforma PaaS gratuita. Fornece monitoramento de integridade e capacidade de resposta do app.
+
+O **`Lightsail`** é a junção de serviços AWS em um único lugar com preços baixos e previsíveis abstraindo as complexidades destes serviços. Podendo-se configurar recursos de notificações e monitoramento. Bom para frameworks como Nginx, MEAN, Node, Lamp e CRM's como Joomla, Magento, Plesk, Wordpress, **também para ambientes de desenvolvimento e testes**.
 
 O **`System Manager (SSM)`** é um sistema gerenciador híbrido de instâncias EC2 e On-Premises em escala que fornece insights operacionais sobre todas estas infraestruturas através da instalação de um agente que roda em segundo plano em um computador. Controla os serviços por um shell seguro sem necessidade de chaves ssh, Http/Https ou porta 22.
 
@@ -81,9 +84,9 @@ A integração de aplicativos na AWS é um conjunto de serviços que permite a c
 
 O **`Simple Queue Service (SQS)`** permite receber mensagens de vários produtores que são armazenadas em uma fila (FIFO) para serem consumidas de forma compartilhada pelos consumidores. Desacopla aplicativos e é serverless, retém mensagens por 4 dias por padrão e no máximo por 14 dias.
 
-O **`Kinesis`** é um Streaming de big data em real time com baixa latência. Possui 4 serviços Data Firehose, Data Analytics, Data Streams, Video Streams.
-
 O **`Simple Notification Service (SNS)`** notificações do tipo pub/sub, as notificações são publicadas para um tópico SNS e os inscritos ouvem todas essas notificações.
+
+O **`Kinesis`** é um Streaming de big data em real time com baixa latência. Possui 4 serviços Data Firehose, Data Analytics, Data Streams, Video Streams.
 
 O **`AWS MQ`** trabalha em conjunto com RabbitMQ e ActiveMQ para quem não quiser os outros serviços de mensagens AWS. Utilizado muito em migrações para nuvem para manter a compatibilidade com o que já estava funcionando (protocolos MQTT, AMQP).
 
@@ -99,7 +102,7 @@ O **`Logs`** coleta logs de diversos serviços AWS como Elastic Beanstalk, ECS, 
 
 O **`EventBridge`** reage a eventos dentro da conta AWS, agenda jobs no Cron, emite notificações com SNS por tentativas de login com root user, aciona funções Lambda, entre outros.
 
-O **`CoudTrail`** fornece governança, conformidade e auditoria com histórico de todas as chamadas as API's ou eventos na AWS.
+O **`CloudTrail`** fornece governança, conformidade e auditoria com histórico de todas as chamadas as API's ou eventos na AWS.
 
 O **`X-Ray`** rastreia e analisa visualmente as aplicações, utilizado para realizar troubleshootings, comportamentos de solicitações, velocidade, etc... Também ajuda os desenvolvedores a analisar e depurar aplicações distribuídas de produção, como aquelas criadas usando uma arquitetura de microsserviços.
 
