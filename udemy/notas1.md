@@ -10,7 +10,7 @@ Anotações referentes ao curso [Ultimate AWS Certified Cloud Practitioner](http
 - Public Cloud: Nuvem pública que oferece serviços gerenciados para uso público por exemplo Microsoft Azure, Google Cloud e AWS.
 - Hibrid Cloud: Nuvem híbrida que mescla infraestrutura local (on-premise) utilizando serviços da nuvem.
 
-Possuindo **`5`** característica principais e **`6`** vantagens sobre computação fora da nuvem.
+Possuindo **`5`** características principais e **`6`** vantagens sobre computação fora da nuvem.
 
 ### 5 Características
 
